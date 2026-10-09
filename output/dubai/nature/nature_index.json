@@ -1,0 +1,1705 @@
+{
+  "tile_size_m": 250.0,
+  "origin_lat": 25.2,
+  "origin_lon": 55.2775,
+  "tiles": [
+    {
+      "tx": -19,
+      "tz": 1,
+      "file": "nature_-19_1.glb",
+      "triangles": 37
+    },
+    {
+      "tx": -18,
+      "tz": 1,
+      "file": "nature_-18_1.glb",
+      "triangles": 13
+    },
+    {
+      "tx": -18,
+      "tz": 2,
+      "file": "nature_-18_2.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -17,
+      "tz": 1,
+      "file": "nature_-17_1.glb",
+      "triangles": 9
+    },
+    {
+      "tx": -17,
+      "tz": 2,
+      "file": "nature_-17_2.glb",
+      "triangles": 9
+    },
+    {
+      "tx": -16,
+      "tz": 1,
+      "file": "nature_-16_1.glb",
+      "triangles": 1
+    },
+    {
+      "tx": -16,
+      "tz": 2,
+      "file": "nature_-16_2.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -15,
+      "tz": 2,
+      "file": "nature_-15_2.glb",
+      "triangles": 9
+    },
+    {
+      "tx": -15,
+      "tz": 3,
+      "file": "nature_-15_3.glb",
+      "triangles": 16
+    },
+    {
+      "tx": -15,
+      "tz": 4,
+      "file": "nature_-15_4.glb",
+      "triangles": 3
+    },
+    {
+      "tx": -14,
+      "tz": 3,
+      "file": "nature_-14_3.glb",
+      "triangles": 3
+    },
+    {
+      "tx": -14,
+      "tz": 4,
+      "file": "nature_-14_4.glb",
+      "triangles": 19
+    },
+    {
+      "tx": -14,
+      "tz": 5,
+      "file": "nature_-14_5.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -13,
+      "tz": 4,
+      "file": "nature_-13_4.glb",
+      "triangles": 3
+    },
+    {
+      "tx": -13,
+      "tz": 5,
+      "file": "nature_-13_5.glb",
+      "triangles": 11
+    },
+    {
+      "tx": -13,
+      "tz": 6,
+      "file": "nature_-13_6.glb",
+      "triangles": 2
+    },
+    {
+      "tx": -12,
+      "tz": 5,
+      "file": "nature_-12_5.glb",
+      "triangles": 8
+    },
+    {
+      "tx": -12,
+      "tz": 6,
+      "file": "nature_-12_6.glb",
+      "triangles": 10
+    },
+    {
+      "tx": -11,
+      "tz": 5,
+      "file": "nature_-11_5.glb",
+      "triangles": 3
+    },
+    {
+      "tx": -11,
+      "tz": 6,
+      "file": "nature_-11_6.glb",
+      "triangles": 16
+    },
+    {
+      "tx": -10,
+      "tz": 5,
+      "file": "nature_-10_5.glb",
+      "triangles": 2
+    },
+    {
+      "tx": -10,
+      "tz": 6,
+      "file": "nature_-10_6.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -9,
+      "tz": 6,
+      "file": "nature_-9_6.glb",
+      "triangles": 11
+    },
+    {
+      "tx": -9,
+      "tz": 7,
+      "file": "nature_-9_7.glb",
+      "triangles": 2
+    },
+    {
+      "tx": -8,
+      "tz": 6,
+      "file": "nature_-8_6.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -8,
+      "tz": 7,
+      "file": "nature_-8_7.glb",
+      "triangles": 18
+    },
+    {
+      "tx": -7,
+      "tz": -5,
+      "file": "nature_-7_-5.glb",
+      "triangles": 162
+    },
+    {
+      "tx": -7,
+      "tz": -2,
+      "file": "nature_-7_-2.glb",
+      "triangles": 1062
+    },
+    {
+      "tx": -7,
+      "tz": 1,
+      "file": "nature_-7_1.glb",
+      "triangles": 608
+    },
+    {
+      "tx": -7,
+      "tz": 2,
+      "file": "nature_-7_2.glb",
+      "triangles": 244
+    },
+    {
+      "tx": -7,
+      "tz": 3,
+      "file": "nature_-7_3.glb",
+      "triangles": 56
+    },
+    {
+      "tx": -7,
+      "tz": 4,
+      "file": "nature_-7_4.glb",
+      "triangles": 2302
+    },
+    {
+      "tx": -7,
+      "tz": 7,
+      "file": "nature_-7_7.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -7,
+      "tz": 8,
+      "file": "nature_-7_8.glb",
+      "triangles": 1
+    },
+    {
+      "tx": -6,
+      "tz": -7,
+      "file": "nature_-6_-7.glb",
+      "triangles": 1736
+    },
+    {
+      "tx": -6,
+      "tz": -6,
+      "file": "nature_-6_-6.glb",
+      "triangles": 1104
+    },
+    {
+      "tx": -6,
+      "tz": -5,
+      "file": "nature_-6_-5.glb",
+      "triangles": 2006
+    },
+    {
+      "tx": -6,
+      "tz": -4,
+      "file": "nature_-6_-4.glb",
+      "triangles": 5489
+    },
+    {
+      "tx": -6,
+      "tz": -3,
+      "file": "nature_-6_-3.glb",
+      "triangles": 1240
+    },
+    {
+      "tx": -6,
+      "tz": -2,
+      "file": "nature_-6_-2.glb",
+      "triangles": 1424
+    },
+    {
+      "tx": -6,
+      "tz": -1,
+      "file": "nature_-6_-1.glb",
+      "triangles": 2014
+    },
+    {
+      "tx": -6,
+      "tz": 0,
+      "file": "nature_-6_0.glb",
+      "triangles": 2640
+    },
+    {
+      "tx": -6,
+      "tz": 1,
+      "file": "nature_-6_1.glb",
+      "triangles": 3736
+    },
+    {
+      "tx": -6,
+      "tz": 2,
+      "file": "nature_-6_2.glb",
+      "triangles": 3900
+    },
+    {
+      "tx": -6,
+      "tz": 3,
+      "file": "nature_-6_3.glb",
+      "triangles": 5718
+    },
+    {
+      "tx": -6,
+      "tz": 4,
+      "file": "nature_-6_4.glb",
+      "triangles": 4361
+    },
+    {
+      "tx": -6,
+      "tz": 5,
+      "file": "nature_-6_5.glb",
+      "triangles": 1304
+    },
+    {
+      "tx": -6,
+      "tz": 6,
+      "file": "nature_-6_6.glb",
+      "triangles": 1678
+    },
+    {
+      "tx": -6,
+      "tz": 7,
+      "file": "nature_-6_7.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -6,
+      "tz": 8,
+      "file": "nature_-6_8.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -5,
+      "tz": -8,
+      "file": "nature_-5_-8.glb",
+      "triangles": 1250
+    },
+    {
+      "tx": -5,
+      "tz": -7,
+      "file": "nature_-5_-7.glb",
+      "triangles": 5064
+    },
+    {
+      "tx": -5,
+      "tz": -6,
+      "file": "nature_-5_-6.glb",
+      "triangles": 4392
+    },
+    {
+      "tx": -5,
+      "tz": -5,
+      "file": "nature_-5_-5.glb",
+      "triangles": 5634
+    },
+    {
+      "tx": -5,
+      "tz": -4,
+      "file": "nature_-5_-4.glb",
+      "triangles": 5729
+    },
+    {
+      "tx": -5,
+      "tz": -3,
+      "file": "nature_-5_-3.glb",
+      "triangles": 2904
+    },
+    {
+      "tx": -5,
+      "tz": -2,
+      "file": "nature_-5_-2.glb",
+      "triangles": 1364
+    },
+    {
+      "tx": -5,
+      "tz": -1,
+      "file": "nature_-5_-1.glb",
+      "triangles": 4842
+    },
+    {
+      "tx": -5,
+      "tz": 0,
+      "file": "nature_-5_0.glb",
+      "triangles": 5696
+    },
+    {
+      "tx": -5,
+      "tz": 1,
+      "file": "nature_-5_1.glb",
+      "triangles": 5178
+    },
+    {
+      "tx": -5,
+      "tz": 2,
+      "file": "nature_-5_2.glb",
+      "triangles": 9240
+    },
+    {
+      "tx": -5,
+      "tz": 3,
+      "file": "nature_-5_3.glb",
+      "triangles": 4864
+    },
+    {
+      "tx": -5,
+      "tz": 4,
+      "file": "nature_-5_4.glb",
+      "triangles": 9372
+    },
+    {
+      "tx": -5,
+      "tz": 5,
+      "file": "nature_-5_5.glb",
+      "triangles": 6097
+    },
+    {
+      "tx": -5,
+      "tz": 6,
+      "file": "nature_-5_6.glb",
+      "triangles": 3583
+    },
+    {
+      "tx": -5,
+      "tz": 7,
+      "file": "nature_-5_7.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -5,
+      "tz": 8,
+      "file": "nature_-5_8.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -4,
+      "tz": -9,
+      "file": "nature_-4_-9.glb",
+      "triangles": 876
+    },
+    {
+      "tx": -4,
+      "tz": -8,
+      "file": "nature_-4_-8.glb",
+      "triangles": 2798
+    },
+    {
+      "tx": -4,
+      "tz": -7,
+      "file": "nature_-4_-7.glb",
+      "triangles": 5022
+    },
+    {
+      "tx": -4,
+      "tz": -6,
+      "file": "nature_-4_-6.glb",
+      "triangles": 4702
+    },
+    {
+      "tx": -4,
+      "tz": -5,
+      "file": "nature_-4_-5.glb",
+      "triangles": 5850
+    },
+    {
+      "tx": -4,
+      "tz": -4,
+      "file": "nature_-4_-4.glb",
+      "triangles": 3192
+    },
+    {
+      "tx": -4,
+      "tz": -3,
+      "file": "nature_-4_-3.glb",
+      "triangles": 4764
+    },
+    {
+      "tx": -4,
+      "tz": -2,
+      "file": "nature_-4_-2.glb",
+      "triangles": 4501
+    },
+    {
+      "tx": -4,
+      "tz": -1,
+      "file": "nature_-4_-1.glb",
+      "triangles": 4990
+    },
+    {
+      "tx": -4,
+      "tz": 0,
+      "file": "nature_-4_0.glb",
+      "triangles": 7020
+    },
+    {
+      "tx": -4,
+      "tz": 1,
+      "file": "nature_-4_1.glb",
+      "triangles": 8571
+    },
+    {
+      "tx": -4,
+      "tz": 2,
+      "file": "nature_-4_2.glb",
+      "triangles": 8018
+    },
+    {
+      "tx": -4,
+      "tz": 3,
+      "file": "nature_-4_3.glb",
+      "triangles": 6674
+    },
+    {
+      "tx": -4,
+      "tz": 4,
+      "file": "nature_-4_4.glb",
+      "triangles": 5961
+    },
+    {
+      "tx": -4,
+      "tz": 5,
+      "file": "nature_-4_5.glb",
+      "triangles": 4597
+    },
+    {
+      "tx": -4,
+      "tz": 6,
+      "file": "nature_-4_6.glb",
+      "triangles": 376
+    },
+    {
+      "tx": -4,
+      "tz": 7,
+      "file": "nature_-4_7.glb",
+      "triangles": 9
+    },
+    {
+      "tx": -4,
+      "tz": 8,
+      "file": "nature_-4_8.glb",
+      "triangles": 9
+    },
+    {
+      "tx": -3,
+      "tz": -8,
+      "file": "nature_-3_-8.glb",
+      "triangles": 1350
+    },
+    {
+      "tx": -3,
+      "tz": -7,
+      "file": "nature_-3_-7.glb",
+      "triangles": 4536
+    },
+    {
+      "tx": -3,
+      "tz": -6,
+      "file": "nature_-3_-6.glb",
+      "triangles": 3968
+    },
+    {
+      "tx": -3,
+      "tz": -5,
+      "file": "nature_-3_-5.glb",
+      "triangles": 4039
+    },
+    {
+      "tx": -3,
+      "tz": -4,
+      "file": "nature_-3_-4.glb",
+      "triangles": 3936
+    },
+    {
+      "tx": -3,
+      "tz": -3,
+      "file": "nature_-3_-3.glb",
+      "triangles": 2215
+    },
+    {
+      "tx": -3,
+      "tz": -2,
+      "file": "nature_-3_-2.glb",
+      "triangles": 2766
+    },
+    {
+      "tx": -3,
+      "tz": -1,
+      "file": "nature_-3_-1.glb",
+      "triangles": 2755
+    },
+    {
+      "tx": -3,
+      "tz": 0,
+      "file": "nature_-3_0.glb",
+      "triangles": 8161
+    },
+    {
+      "tx": -3,
+      "tz": 1,
+      "file": "nature_-3_1.glb",
+      "triangles": 4994
+    },
+    {
+      "tx": -3,
+      "tz": 2,
+      "file": "nature_-3_2.glb",
+      "triangles": 2455
+    },
+    {
+      "tx": -3,
+      "tz": 3,
+      "file": "nature_-3_3.glb",
+      "triangles": 7112
+    },
+    {
+      "tx": -3,
+      "tz": 4,
+      "file": "nature_-3_4.glb",
+      "triangles": 4804
+    },
+    {
+      "tx": -3,
+      "tz": 5,
+      "file": "nature_-3_5.glb",
+      "triangles": 4614
+    },
+    {
+      "tx": -3,
+      "tz": 6,
+      "file": "nature_-3_6.glb",
+      "triangles": 244
+    },
+    {
+      "tx": -3,
+      "tz": 7,
+      "file": "nature_-3_7.glb",
+      "triangles": 14
+    },
+    {
+      "tx": -3,
+      "tz": 8,
+      "file": "nature_-3_8.glb",
+      "triangles": 3
+    },
+    {
+      "tx": -2,
+      "tz": -8,
+      "file": "nature_-2_-8.glb",
+      "triangles": 210
+    },
+    {
+      "tx": -2,
+      "tz": -7,
+      "file": "nature_-2_-7.glb",
+      "triangles": 7140
+    },
+    {
+      "tx": -2,
+      "tz": -6,
+      "file": "nature_-2_-6.glb",
+      "triangles": 5864
+    },
+    {
+      "tx": -2,
+      "tz": -5,
+      "file": "nature_-2_-5.glb",
+      "triangles": 5534
+    },
+    {
+      "tx": -2,
+      "tz": -4,
+      "file": "nature_-2_-4.glb",
+      "triangles": 5108
+    },
+    {
+      "tx": -2,
+      "tz": -3,
+      "file": "nature_-2_-3.glb",
+      "triangles": 4972
+    },
+    {
+      "tx": -2,
+      "tz": -2,
+      "file": "nature_-2_-2.glb",
+      "triangles": 2259
+    },
+    {
+      "tx": -2,
+      "tz": -1,
+      "file": "nature_-2_-1.glb",
+      "triangles": 1935
+    },
+    {
+      "tx": -2,
+      "tz": 0,
+      "file": "nature_-2_0.glb",
+      "triangles": 9848
+    },
+    {
+      "tx": -2,
+      "tz": 1,
+      "file": "nature_-2_1.glb",
+      "triangles": 6233
+    },
+    {
+      "tx": -2,
+      "tz": 2,
+      "file": "nature_-2_2.glb",
+      "triangles": 6017
+    },
+    {
+      "tx": -2,
+      "tz": 3,
+      "file": "nature_-2_3.glb",
+      "triangles": 3488
+    },
+    {
+      "tx": -2,
+      "tz": 4,
+      "file": "nature_-2_4.glb",
+      "triangles": 5738
+    },
+    {
+      "tx": -2,
+      "tz": 5,
+      "file": "nature_-2_5.glb",
+      "triangles": 4580
+    },
+    {
+      "tx": -2,
+      "tz": 6,
+      "file": "nature_-2_6.glb",
+      "triangles": 3222
+    },
+    {
+      "tx": -2,
+      "tz": 7,
+      "file": "nature_-2_7.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -1,
+      "tz": -9,
+      "file": "nature_-1_-9.glb",
+      "triangles": 2470
+    },
+    {
+      "tx": -1,
+      "tz": -8,
+      "file": "nature_-1_-8.glb",
+      "triangles": 2384
+    },
+    {
+      "tx": -1,
+      "tz": -7,
+      "file": "nature_-1_-7.glb",
+      "triangles": 4282
+    },
+    {
+      "tx": -1,
+      "tz": -6,
+      "file": "nature_-1_-6.glb",
+      "triangles": 4868
+    },
+    {
+      "tx": -1,
+      "tz": -5,
+      "file": "nature_-1_-5.glb",
+      "triangles": 6372
+    },
+    {
+      "tx": -1,
+      "tz": -4,
+      "file": "nature_-1_-4.glb",
+      "triangles": 4584
+    },
+    {
+      "tx": -1,
+      "tz": -3,
+      "file": "nature_-1_-3.glb",
+      "triangles": 7011
+    },
+    {
+      "tx": -1,
+      "tz": -2,
+      "file": "nature_-1_-2.glb",
+      "triangles": 4891
+    },
+    {
+      "tx": -1,
+      "tz": -1,
+      "file": "nature_-1_-1.glb",
+      "triangles": 6174
+    },
+    {
+      "tx": -1,
+      "tz": 0,
+      "file": "nature_-1_0.glb",
+      "triangles": 2632
+    },
+    {
+      "tx": -1,
+      "tz": 1,
+      "file": "nature_-1_1.glb",
+      "triangles": 1615
+    },
+    {
+      "tx": -1,
+      "tz": 2,
+      "file": "nature_-1_2.glb",
+      "triangles": 6278
+    },
+    {
+      "tx": -1,
+      "tz": 3,
+      "file": "nature_-1_3.glb",
+      "triangles": 4302
+    },
+    {
+      "tx": -1,
+      "tz": 4,
+      "file": "nature_-1_4.glb",
+      "triangles": 4204
+    },
+    {
+      "tx": -1,
+      "tz": 5,
+      "file": "nature_-1_5.glb",
+      "triangles": 4781
+    },
+    {
+      "tx": -1,
+      "tz": 6,
+      "file": "nature_-1_6.glb",
+      "triangles": 6218
+    },
+    {
+      "tx": -1,
+      "tz": 7,
+      "file": "nature_-1_7.glb",
+      "triangles": 14
+    },
+    {
+      "tx": 0,
+      "tz": -10,
+      "file": "nature_0_-10.glb",
+      "triangles": 90
+    },
+    {
+      "tx": 0,
+      "tz": -9,
+      "file": "nature_0_-9.glb",
+      "triangles": 622
+    },
+    {
+      "tx": 0,
+      "tz": -8,
+      "file": "nature_0_-8.glb",
+      "triangles": 1674
+    },
+    {
+      "tx": 0,
+      "tz": -7,
+      "file": "nature_0_-7.glb",
+      "triangles": 5768
+    },
+    {
+      "tx": 0,
+      "tz": -6,
+      "file": "nature_0_-6.glb",
+      "triangles": 5920
+    },
+    {
+      "tx": 0,
+      "tz": -5,
+      "file": "nature_0_-5.glb",
+      "triangles": 2145
+    },
+    {
+      "tx": 0,
+      "tz": -4,
+      "file": "nature_0_-4.glb",
+      "triangles": 7072
+    },
+    {
+      "tx": 0,
+      "tz": -3,
+      "file": "nature_0_-3.glb",
+      "triangles": 12277
+    },
+    {
+      "tx": 0,
+      "tz": -2,
+      "file": "nature_0_-2.glb",
+      "triangles": 8428
+    },
+    {
+      "tx": 0,
+      "tz": -1,
+      "file": "nature_0_-1.glb",
+      "triangles": 4870
+    },
+    {
+      "tx": 0,
+      "tz": 0,
+      "file": "nature_0_0.glb",
+      "triangles": 946
+    },
+    {
+      "tx": 0,
+      "tz": 1,
+      "file": "nature_0_1.glb",
+      "triangles": 192
+    },
+    {
+      "tx": 0,
+      "tz": 2,
+      "file": "nature_0_2.glb",
+      "triangles": 9218
+    },
+    {
+      "tx": 0,
+      "tz": 3,
+      "file": "nature_0_3.glb",
+      "triangles": 4073
+    },
+    {
+      "tx": 0,
+      "tz": 4,
+      "file": "nature_0_4.glb",
+      "triangles": 2988
+    },
+    {
+      "tx": 0,
+      "tz": 5,
+      "file": "nature_0_5.glb",
+      "triangles": 9577
+    },
+    {
+      "tx": 0,
+      "tz": 6,
+      "file": "nature_0_6.glb",
+      "triangles": 6592
+    },
+    {
+      "tx": 0,
+      "tz": 7,
+      "file": "nature_0_7.glb",
+      "triangles": 1383
+    },
+    {
+      "tx": 1,
+      "tz": -10,
+      "file": "nature_1_-10.glb",
+      "triangles": 504
+    },
+    {
+      "tx": 1,
+      "tz": -9,
+      "file": "nature_1_-9.glb",
+      "triangles": 954
+    },
+    {
+      "tx": 1,
+      "tz": -8,
+      "file": "nature_1_-8.glb",
+      "triangles": 1880
+    },
+    {
+      "tx": 1,
+      "tz": -7,
+      "file": "nature_1_-7.glb",
+      "triangles": 1250
+    },
+    {
+      "tx": 1,
+      "tz": -6,
+      "file": "nature_1_-6.glb",
+      "triangles": 3602
+    },
+    {
+      "tx": 1,
+      "tz": -5,
+      "file": "nature_1_-5.glb",
+      "triangles": 3612
+    },
+    {
+      "tx": 1,
+      "tz": -4,
+      "file": "nature_1_-4.glb",
+      "triangles": 16695
+    },
+    {
+      "tx": 1,
+      "tz": -3,
+      "file": "nature_1_-3.glb",
+      "triangles": 13204
+    },
+    {
+      "tx": 1,
+      "tz": -2,
+      "file": "nature_1_-2.glb",
+      "triangles": 7779
+    },
+    {
+      "tx": 1,
+      "tz": -1,
+      "file": "nature_1_-1.glb",
+      "triangles": 538
+    },
+    {
+      "tx": 1,
+      "tz": 0,
+      "file": "nature_1_0.glb",
+      "triangles": 5804
+    },
+    {
+      "tx": 1,
+      "tz": 1,
+      "file": "nature_1_1.glb",
+      "triangles": 528
+    },
+    {
+      "tx": 1,
+      "tz": 2,
+      "file": "nature_1_2.glb",
+      "triangles": 4875
+    },
+    {
+      "tx": 1,
+      "tz": 3,
+      "file": "nature_1_3.glb",
+      "triangles": 7048
+    },
+    {
+      "tx": 1,
+      "tz": 4,
+      "file": "nature_1_4.glb",
+      "triangles": 5916
+    },
+    {
+      "tx": 1,
+      "tz": 5,
+      "file": "nature_1_5.glb",
+      "triangles": 6957
+    },
+    {
+      "tx": 1,
+      "tz": 6,
+      "file": "nature_1_6.glb",
+      "triangles": 6502
+    },
+    {
+      "tx": 1,
+      "tz": 7,
+      "file": "nature_1_7.glb",
+      "triangles": 230
+    },
+    {
+      "tx": 2,
+      "tz": -7,
+      "file": "nature_2_-7.glb",
+      "triangles": 4966
+    },
+    {
+      "tx": 2,
+      "tz": -6,
+      "file": "nature_2_-6.glb",
+      "triangles": 4567
+    },
+    {
+      "tx": 2,
+      "tz": -5,
+      "file": "nature_2_-5.glb",
+      "triangles": 8422
+    },
+    {
+      "tx": 2,
+      "tz": -4,
+      "file": "nature_2_-4.glb",
+      "triangles": 14802
+    },
+    {
+      "tx": 2,
+      "tz": -3,
+      "file": "nature_2_-3.glb",
+      "triangles": 12234
+    },
+    {
+      "tx": 2,
+      "tz": -2,
+      "file": "nature_2_-2.glb",
+      "triangles": 3796
+    },
+    {
+      "tx": 2,
+      "tz": -1,
+      "file": "nature_2_-1.glb",
+      "triangles": 4500
+    },
+    {
+      "tx": 2,
+      "tz": 0,
+      "file": "nature_2_0.glb",
+      "triangles": 5004
+    },
+    {
+      "tx": 2,
+      "tz": 1,
+      "file": "nature_2_1.glb",
+      "triangles": 6292
+    },
+    {
+      "tx": 2,
+      "tz": 2,
+      "file": "nature_2_2.glb",
+      "triangles": 3362
+    },
+    {
+      "tx": 2,
+      "tz": 3,
+      "file": "nature_2_3.glb",
+      "triangles": 7052
+    },
+    {
+      "tx": 2,
+      "tz": 4,
+      "file": "nature_2_4.glb",
+      "triangles": 5797
+    },
+    {
+      "tx": 2,
+      "tz": 5,
+      "file": "nature_2_5.glb",
+      "triangles": 5720
+    },
+    {
+      "tx": 2,
+      "tz": 6,
+      "file": "nature_2_6.glb",
+      "triangles": 1884
+    },
+    {
+      "tx": 2,
+      "tz": 7,
+      "file": "nature_2_7.glb",
+      "triangles": 1543
+    },
+    {
+      "tx": 3,
+      "tz": -8,
+      "file": "nature_3_-8.glb",
+      "triangles": 1332
+    },
+    {
+      "tx": 3,
+      "tz": -7,
+      "file": "nature_3_-7.glb",
+      "triangles": 704
+    },
+    {
+      "tx": 3,
+      "tz": -6,
+      "file": "nature_3_-6.glb",
+      "triangles": 6150
+    },
+    {
+      "tx": 3,
+      "tz": -5,
+      "file": "nature_3_-5.glb",
+      "triangles": 5890
+    },
+    {
+      "tx": 3,
+      "tz": -4,
+      "file": "nature_3_-4.glb",
+      "triangles": 3324
+    },
+    {
+      "tx": 3,
+      "tz": -3,
+      "file": "nature_3_-3.glb",
+      "triangles": 4384
+    },
+    {
+      "tx": 3,
+      "tz": -2,
+      "file": "nature_3_-2.glb",
+      "triangles": 5538
+    },
+    {
+      "tx": 3,
+      "tz": -1,
+      "file": "nature_3_-1.glb",
+      "triangles": 4110
+    },
+    {
+      "tx": 3,
+      "tz": 0,
+      "file": "nature_3_0.glb",
+      "triangles": 2832
+    },
+    {
+      "tx": 3,
+      "tz": 1,
+      "file": "nature_3_1.glb",
+      "triangles": 5330
+    },
+    {
+      "tx": 3,
+      "tz": 2,
+      "file": "nature_3_2.glb",
+      "triangles": 5002
+    },
+    {
+      "tx": 3,
+      "tz": 3,
+      "file": "nature_3_3.glb",
+      "triangles": 7114
+    },
+    {
+      "tx": 3,
+      "tz": 4,
+      "file": "nature_3_4.glb",
+      "triangles": 78
+    },
+    {
+      "tx": 3,
+      "tz": 5,
+      "file": "nature_3_5.glb",
+      "triangles": 220
+    },
+    {
+      "tx": 3,
+      "tz": 6,
+      "file": "nature_3_6.glb",
+      "triangles": 4302
+    },
+    {
+      "tx": 3,
+      "tz": 7,
+      "file": "nature_3_7.glb",
+      "triangles": 1338
+    },
+    {
+      "tx": 4,
+      "tz": -8,
+      "file": "nature_4_-8.glb",
+      "triangles": 894
+    },
+    {
+      "tx": 4,
+      "tz": -7,
+      "file": "nature_4_-7.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 4,
+      "tz": -6,
+      "file": "nature_4_-6.glb",
+      "triangles": 2202
+    },
+    {
+      "tx": 4,
+      "tz": -5,
+      "file": "nature_4_-5.glb",
+      "triangles": 1244
+    },
+    {
+      "tx": 4,
+      "tz": -4,
+      "file": "nature_4_-4.glb",
+      "triangles": 3014
+    },
+    {
+      "tx": 4,
+      "tz": -3,
+      "file": "nature_4_-3.glb",
+      "triangles": 5112
+    },
+    {
+      "tx": 4,
+      "tz": -2,
+      "file": "nature_4_-2.glb",
+      "triangles": 4960
+    },
+    {
+      "tx": 4,
+      "tz": -1,
+      "file": "nature_4_-1.glb",
+      "triangles": 5404
+    },
+    {
+      "tx": 4,
+      "tz": 0,
+      "file": "nature_4_0.glb",
+      "triangles": 3098
+    },
+    {
+      "tx": 4,
+      "tz": 1,
+      "file": "nature_4_1.glb",
+      "triangles": 5244
+    },
+    {
+      "tx": 4,
+      "tz": 2,
+      "file": "nature_4_2.glb",
+      "triangles": 8450
+    },
+    {
+      "tx": 4,
+      "tz": 3,
+      "file": "nature_4_3.glb",
+      "triangles": 1670
+    },
+    {
+      "tx": 4,
+      "tz": 4,
+      "file": "nature_4_4.glb",
+      "triangles": 2134
+    },
+    {
+      "tx": 4,
+      "tz": 5,
+      "file": "nature_4_5.glb",
+      "triangles": 4146
+    },
+    {
+      "tx": 4,
+      "tz": 6,
+      "file": "nature_4_6.glb",
+      "triangles": 192
+    },
+    {
+      "tx": 5,
+      "tz": -8,
+      "file": "nature_5_-8.glb",
+      "triangles": 1850
+    },
+    {
+      "tx": 5,
+      "tz": -7,
+      "file": "nature_5_-7.glb",
+      "triangles": 1606
+    },
+    {
+      "tx": 5,
+      "tz": -6,
+      "file": "nature_5_-6.glb",
+      "triangles": 3708
+    },
+    {
+      "tx": 5,
+      "tz": -5,
+      "file": "nature_5_-5.glb",
+      "triangles": 3610
+    },
+    {
+      "tx": 5,
+      "tz": -4,
+      "file": "nature_5_-4.glb",
+      "triangles": 2076
+    },
+    {
+      "tx": 5,
+      "tz": -3,
+      "file": "nature_5_-3.glb",
+      "triangles": 2594
+    },
+    {
+      "tx": 5,
+      "tz": -2,
+      "file": "nature_5_-2.glb",
+      "triangles": 1558
+    },
+    {
+      "tx": 5,
+      "tz": -1,
+      "file": "nature_5_-1.glb",
+      "triangles": 2998
+    },
+    {
+      "tx": 5,
+      "tz": 0,
+      "file": "nature_5_0.glb",
+      "triangles": 2968
+    },
+    {
+      "tx": 5,
+      "tz": 1,
+      "file": "nature_5_1.glb",
+      "triangles": 5546
+    },
+    {
+      "tx": 5,
+      "tz": 2,
+      "file": "nature_5_2.glb",
+      "triangles": 2196
+    },
+    {
+      "tx": 5,
+      "tz": 3,
+      "file": "nature_5_3.glb",
+      "triangles": 24
+    },
+    {
+      "tx": 5,
+      "tz": 4,
+      "file": "nature_5_4.glb",
+      "triangles": 402
+    },
+    {
+      "tx": 5,
+      "tz": 5,
+      "file": "nature_5_5.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 5,
+      "tz": 6,
+      "file": "nature_5_6.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 6,
+      "tz": -8,
+      "file": "nature_6_-8.glb",
+      "triangles": 2018
+    },
+    {
+      "tx": 6,
+      "tz": -7,
+      "file": "nature_6_-7.glb",
+      "triangles": 740
+    },
+    {
+      "tx": 6,
+      "tz": -6,
+      "file": "nature_6_-6.glb",
+      "triangles": 1090
+    },
+    {
+      "tx": 6,
+      "tz": -3,
+      "file": "nature_6_-3.glb",
+      "triangles": 586
+    },
+    {
+      "tx": 6,
+      "tz": 2,
+      "file": "nature_6_2.glb",
+      "triangles": 7
+    },
+    {
+      "tx": 6,
+      "tz": 3,
+      "file": "nature_6_3.glb",
+      "triangles": 8
+    },
+    {
+      "tx": 7,
+      "tz": 2,
+      "file": "nature_7_2.glb",
+      "triangles": 7
+    },
+    {
+      "tx": 7,
+      "tz": 3,
+      "file": "nature_7_3.glb",
+      "triangles": 9
+    },
+    {
+      "tx": 8,
+      "tz": 2,
+      "file": "nature_8_2.glb",
+      "triangles": 7
+    },
+    {
+      "tx": 8,
+      "tz": 3,
+      "file": "nature_8_3.glb",
+      "triangles": 11
+    },
+    {
+      "tx": 8,
+      "tz": 4,
+      "file": "nature_8_4.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 9,
+      "tz": 2,
+      "file": "nature_9_2.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 9,
+      "tz": 3,
+      "file": "nature_9_3.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 9,
+      "tz": 4,
+      "file": "nature_9_4.glb",
+      "triangles": 10
+    },
+    {
+      "tx": 10,
+      "tz": 0,
+      "file": "nature_10_0.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 10,
+      "tz": 1,
+      "file": "nature_10_1.glb",
+      "triangles": 8
+    },
+    {
+      "tx": 10,
+      "tz": 2,
+      "file": "nature_10_2.glb",
+      "triangles": 3
+    },
+    {
+      "tx": 10,
+      "tz": 3,
+      "file": "nature_10_3.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 10,
+      "tz": 4,
+      "file": "nature_10_4.glb",
+      "triangles": 8
+    },
+    {
+      "tx": 11,
+      "tz": 0,
+      "file": "nature_11_0.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 11,
+      "tz": 1,
+      "file": "nature_11_1.glb",
+      "triangles": 9
+    },
+    {
+      "tx": 11,
+      "tz": 2,
+      "file": "nature_11_2.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 11,
+      "tz": 3,
+      "file": "nature_11_3.glb",
+      "triangles": 8
+    },
+    {
+      "tx": 12,
+      "tz": -1,
+      "file": "nature_12_-1.glb",
+      "triangles": 3
+    },
+    {
+      "tx": 12,
+      "tz": 0,
+      "file": "nature_12_0.glb",
+      "triangles": 15
+    },
+    {
+      "tx": 12,
+      "tz": 1,
+      "file": "nature_12_1.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 13,
+      "tz": -1,
+      "file": "nature_13_-1.glb",
+      "triangles": 13
+    },
+    {
+      "tx": 13,
+      "tz": 0,
+      "file": "nature_13_0.glb",
+      "triangles": 11
+    },
+    {
+      "tx": 14,
+      "tz": -3,
+      "file": "nature_14_-3.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 14,
+      "tz": -2,
+      "file": "nature_14_-2.glb",
+      "triangles": 9
+    },
+    {
+      "tx": 14,
+      "tz": -1,
+      "file": "nature_14_-1.glb",
+      "triangles": 10
+    },
+    {
+      "tx": 14,
+      "tz": 0,
+      "file": "nature_14_0.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 15,
+      "tz": -3,
+      "file": "nature_15_-3.glb",
+      "triangles": 10
+    },
+    {
+      "tx": 15,
+      "tz": -2,
+      "file": "nature_15_-2.glb",
+      "triangles": 5
+    },
+    {
+      "tx": 15,
+      "tz": -1,
+      "file": "nature_15_-1.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 16,
+      "tz": -3,
+      "file": "nature_16_-3.glb",
+      "triangles": 13
+    },
+    {
+      "tx": 16,
+      "tz": -2,
+      "file": "nature_16_-2.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 17,
+      "tz": -3,
+      "file": "nature_17_-3.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 17,
+      "tz": -2,
+      "file": "nature_17_-2.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 18,
+      "tz": -3,
+      "file": "nature_18_-3.glb",
+      "triangles": 7
+    },
+    {
+      "tx": 18,
+      "tz": -2,
+      "file": "nature_18_-2.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 19,
+      "tz": -3,
+      "file": "nature_19_-3.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 19,
+      "tz": -2,
+      "file": "nature_19_-2.glb",
+      "triangles": 18
+    },
+    {
+      "tx": 20,
+      "tz": -3,
+      "file": "nature_20_-3.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 20,
+      "tz": -2,
+      "file": "nature_20_-2.glb",
+      "triangles": 9
+    },
+    {
+      "tx": 21,
+      "tz": -3,
+      "file": "nature_21_-3.glb",
+      "triangles": 16
+    },
+    {
+      "tx": 21,
+      "tz": -2,
+      "file": "nature_21_-2.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 22,
+      "tz": -2,
+      "file": "nature_22_-2.glb",
+      "triangles": 5
+    },
+    {
+      "tx": 23,
+      "tz": -3,
+      "file": "nature_23_-3.glb",
+      "triangles": 22
+    },
+    {
+      "tx": 23,
+      "tz": -2,
+      "file": "nature_23_-2.glb",
+      "triangles": 17
+    },
+    {
+      "tx": 24,
+      "tz": -3,
+      "file": "nature_24_-3.glb",
+      "triangles": 13
+    }
+  ]
+}
