@@ -1,0 +1,931 @@
+{
+  "tile_size_m": 250.0,
+  "origin_lat": 25.2,
+  "origin_lon": 55.2775,
+  "tiles": [
+    {
+      "tx": -6,
+      "tz": -7,
+      "file": "building_-6_-7.glb",
+      "triangles": 184
+    },
+    {
+      "tx": -6,
+      "tz": -6,
+      "file": "building_-6_-6.glb",
+      "triangles": 221
+    },
+    {
+      "tx": -6,
+      "tz": -5,
+      "file": "building_-6_-5.glb",
+      "triangles": 56
+    },
+    {
+      "tx": -6,
+      "tz": -3,
+      "file": "building_-6_-3.glb",
+      "triangles": 104
+    },
+    {
+      "tx": -6,
+      "tz": -1,
+      "file": "building_-6_-1.glb",
+      "triangles": 20
+    },
+    {
+      "tx": -6,
+      "tz": 3,
+      "file": "building_-6_3.glb",
+      "triangles": 66
+    },
+    {
+      "tx": -6,
+      "tz": 6,
+      "file": "building_-6_6.glb",
+      "triangles": 55
+    },
+    {
+      "tx": -5,
+      "tz": -7,
+      "file": "building_-5_-7.glb",
+      "triangles": 1704
+    },
+    {
+      "tx": -5,
+      "tz": -6,
+      "file": "building_-5_-6.glb",
+      "triangles": 2352
+    },
+    {
+      "tx": -5,
+      "tz": -5,
+      "file": "building_-5_-5.glb",
+      "triangles": 1071
+    },
+    {
+      "tx": -5,
+      "tz": -4,
+      "file": "building_-5_-4.glb",
+      "triangles": 230
+    },
+    {
+      "tx": -5,
+      "tz": -3,
+      "file": "building_-5_-3.glb",
+      "triangles": 110
+    },
+    {
+      "tx": -5,
+      "tz": -2,
+      "file": "building_-5_-2.glb",
+      "triangles": 149
+    },
+    {
+      "tx": -5,
+      "tz": -1,
+      "file": "building_-5_-1.glb",
+      "triangles": 306
+    },
+    {
+      "tx": -5,
+      "tz": 0,
+      "file": "building_-5_0.glb",
+      "triangles": 40
+    },
+    {
+      "tx": -5,
+      "tz": 1,
+      "file": "building_-5_1.glb",
+      "triangles": 172
+    },
+    {
+      "tx": -5,
+      "tz": 2,
+      "file": "building_-5_2.glb",
+      "triangles": 70
+    },
+    {
+      "tx": -5,
+      "tz": 3,
+      "file": "building_-5_3.glb",
+      "triangles": 138
+    },
+    {
+      "tx": -5,
+      "tz": 4,
+      "file": "building_-5_4.glb",
+      "triangles": 322
+    },
+    {
+      "tx": -5,
+      "tz": 5,
+      "file": "building_-5_5.glb",
+      "triangles": 335
+    },
+    {
+      "tx": -5,
+      "tz": 6,
+      "file": "building_-5_6.glb",
+      "triangles": 206
+    },
+    {
+      "tx": -4,
+      "tz": -7,
+      "file": "building_-4_-7.glb",
+      "triangles": 1246
+    },
+    {
+      "tx": -4,
+      "tz": -6,
+      "file": "building_-4_-6.glb",
+      "triangles": 1924
+    },
+    {
+      "tx": -4,
+      "tz": -5,
+      "file": "building_-4_-5.glb",
+      "triangles": 1481
+    },
+    {
+      "tx": -4,
+      "tz": -4,
+      "file": "building_-4_-4.glb",
+      "triangles": 851
+    },
+    {
+      "tx": -4,
+      "tz": -3,
+      "file": "building_-4_-3.glb",
+      "triangles": 207
+    },
+    {
+      "tx": -4,
+      "tz": -2,
+      "file": "building_-4_-2.glb",
+      "triangles": 172
+    },
+    {
+      "tx": -4,
+      "tz": -1,
+      "file": "building_-4_-1.glb",
+      "triangles": 219
+    },
+    {
+      "tx": -4,
+      "tz": 0,
+      "file": "building_-4_0.glb",
+      "triangles": 168
+    },
+    {
+      "tx": -4,
+      "tz": 1,
+      "file": "building_-4_1.glb",
+      "triangles": 309
+    },
+    {
+      "tx": -4,
+      "tz": 2,
+      "file": "building_-4_2.glb",
+      "triangles": 202
+    },
+    {
+      "tx": -4,
+      "tz": 3,
+      "file": "building_-4_3.glb",
+      "triangles": 249
+    },
+    {
+      "tx": -4,
+      "tz": 4,
+      "file": "building_-4_4.glb",
+      "triangles": 350
+    },
+    {
+      "tx": -4,
+      "tz": 5,
+      "file": "building_-4_5.glb",
+      "triangles": 149
+    },
+    {
+      "tx": -4,
+      "tz": 6,
+      "file": "building_-4_6.glb",
+      "triangles": 192
+    },
+    {
+      "tx": -3,
+      "tz": -7,
+      "file": "building_-3_-7.glb",
+      "triangles": 1691
+    },
+    {
+      "tx": -3,
+      "tz": -6,
+      "file": "building_-3_-6.glb",
+      "triangles": 1388
+    },
+    {
+      "tx": -3,
+      "tz": -5,
+      "file": "building_-3_-5.glb",
+      "triangles": 509
+    },
+    {
+      "tx": -3,
+      "tz": -4,
+      "file": "building_-3_-4.glb",
+      "triangles": 186
+    },
+    {
+      "tx": -3,
+      "tz": -3,
+      "file": "building_-3_-3.glb",
+      "triangles": 20
+    },
+    {
+      "tx": -3,
+      "tz": -2,
+      "file": "building_-3_-2.glb",
+      "triangles": 79
+    },
+    {
+      "tx": -3,
+      "tz": -1,
+      "file": "building_-3_-1.glb",
+      "triangles": 458
+    },
+    {
+      "tx": -3,
+      "tz": 0,
+      "file": "building_-3_0.glb",
+      "triangles": 206
+    },
+    {
+      "tx": -3,
+      "tz": 1,
+      "file": "building_-3_1.glb",
+      "triangles": 839
+    },
+    {
+      "tx": -3,
+      "tz": 2,
+      "file": "building_-3_2.glb",
+      "triangles": 195
+    },
+    {
+      "tx": -3,
+      "tz": 3,
+      "file": "building_-3_3.glb",
+      "triangles": 277
+    },
+    {
+      "tx": -3,
+      "tz": 4,
+      "file": "building_-3_4.glb",
+      "triangles": 509
+    },
+    {
+      "tx": -3,
+      "tz": 5,
+      "file": "building_-3_5.glb",
+      "triangles": 305
+    },
+    {
+      "tx": -2,
+      "tz": -7,
+      "file": "building_-2_-7.glb",
+      "triangles": 593
+    },
+    {
+      "tx": -2,
+      "tz": -6,
+      "file": "building_-2_-6.glb",
+      "triangles": 270
+    },
+    {
+      "tx": -2,
+      "tz": -5,
+      "file": "building_-2_-5.glb",
+      "triangles": 120
+    },
+    {
+      "tx": -2,
+      "tz": -4,
+      "file": "building_-2_-4.glb",
+      "triangles": 120
+    },
+    {
+      "tx": -2,
+      "tz": -3,
+      "file": "building_-2_-3.glb",
+      "triangles": 62
+    },
+    {
+      "tx": -2,
+      "tz": -2,
+      "file": "building_-2_-2.glb",
+      "triangles": 163
+    },
+    {
+      "tx": -2,
+      "tz": -1,
+      "file": "building_-2_-1.glb",
+      "triangles": 249
+    },
+    {
+      "tx": -2,
+      "tz": 0,
+      "file": "building_-2_0.glb",
+      "triangles": 76
+    },
+    {
+      "tx": -2,
+      "tz": 1,
+      "file": "building_-2_1.glb",
+      "triangles": 231
+    },
+    {
+      "tx": -2,
+      "tz": 2,
+      "file": "building_-2_2.glb",
+      "triangles": 99
+    },
+    {
+      "tx": -2,
+      "tz": 3,
+      "file": "building_-2_3.glb",
+      "triangles": 933
+    },
+    {
+      "tx": -2,
+      "tz": 4,
+      "file": "building_-2_4.glb",
+      "triangles": 940
+    },
+    {
+      "tx": -2,
+      "tz": 5,
+      "file": "building_-2_5.glb",
+      "triangles": 236
+    },
+    {
+      "tx": -2,
+      "tz": 6,
+      "file": "building_-2_6.glb",
+      "triangles": 249
+    },
+    {
+      "tx": -1,
+      "tz": -7,
+      "file": "building_-1_-7.glb",
+      "triangles": 150
+    },
+    {
+      "tx": -1,
+      "tz": -6,
+      "file": "building_-1_-6.glb",
+      "triangles": 212
+    },
+    {
+      "tx": -1,
+      "tz": -5,
+      "file": "building_-1_-5.glb",
+      "triangles": 283
+    },
+    {
+      "tx": -1,
+      "tz": -4,
+      "file": "building_-1_-4.glb",
+      "triangles": 318
+    },
+    {
+      "tx": -1,
+      "tz": -3,
+      "file": "building_-1_-3.glb",
+      "triangles": 706
+    },
+    {
+      "tx": -1,
+      "tz": -2,
+      "file": "building_-1_-2.glb",
+      "triangles": 464
+    },
+    {
+      "tx": -1,
+      "tz": -1,
+      "file": "building_-1_-1.glb",
+      "triangles": 88
+    },
+    {
+      "tx": -1,
+      "tz": 0,
+      "file": "building_-1_0.glb",
+      "triangles": 26
+    },
+    {
+      "tx": -1,
+      "tz": 1,
+      "file": "building_-1_1.glb",
+      "triangles": 150
+    },
+    {
+      "tx": -1,
+      "tz": 2,
+      "file": "building_-1_2.glb",
+      "triangles": 1194
+    },
+    {
+      "tx": -1,
+      "tz": 3,
+      "file": "building_-1_3.glb",
+      "triangles": 1453
+    },
+    {
+      "tx": -1,
+      "tz": 4,
+      "file": "building_-1_4.glb",
+      "triangles": 1538
+    },
+    {
+      "tx": -1,
+      "tz": 5,
+      "file": "building_-1_5.glb",
+      "triangles": 887
+    },
+    {
+      "tx": -1,
+      "tz": 6,
+      "file": "building_-1_6.glb",
+      "triangles": 271
+    },
+    {
+      "tx": 0,
+      "tz": -7,
+      "file": "building_0_-7.glb",
+      "triangles": 226
+    },
+    {
+      "tx": 0,
+      "tz": -6,
+      "file": "building_0_-6.glb",
+      "triangles": 303
+    },
+    {
+      "tx": 0,
+      "tz": -5,
+      "file": "building_0_-5.glb",
+      "triangles": 258
+    },
+    {
+      "tx": 0,
+      "tz": -4,
+      "file": "building_0_-4.glb",
+      "triangles": 321
+    },
+    {
+      "tx": 0,
+      "tz": -3,
+      "file": "building_0_-3.glb",
+      "triangles": 772
+    },
+    {
+      "tx": 0,
+      "tz": -2,
+      "file": "building_0_-2.glb",
+      "triangles": 703
+    },
+    {
+      "tx": 0,
+      "tz": -1,
+      "file": "building_0_-1.glb",
+      "triangles": 131
+    },
+    {
+      "tx": 0,
+      "tz": 0,
+      "file": "building_0_0.glb",
+      "triangles": 70
+    },
+    {
+      "tx": 0,
+      "tz": 1,
+      "file": "building_0_1.glb",
+      "triangles": 809
+    },
+    {
+      "tx": 0,
+      "tz": 2,
+      "file": "building_0_2.glb",
+      "triangles": 311
+    },
+    {
+      "tx": 0,
+      "tz": 3,
+      "file": "building_0_3.glb",
+      "triangles": 1352
+    },
+    {
+      "tx": 0,
+      "tz": 4,
+      "file": "building_0_4.glb",
+      "triangles": 870
+    },
+    {
+      "tx": 0,
+      "tz": 5,
+      "file": "building_0_5.glb",
+      "triangles": 453
+    },
+    {
+      "tx": 0,
+      "tz": 6,
+      "file": "building_0_6.glb",
+      "triangles": 306
+    },
+    {
+      "tx": 1,
+      "tz": -7,
+      "file": "building_1_-7.glb",
+      "triangles": 401
+    },
+    {
+      "tx": 1,
+      "tz": -6,
+      "file": "building_1_-6.glb",
+      "triangles": 41
+    },
+    {
+      "tx": 1,
+      "tz": -5,
+      "file": "building_1_-5.glb",
+      "triangles": 80
+    },
+    {
+      "tx": 1,
+      "tz": -4,
+      "file": "building_1_-4.glb",
+      "triangles": 548
+    },
+    {
+      "tx": 1,
+      "tz": -3,
+      "file": "building_1_-3.glb",
+      "triangles": 1660
+    },
+    {
+      "tx": 1,
+      "tz": -2,
+      "file": "building_1_-2.glb",
+      "triangles": 626
+    },
+    {
+      "tx": 1,
+      "tz": -1,
+      "file": "building_1_-1.glb",
+      "triangles": 582
+    },
+    {
+      "tx": 1,
+      "tz": 0,
+      "file": "building_1_0.glb",
+      "triangles": 110
+    },
+    {
+      "tx": 1,
+      "tz": 1,
+      "file": "building_1_1.glb",
+      "triangles": 115
+    },
+    {
+      "tx": 1,
+      "tz": 2,
+      "file": "building_1_2.glb",
+      "triangles": 227
+    },
+    {
+      "tx": 1,
+      "tz": 3,
+      "file": "building_1_3.glb",
+      "triangles": 435
+    },
+    {
+      "tx": 1,
+      "tz": 4,
+      "file": "building_1_4.glb",
+      "triangles": 108
+    },
+    {
+      "tx": 1,
+      "tz": 5,
+      "file": "building_1_5.glb",
+      "triangles": 284
+    },
+    {
+      "tx": 1,
+      "tz": 6,
+      "file": "building_1_6.glb",
+      "triangles": 381
+    },
+    {
+      "tx": 2,
+      "tz": -7,
+      "file": "building_2_-7.glb",
+      "triangles": 102
+    },
+    {
+      "tx": 2,
+      "tz": -6,
+      "file": "building_2_-6.glb",
+      "triangles": 480
+    },
+    {
+      "tx": 2,
+      "tz": -5,
+      "file": "building_2_-5.glb",
+      "triangles": 366
+    },
+    {
+      "tx": 2,
+      "tz": -4,
+      "file": "building_2_-4.glb",
+      "triangles": 74
+    },
+    {
+      "tx": 2,
+      "tz": -3,
+      "file": "building_2_-3.glb",
+      "triangles": 1327
+    },
+    {
+      "tx": 2,
+      "tz": -2,
+      "file": "building_2_-2.glb",
+      "triangles": 1354
+    },
+    {
+      "tx": 2,
+      "tz": -1,
+      "file": "building_2_-1.glb",
+      "triangles": 1997
+    },
+    {
+      "tx": 2,
+      "tz": 0,
+      "file": "building_2_0.glb",
+      "triangles": 278
+    },
+    {
+      "tx": 2,
+      "tz": 1,
+      "file": "building_2_1.glb",
+      "triangles": 150
+    },
+    {
+      "tx": 2,
+      "tz": 2,
+      "file": "building_2_2.glb",
+      "triangles": 350
+    },
+    {
+      "tx": 2,
+      "tz": 3,
+      "file": "building_2_3.glb",
+      "triangles": 150
+    },
+    {
+      "tx": 2,
+      "tz": 4,
+      "file": "building_2_4.glb",
+      "triangles": 376
+    },
+    {
+      "tx": 2,
+      "tz": 5,
+      "file": "building_2_5.glb",
+      "triangles": 216
+    },
+    {
+      "tx": 2,
+      "tz": 6,
+      "file": "building_2_6.glb",
+      "triangles": 22
+    },
+    {
+      "tx": 3,
+      "tz": -6,
+      "file": "building_3_-6.glb",
+      "triangles": 10
+    },
+    {
+      "tx": 3,
+      "tz": -5,
+      "file": "building_3_-5.glb",
+      "triangles": 389
+    },
+    {
+      "tx": 3,
+      "tz": -4,
+      "file": "building_3_-4.glb",
+      "triangles": 431
+    },
+    {
+      "tx": 3,
+      "tz": -3,
+      "file": "building_3_-3.glb",
+      "triangles": 910
+    },
+    {
+      "tx": 3,
+      "tz": -2,
+      "file": "building_3_-2.glb",
+      "triangles": 1739
+    },
+    {
+      "tx": 3,
+      "tz": -1,
+      "file": "building_3_-1.glb",
+      "triangles": 1180
+    },
+    {
+      "tx": 3,
+      "tz": 0,
+      "file": "building_3_0.glb",
+      "triangles": 369
+    },
+    {
+      "tx": 3,
+      "tz": 1,
+      "file": "building_3_1.glb",
+      "triangles": 178
+    },
+    {
+      "tx": 3,
+      "tz": 2,
+      "file": "building_3_2.glb",
+      "triangles": 153
+    },
+    {
+      "tx": 3,
+      "tz": 3,
+      "file": "building_3_3.glb",
+      "triangles": 142
+    },
+    {
+      "tx": 3,
+      "tz": 5,
+      "file": "building_3_5.glb",
+      "triangles": 193
+    },
+    {
+      "tx": 3,
+      "tz": 6,
+      "file": "building_3_6.glb",
+      "triangles": 122
+    },
+    {
+      "tx": 4,
+      "tz": -6,
+      "file": "building_4_-6.glb",
+      "triangles": 284
+    },
+    {
+      "tx": 4,
+      "tz": -5,
+      "file": "building_4_-5.glb",
+      "triangles": 1252
+    },
+    {
+      "tx": 4,
+      "tz": -4,
+      "file": "building_4_-4.glb",
+      "triangles": 1790
+    },
+    {
+      "tx": 4,
+      "tz": -3,
+      "file": "building_4_-3.glb",
+      "triangles": 1169
+    },
+    {
+      "tx": 4,
+      "tz": -2,
+      "file": "building_4_-2.glb",
+      "triangles": 1690
+    },
+    {
+      "tx": 4,
+      "tz": -1,
+      "file": "building_4_-1.glb",
+      "triangles": 1081
+    },
+    {
+      "tx": 4,
+      "tz": 0,
+      "file": "building_4_0.glb",
+      "triangles": 1171
+    },
+    {
+      "tx": 4,
+      "tz": 1,
+      "file": "building_4_1.glb",
+      "triangles": 542
+    },
+    {
+      "tx": 4,
+      "tz": 2,
+      "file": "building_4_2.glb",
+      "triangles": 168
+    },
+    {
+      "tx": 4,
+      "tz": 3,
+      "file": "building_4_3.glb",
+      "triangles": 83
+    },
+    {
+      "tx": 4,
+      "tz": 4,
+      "file": "building_4_4.glb",
+      "triangles": 95
+    },
+    {
+      "tx": 4,
+      "tz": 5,
+      "file": "building_4_5.glb",
+      "triangles": 48
+    },
+    {
+      "tx": 4,
+      "tz": 6,
+      "file": "building_4_6.glb",
+      "triangles": 160
+    },
+    {
+      "tx": 5,
+      "tz": -6,
+      "file": "building_5_-6.glb",
+      "triangles": 20
+    },
+    {
+      "tx": 5,
+      "tz": -5,
+      "file": "building_5_-5.glb",
+      "triangles": 144
+    },
+    {
+      "tx": 5,
+      "tz": -4,
+      "file": "building_5_-4.glb",
+      "triangles": 160
+    },
+    {
+      "tx": 5,
+      "tz": -3,
+      "file": "building_5_-3.glb",
+      "triangles": 176
+    },
+    {
+      "tx": 5,
+      "tz": -2,
+      "file": "building_5_-2.glb",
+      "triangles": 120
+    },
+    {
+      "tx": 5,
+      "tz": -1,
+      "file": "building_5_-1.glb",
+      "triangles": 78
+    },
+    {
+      "tx": 5,
+      "tz": 0,
+      "file": "building_5_0.glb",
+      "triangles": 80
+    },
+    {
+      "tx": 5,
+      "tz": 2,
+      "file": "building_5_2.glb",
+      "triangles": 44
+    },
+    {
+      "tx": 5,
+      "tz": 3,
+      "file": "building_5_3.glb",
+      "triangles": 60
+    },
+    {
+      "tx": 5,
+      "tz": 4,
+      "file": "building_5_4.glb",
+      "triangles": 61
+    },
+    {
+      "tx": 5,
+      "tz": 6,
+      "file": "building_5_6.glb",
+      "triangles": 50
+    }
+  ]
+}
