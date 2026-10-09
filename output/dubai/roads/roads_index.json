@@ -1,0 +1,1495 @@
+{
+  "tile_size_m": 250.0,
+  "origin_lat": 25.2,
+  "origin_lon": 55.2775,
+  "tiles": [
+    {
+      "tx": -17,
+      "tz": 1,
+      "file": "road_-17_1.glb",
+      "triangles": 14
+    },
+    {
+      "tx": -16,
+      "tz": 1,
+      "file": "road_-16_1.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -16,
+      "tz": 2,
+      "file": "road_-16_2.glb",
+      "triangles": 12
+    },
+    {
+      "tx": -15,
+      "tz": 2,
+      "file": "road_-15_2.glb",
+      "triangles": 32
+    },
+    {
+      "tx": -15,
+      "tz": 3,
+      "file": "road_-15_3.glb",
+      "triangles": 10
+    },
+    {
+      "tx": -14,
+      "tz": 3,
+      "file": "road_-14_3.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -14,
+      "tz": 4,
+      "file": "road_-14_4.glb",
+      "triangles": 34
+    },
+    {
+      "tx": -14,
+      "tz": 5,
+      "file": "road_-14_5.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -13,
+      "tz": 4,
+      "file": "road_-13_4.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -13,
+      "tz": 5,
+      "file": "road_-13_5.glb",
+      "triangles": 34
+    },
+    {
+      "tx": -13,
+      "tz": 6,
+      "file": "road_-13_6.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -12,
+      "tz": 5,
+      "file": "road_-12_5.glb",
+      "triangles": 16
+    },
+    {
+      "tx": -12,
+      "tz": 6,
+      "file": "road_-12_6.glb",
+      "triangles": 22
+    },
+    {
+      "tx": -11,
+      "tz": 5,
+      "file": "road_-11_5.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -11,
+      "tz": 6,
+      "file": "road_-11_6.glb",
+      "triangles": 14
+    },
+    {
+      "tx": -10,
+      "tz": 5,
+      "file": "road_-10_5.glb",
+      "triangles": 18
+    },
+    {
+      "tx": -10,
+      "tz": 6,
+      "file": "road_-10_6.glb",
+      "triangles": 26
+    },
+    {
+      "tx": -9,
+      "tz": 4,
+      "file": "road_-9_4.glb",
+      "triangles": 28
+    },
+    {
+      "tx": -9,
+      "tz": 5,
+      "file": "road_-9_5.glb",
+      "triangles": 16
+    },
+    {
+      "tx": -9,
+      "tz": 6,
+      "file": "road_-9_6.glb",
+      "triangles": 40
+    },
+    {
+      "tx": -9,
+      "tz": 7,
+      "file": "road_-9_7.glb",
+      "triangles": 10
+    },
+    {
+      "tx": -8,
+      "tz": 3,
+      "file": "road_-8_3.glb",
+      "triangles": 38
+    },
+    {
+      "tx": -8,
+      "tz": 4,
+      "file": "road_-8_4.glb",
+      "triangles": 8
+    },
+    {
+      "tx": -8,
+      "tz": 6,
+      "file": "road_-8_6.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -8,
+      "tz": 7,
+      "file": "road_-8_7.glb",
+      "triangles": 36
+    },
+    {
+      "tx": -7,
+      "tz": -5,
+      "file": "road_-7_-5.glb",
+      "triangles": 2
+    },
+    {
+      "tx": -7,
+      "tz": -2,
+      "file": "road_-7_-2.glb",
+      "triangles": 42
+    },
+    {
+      "tx": -7,
+      "tz": 1,
+      "file": "road_-7_1.glb",
+      "triangles": 18
+    },
+    {
+      "tx": -7,
+      "tz": 2,
+      "file": "road_-7_2.glb",
+      "triangles": 10
+    },
+    {
+      "tx": -7,
+      "tz": 3,
+      "file": "road_-7_3.glb",
+      "triangles": 14
+    },
+    {
+      "tx": -7,
+      "tz": 4,
+      "file": "road_-7_4.glb",
+      "triangles": 174
+    },
+    {
+      "tx": -7,
+      "tz": 7,
+      "file": "road_-7_7.glb",
+      "triangles": 20
+    },
+    {
+      "tx": -7,
+      "tz": 8,
+      "file": "road_-7_8.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -6,
+      "tz": -7,
+      "file": "road_-6_-7.glb",
+      "triangles": 104
+    },
+    {
+      "tx": -6,
+      "tz": -6,
+      "file": "road_-6_-6.glb",
+      "triangles": 102
+    },
+    {
+      "tx": -6,
+      "tz": -5,
+      "file": "road_-6_-5.glb",
+      "triangles": 80
+    },
+    {
+      "tx": -6,
+      "tz": -4,
+      "file": "road_-6_-4.glb",
+      "triangles": 226
+    },
+    {
+      "tx": -6,
+      "tz": -3,
+      "file": "road_-6_-3.glb",
+      "triangles": 104
+    },
+    {
+      "tx": -6,
+      "tz": -2,
+      "file": "road_-6_-2.glb",
+      "triangles": 92
+    },
+    {
+      "tx": -6,
+      "tz": -1,
+      "file": "road_-6_-1.glb",
+      "triangles": 154
+    },
+    {
+      "tx": -6,
+      "tz": 0,
+      "file": "road_-6_0.glb",
+      "triangles": 170
+    },
+    {
+      "tx": -6,
+      "tz": 1,
+      "file": "road_-6_1.glb",
+      "triangles": 120
+    },
+    {
+      "tx": -6,
+      "tz": 2,
+      "file": "road_-6_2.glb",
+      "triangles": 170
+    },
+    {
+      "tx": -6,
+      "tz": 3,
+      "file": "road_-6_3.glb",
+      "triangles": 356
+    },
+    {
+      "tx": -6,
+      "tz": 4,
+      "file": "road_-6_4.glb",
+      "triangles": 134
+    },
+    {
+      "tx": -6,
+      "tz": 5,
+      "file": "road_-6_5.glb",
+      "triangles": 200
+    },
+    {
+      "tx": -6,
+      "tz": 6,
+      "file": "road_-6_6.glb",
+      "triangles": 114
+    },
+    {
+      "tx": -6,
+      "tz": 7,
+      "file": "road_-6_7.glb",
+      "triangles": 20
+    },
+    {
+      "tx": -6,
+      "tz": 8,
+      "file": "road_-6_8.glb",
+      "triangles": 2
+    },
+    {
+      "tx": -5,
+      "tz": -8,
+      "file": "road_-5_-8.glb",
+      "triangles": 52
+    },
+    {
+      "tx": -5,
+      "tz": -7,
+      "file": "road_-5_-7.glb",
+      "triangles": 444
+    },
+    {
+      "tx": -5,
+      "tz": -6,
+      "file": "road_-5_-6.glb",
+      "triangles": 406
+    },
+    {
+      "tx": -5,
+      "tz": -5,
+      "file": "road_-5_-5.glb",
+      "triangles": 622
+    },
+    {
+      "tx": -5,
+      "tz": -4,
+      "file": "road_-5_-4.glb",
+      "triangles": 838
+    },
+    {
+      "tx": -5,
+      "tz": -3,
+      "file": "road_-5_-3.glb",
+      "triangles": 346
+    },
+    {
+      "tx": -5,
+      "tz": -2,
+      "file": "road_-5_-2.glb",
+      "triangles": 384
+    },
+    {
+      "tx": -5,
+      "tz": -1,
+      "file": "road_-5_-1.glb",
+      "triangles": 686
+    },
+    {
+      "tx": -5,
+      "tz": 0,
+      "file": "road_-5_0.glb",
+      "triangles": 690
+    },
+    {
+      "tx": -5,
+      "tz": 1,
+      "file": "road_-5_1.glb",
+      "triangles": 396
+    },
+    {
+      "tx": -5,
+      "tz": 2,
+      "file": "road_-5_2.glb",
+      "triangles": 1576
+    },
+    {
+      "tx": -5,
+      "tz": 3,
+      "file": "road_-5_3.glb",
+      "triangles": 548
+    },
+    {
+      "tx": -5,
+      "tz": 4,
+      "file": "road_-5_4.glb",
+      "triangles": 450
+    },
+    {
+      "tx": -5,
+      "tz": 5,
+      "file": "road_-5_5.glb",
+      "triangles": 450
+    },
+    {
+      "tx": -5,
+      "tz": 6,
+      "file": "road_-5_6.glb",
+      "triangles": 808
+    },
+    {
+      "tx": -5,
+      "tz": 7,
+      "file": "road_-5_7.glb",
+      "triangles": 34
+    },
+    {
+      "tx": -5,
+      "tz": 8,
+      "file": "road_-5_8.glb",
+      "triangles": 8
+    },
+    {
+      "tx": -4,
+      "tz": -9,
+      "file": "road_-4_-9.glb",
+      "triangles": 42
+    },
+    {
+      "tx": -4,
+      "tz": -8,
+      "file": "road_-4_-8.glb",
+      "triangles": 148
+    },
+    {
+      "tx": -4,
+      "tz": -7,
+      "file": "road_-4_-7.glb",
+      "triangles": 316
+    },
+    {
+      "tx": -4,
+      "tz": -6,
+      "file": "road_-4_-6.glb",
+      "triangles": 408
+    },
+    {
+      "tx": -4,
+      "tz": -5,
+      "file": "road_-4_-5.glb",
+      "triangles": 522
+    },
+    {
+      "tx": -4,
+      "tz": -4,
+      "file": "road_-4_-4.glb",
+      "triangles": 688
+    },
+    {
+      "tx": -4,
+      "tz": -3,
+      "file": "road_-4_-3.glb",
+      "triangles": 636
+    },
+    {
+      "tx": -4,
+      "tz": -2,
+      "file": "road_-4_-2.glb",
+      "triangles": 490
+    },
+    {
+      "tx": -4,
+      "tz": -1,
+      "file": "road_-4_-1.glb",
+      "triangles": 534
+    },
+    {
+      "tx": -4,
+      "tz": 0,
+      "file": "road_-4_0.glb",
+      "triangles": 624
+    },
+    {
+      "tx": -4,
+      "tz": 1,
+      "file": "road_-4_1.glb",
+      "triangles": 566
+    },
+    {
+      "tx": -4,
+      "tz": 2,
+      "file": "road_-4_2.glb",
+      "triangles": 824
+    },
+    {
+      "tx": -4,
+      "tz": 3,
+      "file": "road_-4_3.glb",
+      "triangles": 808
+    },
+    {
+      "tx": -4,
+      "tz": 4,
+      "file": "road_-4_4.glb",
+      "triangles": 874
+    },
+    {
+      "tx": -4,
+      "tz": 5,
+      "file": "road_-4_5.glb",
+      "triangles": 556
+    },
+    {
+      "tx": -4,
+      "tz": 6,
+      "file": "road_-4_6.glb",
+      "triangles": 300
+    },
+    {
+      "tx": -4,
+      "tz": 7,
+      "file": "road_-4_7.glb",
+      "triangles": 30
+    },
+    {
+      "tx": -4,
+      "tz": 8,
+      "file": "road_-4_8.glb",
+      "triangles": 26
+    },
+    {
+      "tx": -3,
+      "tz": -8,
+      "file": "road_-3_-8.glb",
+      "triangles": 74
+    },
+    {
+      "tx": -3,
+      "tz": -7,
+      "file": "road_-3_-7.glb",
+      "triangles": 386
+    },
+    {
+      "tx": -3,
+      "tz": -6,
+      "file": "road_-3_-6.glb",
+      "triangles": 354
+    },
+    {
+      "tx": -3,
+      "tz": -5,
+      "file": "road_-3_-5.glb",
+      "triangles": 636
+    },
+    {
+      "tx": -3,
+      "tz": -4,
+      "file": "road_-3_-4.glb",
+      "triangles": 454
+    },
+    {
+      "tx": -3,
+      "tz": -3,
+      "file": "road_-3_-3.glb",
+      "triangles": 470
+    },
+    {
+      "tx": -3,
+      "tz": -2,
+      "file": "road_-3_-2.glb",
+      "triangles": 452
+    },
+    {
+      "tx": -3,
+      "tz": -1,
+      "file": "road_-3_-1.glb",
+      "triangles": 1192
+    },
+    {
+      "tx": -3,
+      "tz": 0,
+      "file": "road_-3_0.glb",
+      "triangles": 1518
+    },
+    {
+      "tx": -3,
+      "tz": 1,
+      "file": "road_-3_1.glb",
+      "triangles": 1000
+    },
+    {
+      "tx": -3,
+      "tz": 2,
+      "file": "road_-3_2.glb",
+      "triangles": 696
+    },
+    {
+      "tx": -3,
+      "tz": 3,
+      "file": "road_-3_3.glb",
+      "triangles": 566
+    },
+    {
+      "tx": -3,
+      "tz": 4,
+      "file": "road_-3_4.glb",
+      "triangles": 372
+    },
+    {
+      "tx": -3,
+      "tz": 5,
+      "file": "road_-3_5.glb",
+      "triangles": 878
+    },
+    {
+      "tx": -3,
+      "tz": 6,
+      "file": "road_-3_6.glb",
+      "triangles": 32
+    },
+    {
+      "tx": -3,
+      "tz": 7,
+      "file": "road_-3_7.glb",
+      "triangles": 24
+    },
+    {
+      "tx": -3,
+      "tz": 8,
+      "file": "road_-3_8.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -3,
+      "tz": 9,
+      "file": "road_-3_9.glb",
+      "triangles": 6
+    },
+    {
+      "tx": -2,
+      "tz": -8,
+      "file": "road_-2_-8.glb",
+      "triangles": 10
+    },
+    {
+      "tx": -2,
+      "tz": -7,
+      "file": "road_-2_-7.glb",
+      "triangles": 768
+    },
+    {
+      "tx": -2,
+      "tz": -6,
+      "file": "road_-2_-6.glb",
+      "triangles": 584
+    },
+    {
+      "tx": -2,
+      "tz": -5,
+      "file": "road_-2_-5.glb",
+      "triangles": 472
+    },
+    {
+      "tx": -2,
+      "tz": -4,
+      "file": "road_-2_-4.glb",
+      "triangles": 520
+    },
+    {
+      "tx": -2,
+      "tz": -3,
+      "file": "road_-2_-3.glb",
+      "triangles": 796
+    },
+    {
+      "tx": -2,
+      "tz": -2,
+      "file": "road_-2_-2.glb",
+      "triangles": 490
+    },
+    {
+      "tx": -2,
+      "tz": -1,
+      "file": "road_-2_-1.glb",
+      "triangles": 714
+    },
+    {
+      "tx": -2,
+      "tz": 0,
+      "file": "road_-2_0.glb",
+      "triangles": 1534
+    },
+    {
+      "tx": -2,
+      "tz": 1,
+      "file": "road_-2_1.glb",
+      "triangles": 1252
+    },
+    {
+      "tx": -2,
+      "tz": 2,
+      "file": "road_-2_2.glb",
+      "triangles": 332
+    },
+    {
+      "tx": -2,
+      "tz": 3,
+      "file": "road_-2_3.glb",
+      "triangles": 852
+    },
+    {
+      "tx": -2,
+      "tz": 4,
+      "file": "road_-2_4.glb",
+      "triangles": 1124
+    },
+    {
+      "tx": -2,
+      "tz": 5,
+      "file": "road_-2_5.glb",
+      "triangles": 454
+    },
+    {
+      "tx": -2,
+      "tz": 6,
+      "file": "road_-2_6.glb",
+      "triangles": 196
+    },
+    {
+      "tx": -2,
+      "tz": 7,
+      "file": "road_-2_7.glb",
+      "triangles": 20
+    },
+    {
+      "tx": -2,
+      "tz": 8,
+      "file": "road_-2_8.glb",
+      "triangles": 24
+    },
+    {
+      "tx": -2,
+      "tz": 9,
+      "file": "road_-2_9.glb",
+      "triangles": 4
+    },
+    {
+      "tx": -1,
+      "tz": -9,
+      "file": "road_-1_-9.glb",
+      "triangles": 66
+    },
+    {
+      "tx": -1,
+      "tz": -8,
+      "file": "road_-1_-8.glb",
+      "triangles": 90
+    },
+    {
+      "tx": -1,
+      "tz": -7,
+      "file": "road_-1_-7.glb",
+      "triangles": 424
+    },
+    {
+      "tx": -1,
+      "tz": -6,
+      "file": "road_-1_-6.glb",
+      "triangles": 444
+    },
+    {
+      "tx": -1,
+      "tz": -5,
+      "file": "road_-1_-5.glb",
+      "triangles": 668
+    },
+    {
+      "tx": -1,
+      "tz": -4,
+      "file": "road_-1_-4.glb",
+      "triangles": 1076
+    },
+    {
+      "tx": -1,
+      "tz": -3,
+      "file": "road_-1_-3.glb",
+      "triangles": 442
+    },
+    {
+      "tx": -1,
+      "tz": -2,
+      "file": "road_-1_-2.glb",
+      "triangles": 1328
+    },
+    {
+      "tx": -1,
+      "tz": -1,
+      "file": "road_-1_-1.glb",
+      "triangles": 1050
+    },
+    {
+      "tx": -1,
+      "tz": 0,
+      "file": "road_-1_0.glb",
+      "triangles": 390
+    },
+    {
+      "tx": -1,
+      "tz": 1,
+      "file": "road_-1_1.glb",
+      "triangles": 268
+    },
+    {
+      "tx": -1,
+      "tz": 2,
+      "file": "road_-1_2.glb",
+      "triangles": 158
+    },
+    {
+      "tx": -1,
+      "tz": 3,
+      "file": "road_-1_3.glb",
+      "triangles": 378
+    },
+    {
+      "tx": -1,
+      "tz": 4,
+      "file": "road_-1_4.glb",
+      "triangles": 1086
+    },
+    {
+      "tx": -1,
+      "tz": 5,
+      "file": "road_-1_5.glb",
+      "triangles": 878
+    },
+    {
+      "tx": -1,
+      "tz": 6,
+      "file": "road_-1_6.glb",
+      "triangles": 858
+    },
+    {
+      "tx": -1,
+      "tz": 7,
+      "file": "road_-1_7.glb",
+      "triangles": 62
+    },
+    {
+      "tx": 0,
+      "tz": -9,
+      "file": "road_0_-9.glb",
+      "triangles": 40
+    },
+    {
+      "tx": 0,
+      "tz": -8,
+      "file": "road_0_-8.glb",
+      "triangles": 24
+    },
+    {
+      "tx": 0,
+      "tz": -7,
+      "file": "road_0_-7.glb",
+      "triangles": 764
+    },
+    {
+      "tx": 0,
+      "tz": -6,
+      "file": "road_0_-6.glb",
+      "triangles": 498
+    },
+    {
+      "tx": 0,
+      "tz": -5,
+      "file": "road_0_-5.glb",
+      "triangles": 606
+    },
+    {
+      "tx": 0,
+      "tz": -4,
+      "file": "road_0_-4.glb",
+      "triangles": 750
+    },
+    {
+      "tx": 0,
+      "tz": -3,
+      "file": "road_0_-3.glb",
+      "triangles": 502
+    },
+    {
+      "tx": 0,
+      "tz": -2,
+      "file": "road_0_-2.glb",
+      "triangles": 1268
+    },
+    {
+      "tx": 0,
+      "tz": -1,
+      "file": "road_0_-1.glb",
+      "triangles": 1310
+    },
+    {
+      "tx": 0,
+      "tz": 0,
+      "file": "road_0_0.glb",
+      "triangles": 124
+    },
+    {
+      "tx": 0,
+      "tz": 1,
+      "file": "road_0_1.glb",
+      "triangles": 32
+    },
+    {
+      "tx": 0,
+      "tz": 2,
+      "file": "road_0_2.glb",
+      "triangles": 708
+    },
+    {
+      "tx": 0,
+      "tz": 3,
+      "file": "road_0_3.glb",
+      "triangles": 416
+    },
+    {
+      "tx": 0,
+      "tz": 4,
+      "file": "road_0_4.glb",
+      "triangles": 360
+    },
+    {
+      "tx": 0,
+      "tz": 5,
+      "file": "road_0_5.glb",
+      "triangles": 902
+    },
+    {
+      "tx": 0,
+      "tz": 6,
+      "file": "road_0_6.glb",
+      "triangles": 580
+    },
+    {
+      "tx": 0,
+      "tz": 7,
+      "file": "road_0_7.glb",
+      "triangles": 120
+    },
+    {
+      "tx": 1,
+      "tz": -11,
+      "file": "road_1_-11.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 1,
+      "tz": -10,
+      "file": "road_1_-10.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 1,
+      "tz": -9,
+      "file": "road_1_-9.glb",
+      "triangles": 4
+    },
+    {
+      "tx": 1,
+      "tz": -8,
+      "file": "road_1_-8.glb",
+      "triangles": 258
+    },
+    {
+      "tx": 1,
+      "tz": -7,
+      "file": "road_1_-7.glb",
+      "triangles": 236
+    },
+    {
+      "tx": 1,
+      "tz": -6,
+      "file": "road_1_-6.glb",
+      "triangles": 544
+    },
+    {
+      "tx": 1,
+      "tz": -5,
+      "file": "road_1_-5.glb",
+      "triangles": 258
+    },
+    {
+      "tx": 1,
+      "tz": -4,
+      "file": "road_1_-4.glb",
+      "triangles": 1096
+    },
+    {
+      "tx": 1,
+      "tz": -3,
+      "file": "road_1_-3.glb",
+      "triangles": 634
+    },
+    {
+      "tx": 1,
+      "tz": -2,
+      "file": "road_1_-2.glb",
+      "triangles": 452
+    },
+    {
+      "tx": 1,
+      "tz": -1,
+      "file": "road_1_-1.glb",
+      "triangles": 1018
+    },
+    {
+      "tx": 1,
+      "tz": 0,
+      "file": "road_1_0.glb",
+      "triangles": 566
+    },
+    {
+      "tx": 1,
+      "tz": 1,
+      "file": "road_1_1.glb",
+      "triangles": 252
+    },
+    {
+      "tx": 1,
+      "tz": 2,
+      "file": "road_1_2.glb",
+      "triangles": 500
+    },
+    {
+      "tx": 1,
+      "tz": 3,
+      "file": "road_1_3.glb",
+      "triangles": 944
+    },
+    {
+      "tx": 1,
+      "tz": 4,
+      "file": "road_1_4.glb",
+      "triangles": 376
+    },
+    {
+      "tx": 1,
+      "tz": 5,
+      "file": "road_1_5.glb",
+      "triangles": 524
+    },
+    {
+      "tx": 1,
+      "tz": 6,
+      "file": "road_1_6.glb",
+      "triangles": 338
+    },
+    {
+      "tx": 1,
+      "tz": 7,
+      "file": "road_1_7.glb",
+      "triangles": 34
+    },
+    {
+      "tx": 1,
+      "tz": 8,
+      "file": "road_1_8.glb",
+      "triangles": 12
+    },
+    {
+      "tx": 2,
+      "tz": -12,
+      "file": "road_2_-12.glb",
+      "triangles": 32
+    },
+    {
+      "tx": 2,
+      "tz": -11,
+      "file": "road_2_-11.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 2,
+      "tz": -7,
+      "file": "road_2_-7.glb",
+      "triangles": 700
+    },
+    {
+      "tx": 2,
+      "tz": -6,
+      "file": "road_2_-6.glb",
+      "triangles": 412
+    },
+    {
+      "tx": 2,
+      "tz": -5,
+      "file": "road_2_-5.glb",
+      "triangles": 120
+    },
+    {
+      "tx": 2,
+      "tz": -4,
+      "file": "road_2_-4.glb",
+      "triangles": 208
+    },
+    {
+      "tx": 2,
+      "tz": -3,
+      "file": "road_2_-3.glb",
+      "triangles": 836
+    },
+    {
+      "tx": 2,
+      "tz": -2,
+      "file": "road_2_-2.glb",
+      "triangles": 464
+    },
+    {
+      "tx": 2,
+      "tz": -1,
+      "file": "road_2_-1.glb",
+      "triangles": 532
+    },
+    {
+      "tx": 2,
+      "tz": 0,
+      "file": "road_2_0.glb",
+      "triangles": 1276
+    },
+    {
+      "tx": 2,
+      "tz": 1,
+      "file": "road_2_1.glb",
+      "triangles": 776
+    },
+    {
+      "tx": 2,
+      "tz": 2,
+      "file": "road_2_2.glb",
+      "triangles": 524
+    },
+    {
+      "tx": 2,
+      "tz": 3,
+      "file": "road_2_3.glb",
+      "triangles": 802
+    },
+    {
+      "tx": 2,
+      "tz": 4,
+      "file": "road_2_4.glb",
+      "triangles": 602
+    },
+    {
+      "tx": 2,
+      "tz": 5,
+      "file": "road_2_5.glb",
+      "triangles": 370
+    },
+    {
+      "tx": 2,
+      "tz": 6,
+      "file": "road_2_6.glb",
+      "triangles": 200
+    },
+    {
+      "tx": 2,
+      "tz": 7,
+      "file": "road_2_7.glb",
+      "triangles": 62
+    },
+    {
+      "tx": 2,
+      "tz": 8,
+      "file": "road_2_8.glb",
+      "triangles": 16
+    },
+    {
+      "tx": 3,
+      "tz": -13,
+      "file": "road_3_-13.glb",
+      "triangles": 20
+    },
+    {
+      "tx": 3,
+      "tz": -12,
+      "file": "road_3_-12.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 3,
+      "tz": -8,
+      "file": "road_3_-8.glb",
+      "triangles": 66
+    },
+    {
+      "tx": 3,
+      "tz": -7,
+      "file": "road_3_-7.glb",
+      "triangles": 60
+    },
+    {
+      "tx": 3,
+      "tz": -6,
+      "file": "road_3_-6.glb",
+      "triangles": 194
+    },
+    {
+      "tx": 3,
+      "tz": -5,
+      "file": "road_3_-5.glb",
+      "triangles": 94
+    },
+    {
+      "tx": 3,
+      "tz": -4,
+      "file": "road_3_-4.glb",
+      "triangles": 206
+    },
+    {
+      "tx": 3,
+      "tz": -3,
+      "file": "road_3_-3.glb",
+      "triangles": 414
+    },
+    {
+      "tx": 3,
+      "tz": -2,
+      "file": "road_3_-2.glb",
+      "triangles": 1012
+    },
+    {
+      "tx": 3,
+      "tz": -1,
+      "file": "road_3_-1.glb",
+      "triangles": 304
+    },
+    {
+      "tx": 3,
+      "tz": 0,
+      "file": "road_3_0.glb",
+      "triangles": 232
+    },
+    {
+      "tx": 3,
+      "tz": 1,
+      "file": "road_3_1.glb",
+      "triangles": 124
+    },
+    {
+      "tx": 3,
+      "tz": 2,
+      "file": "road_3_2.glb",
+      "triangles": 830
+    },
+    {
+      "tx": 3,
+      "tz": 3,
+      "file": "road_3_3.glb",
+      "triangles": 808
+    },
+    {
+      "tx": 3,
+      "tz": 4,
+      "file": "road_3_4.glb",
+      "triangles": 30
+    },
+    {
+      "tx": 3,
+      "tz": 5,
+      "file": "road_3_5.glb",
+      "triangles": 238
+    },
+    {
+      "tx": 3,
+      "tz": 6,
+      "file": "road_3_6.glb",
+      "triangles": 546
+    },
+    {
+      "tx": 3,
+      "tz": 7,
+      "file": "road_3_7.glb",
+      "triangles": 94
+    },
+    {
+      "tx": 3,
+      "tz": 8,
+      "file": "road_3_8.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 4,
+      "tz": -8,
+      "file": "road_4_-8.glb",
+      "triangles": 168
+    },
+    {
+      "tx": 4,
+      "tz": -7,
+      "file": "road_4_-7.glb",
+      "triangles": 2
+    },
+    {
+      "tx": 4,
+      "tz": -6,
+      "file": "road_4_-6.glb",
+      "triangles": 490
+    },
+    {
+      "tx": 4,
+      "tz": -5,
+      "file": "road_4_-5.glb",
+      "triangles": 386
+    },
+    {
+      "tx": 4,
+      "tz": -4,
+      "file": "road_4_-4.glb",
+      "triangles": 216
+    },
+    {
+      "tx": 4,
+      "tz": -3,
+      "file": "road_4_-3.glb",
+      "triangles": 380
+    },
+    {
+      "tx": 4,
+      "tz": -2,
+      "file": "road_4_-2.glb",
+      "triangles": 518
+    },
+    {
+      "tx": 4,
+      "tz": -1,
+      "file": "road_4_-1.glb",
+      "triangles": 362
+    },
+    {
+      "tx": 4,
+      "tz": 0,
+      "file": "road_4_0.glb",
+      "triangles": 180
+    },
+    {
+      "tx": 4,
+      "tz": 1,
+      "file": "road_4_1.glb",
+      "triangles": 160
+    },
+    {
+      "tx": 4,
+      "tz": 2,
+      "file": "road_4_2.glb",
+      "triangles": 890
+    },
+    {
+      "tx": 4,
+      "tz": 3,
+      "file": "road_4_3.glb",
+      "triangles": 346
+    },
+    {
+      "tx": 4,
+      "tz": 4,
+      "file": "road_4_4.glb",
+      "triangles": 382
+    },
+    {
+      "tx": 4,
+      "tz": 5,
+      "file": "road_4_5.glb",
+      "triangles": 624
+    },
+    {
+      "tx": 4,
+      "tz": 6,
+      "file": "road_4_6.glb",
+      "triangles": 72
+    },
+    {
+      "tx": 5,
+      "tz": -8,
+      "file": "road_5_-8.glb",
+      "triangles": 174
+    },
+    {
+      "tx": 5,
+      "tz": -7,
+      "file": "road_5_-7.glb",
+      "triangles": 138
+    },
+    {
+      "tx": 5,
+      "tz": -6,
+      "file": "road_5_-6.glb",
+      "triangles": 362
+    },
+    {
+      "tx": 5,
+      "tz": -5,
+      "file": "road_5_-5.glb",
+      "triangles": 116
+    },
+    {
+      "tx": 5,
+      "tz": -4,
+      "file": "road_5_-4.glb",
+      "triangles": 146
+    },
+    {
+      "tx": 5,
+      "tz": -3,
+      "file": "road_5_-3.glb",
+      "triangles": 258
+    },
+    {
+      "tx": 5,
+      "tz": -2,
+      "file": "road_5_-2.glb",
+      "triangles": 86
+    },
+    {
+      "tx": 5,
+      "tz": -1,
+      "file": "road_5_-1.glb",
+      "triangles": 122
+    },
+    {
+      "tx": 5,
+      "tz": 0,
+      "file": "road_5_0.glb",
+      "triangles": 164
+    },
+    {
+      "tx": 5,
+      "tz": 1,
+      "file": "road_5_1.glb",
+      "triangles": 162
+    },
+    {
+      "tx": 5,
+      "tz": 2,
+      "file": "road_5_2.glb",
+      "triangles": 182
+    },
+    {
+      "tx": 5,
+      "tz": 3,
+      "file": "road_5_3.glb",
+      "triangles": 30
+    },
+    {
+      "tx": 5,
+      "tz": 4,
+      "file": "road_5_4.glb",
+      "triangles": 186
+    },
+    {
+      "tx": 5,
+      "tz": 5,
+      "file": "road_5_5.glb",
+      "triangles": 18
+    },
+    {
+      "tx": 5,
+      "tz": 6,
+      "file": "road_5_6.glb",
+      "triangles": 36
+    },
+    {
+      "tx": 6,
+      "tz": -8,
+      "file": "road_6_-8.glb",
+      "triangles": 246
+    },
+    {
+      "tx": 6,
+      "tz": -7,
+      "file": "road_6_-7.glb",
+      "triangles": 96
+    },
+    {
+      "tx": 6,
+      "tz": -6,
+      "file": "road_6_-6.glb",
+      "triangles": 28
+    },
+    {
+      "tx": 6,
+      "tz": -3,
+      "file": "road_6_-3.glb",
+      "triangles": 24
+    },
+    {
+      "tx": 6,
+      "tz": 2,
+      "file": "road_6_2.glb",
+      "triangles": 6
+    },
+    {
+      "tx": 6,
+      "tz": 3,
+      "file": "road_6_3.glb",
+      "triangles": 20
+    },
+    {
+      "tx": 6,
+      "tz": 4,
+      "file": "road_6_4.glb",
+      "triangles": 10
+    }
+  ]
+}
