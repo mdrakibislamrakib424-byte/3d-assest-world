@@ -1,0 +1,68 @@
+{
+  "started_at": "2026-10-10T12:09:38+00:00",
+  "total_seconds": 32.3,
+  "city": {
+    "name": "dubai",
+    "tiles": 299,
+    "full_triangles": 961972,
+    "far_triangles": 112956,
+    "collision_triangles": 355911
+  },
+  "bbox_south_west_north_east": [
+    25.185,
+    55.265,
+    25.215,
+    55.29
+  ],
+  "tile_size_m": 250.0,
+  "steps": [
+    {
+      "key": "download",
+      "status": "ok",
+      "seconds": 0.7856997040000806,
+      "return_code": 0
+    },
+    {
+      "key": "roads",
+      "status": "ok",
+      "seconds": 3.783973617000129,
+      "return_code": 0
+    },
+    {
+      "key": "buildings",
+      "status": "ok",
+      "seconds": 2.3892434900001263,
+      "return_code": 0
+    },
+    {
+      "key": "nature",
+      "status": "ok",
+      "seconds": 10.11708863900003,
+      "return_code": 0
+    },
+    {
+      "key": "landmarks",
+      "status": "ok",
+      "seconds": 2.2369051599998784,
+      "return_code": 0
+    },
+    {
+      "key": "tiles",
+      "status": "ok",
+      "seconds": 2.8761073289999786,
+      "return_code": 0
+    },
+    {
+      "key": "collision",
+      "status": "ok",
+      "seconds": 5.1120034949999535,
+      "return_code": 0
+    },
+    {
+      "key": "materials",
+      "status": "ok",
+      "seconds": 4.954508935999911,
+      "return_code": 0
+    }
+  ]
+}
