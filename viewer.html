@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Dubai 3D City Viewer</title>
+<!--
+  viewer.html - browser viewer for the generated city.
+
+  Put this file in the ROOT of the repository and open it through GitHub Pages
+  (https://<user>.github.io/<repo>/viewer.html). It reads, relative to itself:
+      output/<CITY>/city_index.json             tile list (step 05 / 06)
+      output/<CITY>/tiles/*.glb                 near + far tiles (step 05)
+      output/<CITY>/landmarks/landmarks_index.json   "Go to" list (step 07)
+      textures/*.png                            textures (materials.py)
+
+  Streaming: every tile is first shown as a light "far" version. Tiles within
+  NEAR_M of the camera are swapped for the full-detail version, and unloaded
+  again when you leave.
+
+  UV conventions, matching materials.py:
+      facades  : 1 UV unit = 1 window bay x 1 floor, texture atlas is 4 x 4
+                 bays -> repeat 0.25
+      roads/roofs : 1 UV unit = 4 m;  ground 0.25;  grass 0.5;  water 0.25
+-->
+<style>
+  :root { --panel: rgba(12,16,24,.74); --line: rgba(255,255,255,.18); --text: #eef3fa; --accent: #4da3ff; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; height: 100%; overflow: hidden; background: #0b1018; color: var(--text);
+    font: 13px/1.35 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-user-select: none; user-select: none; touch-action: none; overscroll-behavior: none;
+  }
+  canvas#view { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+  .panel {
+    position: fixed; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  }
+  #hud {
+    top: calc(env(safe-area-inset-top, 0px) + 8px); left: calc(env(safe-area-inset-left, 0px) + 8px);
+    padding: 8px 10px; max-width: 62vw; pointer-events: none;
+  }
+  #hud b { font-size: 14px; }
+  #status { opacity: .85; margin-top: 2px; white-space: pre-line; }
+  #menu {
+    top: calc(env(safe-area-inset-top, 0px) + 8px); right: calc(env(safe-area-inset-right, 0px) + 8px);
+    padding: 6px; display: flex; flex-direction: column; gap: 6px; width: 118px;
+  }
+  button, select {
+    font: inherit; color: var(--text); background: rgba(255,255,255,.09); border: 1px solid var(--line);
+    border-radius: 9px; min-height: 38px; padding: 0 8px; width: 100%; touch-action: manipulation;
+  }
+  button.on { background: rgba(77,163,255,.35); border-color: var(--accent); }
+  select option { color: #111; }
+  #stick {
+    left: calc(env(safe-area-inset-left, 0px) + 22px); bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+    width: 128px; height: 128px; border-radius: 50%; touch-action: none;
+  }
+  #knob {
+    position: absolute; left: 50%; top: 50%; width: 54px; height: 54px; border-radius: 50%;
+    background: rgba(255,255,255,.28); border: 1px solid var(--line); transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  #vert {
+    right: calc(env(safe-area-inset-right, 0px) + 18px); bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+    display: flex; flex-direction: column; gap: 10px; padding: 8px; width: 74px;
+  }
+  #vert button { min-height: 54px; font-size: 20px; }
+  #hint {
+    left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 190px); transform: translateX(-50%);
+    padding: 8px 12px; text-align: center; pointer-events: none; transition: opacity .6s;
+  }
+  #error { display: none; left: 12px; right: 12px; top: 90px; padding: 12px; border-color: #ff6b6b; }
+</style>
+</head>
+<body>
+<canvas id="view"></canvas>
+
+<div id="hud" class="panel">
+  <b>Dubai 3D City</b>
+  <div id="status">Starting ...</div>
+</div>
+
+<div id="menu" class="panel">
+  <button id="btnNight">Day</button>
+  <button id="btnShadow" class="on">Shadow</button>
+  <button id="btnWind" class="on">Wind</button>
+  <button id="btnSpeed">Fly</button>
+  <select id="goto" aria-label="Go to"><option value="">Go to ...</option></select>
+</div>
+
+<div id="stick" class="panel"><div id="knob"></div></div>
+
+<div id="vert" class="panel">
+  <button id="btnUp" aria-label="Up">&#9650;</button>
+  <button id="btnDown" aria-label="Down">&#9660;</button>
+</div>
+
+<div id="hint" class="panel">Left stick: move &middot; drag screen: look</div>
+<div id="error" class="panel"></div>
+
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+// ---------------------------------------------------------------------------
+// Settings
+// ---------------------------------------------------------------------------
+const CITY = 'dubai';
+const BASE = `output/${CITY}/`;
+const TEXTURE_BASE = 'textures/';
+
+const NEAR_M = 500;               // tiles closer than this use the full-detail version
+const UNLOAD_EXTRA_M = 200;       // hysteresis before a full tile is unloaded
+const MAX_PARALLEL = 4;           // simultaneous downloads
+const STREAM_INTERVAL_MS = 400;
+const LOOK_SENS = 0.0045;
+const SPEEDS = [
+  { name: 'Walk', mps: 6 }, { name: 'Run', mps: 25 },
+  { name: 'Fly', mps: 90 }, { name: 'Jet', mps: 300 },
+];
+const SUN_OFFSET = new THREE.Vector3(260, 380, 180);
+const SHADOW_RANGE_M = 260;
+
+const FACADE_SCALE = 0.25;
+const TEXTURED = {
+  glass_blue: { albedo: true, emission: true, scale: FACADE_SCALE },
+  glass_dark: { albedo: true, emission: true, scale: FACADE_SCALE },
+  landmark_glass: { albedo: true, emission: true, scale: FACADE_SCALE },
+  concrete_light: { albedo: true, emission: true, scale: FACADE_SCALE },
+  concrete_warm: { albedo: true, emission: true, scale: FACADE_SCALE },
+  sandstone: { albedo: true, emission: true, scale: FACADE_SCALE },
+  industrial: { albedo: true, emission: true, scale: FACADE_SCALE },
+  asphalt: { albedo: true, scale: 1.0 },
+  sidewalk: { albedo: true, scale: 1.0 },
+  roof: { albedo: true, scale: 1.0 },
+  ground: { albedo: true, scale: 0.25 },
+  grass: { albedo: true, scale: 0.5 },
+  water: { albedo: false, scale: 0.25 },
+};
+const NO_SHADOW_CAST = new Set(['ground', 'grass', 'water', 'asphalt', 'sidewalk', 'markings']);
+const WIND_MATERIALS = new Set(['trunk', 'palm_leaf', 'foliage_a', 'foliage_b']);
+
+const THEMES = {
+  day: {
+    stops: [[0, '#3f7bd0'], [0.42, '#86b4e6'], [0.5, '#d7e6f4'], [0.56, '#c8d2d8'], [1, '#8e8f86']],
+    fog: 0xd7e6f4, fogNear: 600, fogFar: 4200,
+    sun: 3.0, sunColor: 0xfff1d6, hemi: 1.0, hemiSky: 0xbfd9ff, hemiGround: 0x8a7f6c,
+    emissive: 0.0, exposure: 1.0,
+  },
+  night: {
+    stops: [[0, '#02040b'], [0.42, '#0a1228'], [0.5, '#1b2745'], [0.56, '#10172a'], [1, '#05070d']],
+    fog: 0x1b2745, fogNear: 150, fogFar: 2200,
+    sun: 0.12, sunColor: 0x8fa8ff, hemi: 0.28, hemiSky: 0x1d2a52, hemiGround: 0x0a0d14,
+    emissive: 1.6, exposure: 1.15,
+  },
+};
+
+// ---------------------------------------------------------------------------
+// Renderer, scene, camera
+// ---------------------------------------------------------------------------
+const canvas = document.getElementById('view');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+renderer.setSize(window.innerWidth, window.innerHeight, false);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+const scene = new THREE.Scene();
+scene.fog = new THREE.Fog(0xd7e6f4, 600, 4200);
+
+const camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 1.0, 9000);
+camera.position.set(0, 700, 1200);
+let yaw = 0;
+let pitch = -0.5;
+
+const hemi = new THREE.HemisphereLight(0xbfd9ff, 0x8a7f6c, 1.0);
+scene.add(hemi);
+
+const sun = new THREE.DirectionalLight(0xfff1d6, 3.0);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.left = -SHADOW_RANGE_M;
+sun.shadow.camera.right = SHADOW_RANGE_M;
+sun.shadow.camera.top = SHADOW_RANGE_M;
+sun.shadow.camera.bottom = -SHADOW_RANGE_M;
+sun.shadow.camera.near = 10;
+sun.shadow.camera.far = 1400;
+sun.shadow.bias = -0.0004;
+sun.shadow.normalBias = 0.6;
+scene.add(sun, sun.target);
+
+// Sky dome that follows the camera (gradient texture, changes with day/night).
+const skyMaterial = new THREE.MeshBasicMaterial({
+  side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: false,
+});
+const skyDome = new THREE.Mesh(new THREE.SphereGeometry(7000, 32, 16), skyMaterial);
+skyDome.renderOrder = -1;
+scene.add(skyDome);
+
+const pmrem = new THREE.PMREMGenerator(renderer);
+let envTarget = null;
+let skyTexture = null;
+const nightMaterials = new Set();       // materials with emission (windows, lamps)
+let currentTheme = 'day';
+
+function makeSkyTexture(stops) {
+  const c = document.createElement('canvas');
+  c.width = 4; c.height = 512;
+  const g = c.getContext('2d');
+  const gradient = g.createLinearGradient(0, 0, 0, 512);
+  stops.forEach(([offset, colour]) => gradient.addColorStop(offset, colour));
+  g.fillStyle = gradient;
+  g.fillRect(0, 0, 4, 512);
+  const texture = new THREE.CanvasTexture(c);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  return texture;
+}
+
+function applyTheme(name) {
+  const theme = THEMES[name];
+  currentTheme = name;
+  if (skyTexture) skyTexture.dispose();
+  skyTexture = makeSkyTexture(theme.stops);
+  skyMaterial.map = skyTexture;
+  skyMaterial.needsUpdate = true;
+
+  // Reflections for glass and metal come from a blurred copy of the sky.
+  const envScene = new THREE.Scene();
+  envScene.add(new THREE.Mesh(
+    new THREE.SphereGeometry(50, 32, 16),
+    new THREE.MeshBasicMaterial({ map: skyTexture, side: THREE.BackSide, toneMapped: false })));
+  const target = pmrem.fromScene(envScene, 0.02);
+  if (envTarget) envTarget.dispose();
+  envTarget = target;
+  scene.environment = target.texture;
+
+  scene.fog.color.setHex(theme.fog);
+  scene.fog.near = theme.fogNear;
+  scene.fog.far = theme.fogFar;
+  sun.intensity = theme.sun;
+  sun.color.setHex(theme.sunColor);
+  hemi.intensity = theme.hemi;
+  hemi.color.setHex(theme.hemiSky);
+  hemi.groundColor.setHex(theme.hemiGround);
+  renderer.toneMappingExposure = theme.exposure;
+  nightMaterials.forEach((material) => { material.emissiveIntensity = theme.emissive; });
+}
+
+// ---------------------------------------------------------------------------
+// Materials: textures from materials.py + wind on trees
+// ---------------------------------------------------------------------------
+const windUniforms = { uTime: { value: 0 }, uWind: { value: 1 } };
+const textureLoader = new THREE.TextureLoader();
+const textureCache = new Map();
+const materialCache = new Map();
+const stats = { farLoaded: 0, farTotal: 0, fullLoaded: 0, errors: 0 };
+
+function getTexture(file, srgb, scale) {
+  if (textureCache.has(file)) return textureCache.get(file);
+  const texture = textureLoader.load(TEXTURE_BASE + file, undefined, undefined, () => { stats.errors += 1; });
+  texture.flipY = false;                                  // glTF UV convention
+  texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+  texture.repeat.set(scale, scale);
+  texture.colorSpace = srgb ? THREE.SRGBColorSpace : THREE.NoColorSpace;
+  texture.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
+  textureCache.set(file, texture);
+  return texture;
+}
+
+function applyWind(material) {
+  material.onBeforeCompile = (shader) => {
+    shader.uniforms.uTime = windUniforms.uTime;
+    shader.uniforms.uWind = windUniforms.uWind;
+    shader.vertexShader = shader.vertexShader
+      .replace('#include <common>', '#include <common>\nuniform float uTime;\nuniform float uWind;')
+      .replace('#include <begin_vertex>', `#include <begin_vertex>
+        float h = clamp(position.y / 12.0, 0.0, 1.0);
+        float sway = h * h;
+        float phase = uTime * 1.6 + position.x * 0.12 + position.z * 0.09;
+        transformed.x += (sin(phase) + 0.4 * sin(phase * 2.3 + 1.7)) * 0.22 * sway * uWind;
+        transformed.z += cos(phase * 0.9) * 0.14 * sway * uWind;`);
+  };
+  material.customProgramCacheKey = () => 'tree-wind';
+}
+
+function buildMaterial(original) {
+  const name = original.name;
+  const spec = TEXTURED[name];
+  const material = new THREE.MeshStandardMaterial({
+    name,
+    color: original.color.clone(),
+    roughness: original.roughness,
+    metalness: original.metalness,
+    side: original.side,
+    flatShading: original.flatShading,
+  });
+  material.envMapIntensity = (name.includes('glass') || name.startsWith('landmark')) ? 1.0 : 0.35;
+  if (name === 'palm_leaf') material.side = THREE.DoubleSide;
+
+  if (original.emissive && original.emissive.getHex() !== 0) {   // street-lamp heads
+    material.emissive = original.emissive.clone();
+    material.emissiveIntensity = THEMES[currentTheme].emissive;
+    nightMaterials.add(material);
+  }
+  if (spec) {
+    if (spec.albedo) {
+      material.color.set(0xffffff);
+      material.map = getTexture(`${name}.png`, true, spec.scale);
+    }
+    material.normalMap = getTexture(`${name}_n.png`, false, spec.scale);
+    if (spec.emission) {
+      material.emissive = new THREE.Color(0xffffff);
+      material.emissiveMap = getTexture(`${name}_e.png`, true, spec.scale);
+      material.emissiveIntensity = THEMES[currentTheme].emissive;
+      nightMaterials.add(material);
+    }
+  }
+  if (WIND_MATERIALS.has(name)) applyWind(material);
+  return material;
+}
+
+function patchMaterials(root) {
+  root.traverse((object) => {
+    if (!object.isMesh) return;
+    const original = object.material;
+    if (!materialCache.has(original.name)) materialCache.set(original.name, buildMaterial(original));
+    object.material = materialCache.get(original.name);
+    object.castShadow = !NO_SHADOW_CAST.has(original.name);
+    object.receiveShadow = true;
+  });
+}
+
+function disposeObject(root) {
+  root.traverse((object) => { if (object.isMesh) object.geometry.dispose(); });
+}
+
+// ---------------------------------------------------------------------------
+// Tile streaming
+// ---------------------------------------------------------------------------
+const gltfLoader = new GLTFLoader();
+const tiles = [];
+const queue = [];
+let active = 0;
+
+function enqueue(priority, task) {
+  queue.push({ priority, task });
+  pump();
+}
+
+function pump() {
+  while (active < MAX_PARALLEL && queue.length) {
+    queue.sort((a, b) => a.priority - b.priority);
+    const job = queue.shift();
+    active += 1;
+    job.task()
+      .catch((error) => { stats.errors += 1; console.error(error); })
+      .finally(() => { active -= 1; pump(); });
+  }
+}
+
+function distanceToTile(tile) {
+  return Math.hypot(camera.position.x - tile.cx, camera.position.z - tile.cz);
+}
+
+async function loadTile(tile, kind) {
+  const file = kind === 'far' ? tile.rec.far_file : tile.rec.full_file;
+  if (!file) return;
+  const gltf = await gltfLoader.loadAsync(`${BASE}tiles/${file}`);
+  const root = gltf.scene;
+  patchMaterials(root);
+  if (kind === 'full') {
+    if (distanceToTile(tile) > NEAR_M + UNLOAD_EXTRA_M) { disposeObject(root); return; }
+    tile.full = root;
+    tile.group.add(root);
+    if (tile.far) tile.far.visible = false;
+    stats.fullLoaded += 1;
+  } else {
+    tile.far = root;
+    root.visible = !tile.full;
+    tile.group.add(root);
+    stats.farLoaded += 1;
+  }
+}
+
+function updateStreaming() {
+  for (const tile of tiles) {
+    const distance = distanceToTile(tile);
+    if (!tile.full && !tile.fullQueued && distance < NEAR_M && tile.rec.full_file) {
+      tile.fullQueued = true;
+      enqueue(distance - 200, () => loadTile(tile, 'full').finally(() => { tile.fullQueued = false; }));
+    } else if (tile.full && distance > NEAR_M + UNLOAD_EXTRA_M) {
+      tile.group.remove(tile.full);
+      disposeObject(tile.full);
+      tile.full = null;
+      stats.fullLoaded -= 1;
+      if (tile.far) tile.far.visible = true;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Controls
+// ---------------------------------------------------------------------------
+const keys = new Set();
+window.addEventListener('keydown', (e) => keys.add(e.code));
+window.addEventListener('keyup', (e) => keys.delete(e.code));
+
+const stick = { x: 0, y: 0, id: null };
+const STICK_R = 48;
+const stickEl = document.getElementById('stick');
+const knob = document.getElementById('knob');
+
+function moveStick(e) {
+  const rect = stickEl.getBoundingClientRect();
+  let dx = e.clientX - (rect.left + rect.width / 2);
+  let dy = e.clientY - (rect.top + rect.height / 2);
+  const length = Math.hypot(dx, dy);
+  if (length > STICK_R) { dx *= STICK_R / length; dy *= STICK_R / length; }
+  stick.x = dx / STICK_R;
+  stick.y = dy / STICK_R;
+  knob.style.transform = `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px))`;
+}
+function endStick(e) {
+  if (e.pointerId !== stick.id) return;
+  stick.id = null; stick.x = 0; stick.y = 0;
+  knob.style.transform = 'translate(-50%, -50%)';
+}
+stickEl.addEventListener('pointerdown', (e) => { stick.id = e.pointerId; stickEl.setPointerCapture(e.pointerId); moveStick(e); hideHint(); });
+stickEl.addEventListener('pointermove', (e) => { if (e.pointerId === stick.id) moveStick(e); });
+stickEl.addEventListener('pointerup', endStick);
+stickEl.addEventListener('pointercancel', endStick);
+
+const look = { id: null, x: 0, y: 0 };
+canvas.addEventListener('pointerdown', (e) => {
+  if (look.id !== null) return;
+  look.id = e.pointerId; look.x = e.clientX; look.y = e.clientY;
+  canvas.setPointerCapture(e.pointerId);
+  hideHint();
+});
+canvas.addEventListener('pointermove', (e) => {
+  if (e.pointerId !== look.id) return;
+  yaw -= (e.clientX - look.x) * LOOK_SENS;
+  pitch -= (e.clientY - look.y) * LOOK_SENS;
+  pitch = Math.max(-1.5, Math.min(1.5, pitch));
+  look.x = e.clientX; look.y = e.clientY;
+});
+const endLook = (e) => { if (e.pointerId === look.id) look.id = null; };
+canvas.addEventListener('pointerup', endLook);
+canvas.addEventListener('pointercancel', endLook);
+
+const vertical = { up: false, down: false };
+function holdButton(id, key) {
+  const element = document.getElementById(id);
+  element.addEventListener('pointerdown', (e) => { vertical[key] = true; element.setPointerCapture(e.pointerId); hideHint(); });
+  const release = () => { vertical[key] = false; };
+  element.addEventListener('pointerup', release);
+  element.addEventListener('pointercancel', release);
+}
+holdButton('btnUp', 'up');
+holdButton('btnDown', 'down');
+
+let hintVisible = true;
+function hideHint() {
+  if (!hintVisible) return;
+  hintVisible = false;
+  document.getElementById('hint').style.opacity = '0';
+}
+
+// ---------------------------------------------------------------------------
+// Buttons
+// ---------------------------------------------------------------------------
+const btnNight = document.getElementById('btnNight');
+btnNight.addEventListener('click', () => {
+  const night = currentTheme === 'day';
+  applyTheme(night ? 'night' : 'day');
+  btnNight.textContent = night ? 'Night' : 'Day';
+  btnNight.classList.toggle('on', night);
+});
+
+const btnShadow = document.getElementById('btnShadow');
+btnShadow.addEventListener('click', () => {
+  sun.castShadow = !sun.castShadow;
+  btnShadow.classList.toggle('on', sun.castShadow);
+});
+
+const btnWind = document.getElementById('btnWind');
+btnWind.addEventListener('click', () => {
+  windUniforms.uWind.value = windUniforms.uWind.value > 0 ? 0 : 1;
+  btnWind.classList.toggle('on', windUniforms.uWind.value > 0);
+});
+
+let speedIndex = 2;
+const btnSpeed = document.getElementById('btnSpeed');
+btnSpeed.addEventListener('click', () => {
+  speedIndex = (speedIndex + 1) % SPEEDS.length;
+  btnSpeed.textContent = SPEEDS[speedIndex].name;
+});
+
+function goTo(x, z, height) {
+  const target = new THREE.Vector3(x, Math.max(20, height * 0.5), z);
+  camera.position.set(x - 260, Math.max(60, height * 0.3), z + 360);
+  const direction = target.clone().sub(camera.position);
+  yaw = Math.atan2(-direction.x, -direction.z);
+  pitch = Math.atan2(direction.y, Math.hypot(direction.x, direction.z));
+}
+
+const gotoSelect = document.getElementById('goto');
+const landmarkPositions = new Map();
+gotoSelect.addEventListener('change', () => {
+  const value = gotoSelect.value;
+  if (value === 'overview') {
+    camera.position.set(0, 900, 1500);
+    yaw = 0; pitch = -0.55;
+  } else if (landmarkPositions.has(value)) {
+    const p = landmarkPositions.get(value);
+    goTo(p.x, p.z, p.height_m);
+  }
+  gotoSelect.value = '';
+});
+
+function prettyName(key) {
+  return key.split('_').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+// ---------------------------------------------------------------------------
+// Loading the city
+// ---------------------------------------------------------------------------
+const statusEl = document.getElementById('status');
+const errorEl = document.getElementById('error');
+
+function showError(message) {
+  errorEl.style.display = 'block';
+  errorEl.textContent = message;
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url} -> HTTP ${response.status}`);
+  return response.json();
+}
+
+async function loadCity() {
+  let index;
+  try {
+    index = await fetchJson(`${BASE}city_index.json`);
+  } catch (error) {
+    showError(`Could not load ${BASE}city_index.json\n${error.message}\n\n` +
+      'Open this page from your GitHub Pages link (https://<user>.github.io/<repo>/viewer.html), ' +
+      'not from the github.com file page, and make sure the build was pushed.');
+    statusEl.textContent = 'Failed to load.';
+    return;
+  }
+
+  for (const rec of index.tiles) {
+    const group = new THREE.Group();
+    scene.add(group);
+    tiles.push({ rec, cx: rec.center_x, cz: rec.center_z, group, far: null, full: null, fullQueued: false });
+  }
+  stats.farTotal = tiles.length;
+
+  try {
+    const landmarks = await fetchJson(`${BASE}landmarks/landmarks_index.json`);
+    for (const item of landmarks.landmarks || []) {
+      landmarkPositions.set(item.key, item);
+      const option = document.createElement('option');
+      option.value = item.key;
+      option.textContent = prettyName(item.key);
+      gotoSelect.appendChild(option);
+    }
+  } catch (error) {
+    console.warn('No landmarks index:', error);
+  }
+  const overview = document.createElement('option');
+  overview.value = 'overview';
+  overview.textContent = 'Overview';
+  gotoSelect.appendChild(overview);
+
+  const burj = landmarkPositions.get('burj_khalifa');
+  if (burj) goTo(burj.x, burj.z, burj.height_m);
+  else { camera.position.set(0, 900, 1500); yaw = 0; pitch = -0.55; }
+
+  for (const tile of tiles) {
+    enqueue(distanceToTile(tile), () => loadTile(tile, 'far'));
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Main loop
+// ---------------------------------------------------------------------------
+const clock = new THREE.Clock();
+const forward = new THREE.Vector3();
+const right = new THREE.Vector3();
+let frames = 0;
+let lastHud = performance.now();
+let lastStream = 0;
+
+function animate(now) {
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), 0.1);
+  windUniforms.uTime.value += dt;
+
+  let mx = stick.x;
+  let mz = stick.y;
+  if (keys.has('KeyW')) mz -= 1;
+  if (keys.has('KeyS')) mz += 1;
+  if (keys.has('KeyA')) mx -= 1;
+  if (keys.has('KeyD')) mx += 1;
+  let my = (vertical.up ? 1 : 0) - (vertical.down ? 1 : 0);
+  if (keys.has('Space') || keys.has('KeyE')) my += 1;
+  if (keys.has('KeyQ') || keys.has('KeyC')) my -= 1;
+  const boost = (keys.has('ShiftLeft') || keys.has('ShiftRight')) ? 3 : 1;
+  const speed = SPEEDS[speedIndex].mps * boost;
+
+  forward.set(-Math.sin(yaw) * Math.cos(pitch), Math.sin(pitch), -Math.cos(yaw) * Math.cos(pitch));
+  right.set(Math.cos(yaw), 0, -Math.sin(yaw));
+  camera.position.addScaledVector(forward, -mz * speed * dt);
+  camera.position.addScaledVector(right, mx * speed * dt);
+  camera.position.y += my * speed * 0.7 * dt;
+  camera.position.y = Math.max(camera.position.y, 1.7);
+  camera.rotation.set(pitch, yaw, 0, 'YXZ');
+
+  skyDome.position.copy(camera.position);
+  const snapX = Math.round(camera.position.x / 8) * 8;     // snapping keeps shadows steady
+  const snapZ = Math.round(camera.position.z / 8) * 8;
+  sun.position.set(snapX + SUN_OFFSET.x, SUN_OFFSET.y, snapZ + SUN_OFFSET.z);
+  sun.target.position.set(snapX, 0, snapZ);
+  sun.target.updateMatrixWorld();
+
+  if (now - lastStream > STREAM_INTERVAL_MS) { lastStream = now; updateStreaming(); }
+
+  renderer.render(scene, camera);
+
+  frames += 1;
+  if (now - lastHud > 500) {
+    const fps = Math.round((frames * 1000) / (now - lastHud));
+    frames = 0; lastHud = now;
+    const loading = stats.farLoaded < stats.farTotal;
+    statusEl.textContent =
+      `${fps} fps | ${(renderer.info.render.triangles / 1e6).toFixed(2)}M tris\n` +
+      (loading ? `Loading tiles ${stats.farLoaded}/${stats.farTotal} ...`
+               : `Tiles ${stats.farTotal} | detailed ${stats.fullLoaded}`) +
+      (stats.errors ? `\nLoad errors: ${stats.errors}` : '');
+  }
+}
+
+window.addEventListener('resize', () => {
+  renderer.setSize(window.innerWidth, window.innerHeight, false);
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+});
+
+applyTheme('day');
+loadCity();
+requestAnimationFrame(animate);
+</script>
+</body>
+</html>
