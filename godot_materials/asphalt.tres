@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://city/textures/asphalt.png" id="1"]
+[ext_resource type="Texture2D" path="res://city/textures/asphalt_n.png" id="2"]
+
+[resource]
+resource_name = "asphalt"
+albedo_color = Color(1.0000, 1.0000, 1.0000, 1.0000)
+albedo_texture = ExtResource("1")
+metallic = 0.000
+roughness = 0.920
+normal_enabled = true
+normal_texture = ExtResource("2")

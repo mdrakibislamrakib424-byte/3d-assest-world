@@ -1,0 +1,115 @@
+{
+  "godot_root": "res://city",
+  "materials": {
+    "asphalt": {
+      "resource": "res://city/materials/asphalt.tres",
+      "textured": true,
+      "night_emission": false
+    },
+    "concrete_light": {
+      "resource": "res://city/materials/concrete_light.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "concrete_warm": {
+      "resource": "res://city/materials/concrete_warm.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "foliage_a": {
+      "resource": "res://city/materials/foliage_a.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "foliage_b": {
+      "resource": "res://city/materials/foliage_b.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "glass_blue": {
+      "resource": "res://city/materials/glass_blue.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "glass_dark": {
+      "resource": "res://city/materials/glass_dark.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "grass": {
+      "resource": "res://city/materials/grass.tres",
+      "textured": true,
+      "night_emission": false
+    },
+    "ground": {
+      "resource": "res://city/materials/ground.tres",
+      "textured": true,
+      "night_emission": false
+    },
+    "industrial": {
+      "resource": "res://city/materials/industrial.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "lamp_light": {
+      "resource": "res://city/materials/lamp_light.tres",
+      "textured": false,
+      "night_emission": true
+    },
+    "lamp_pole": {
+      "resource": "res://city/materials/lamp_pole.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "landmark_glass": {
+      "resource": "res://city/materials/landmark_glass.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "landmark_metal": {
+      "resource": "res://city/materials/landmark_metal.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "landmark_trim": {
+      "resource": "res://city/materials/landmark_trim.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "markings": {
+      "resource": "res://city/materials/markings.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "palm_leaf": {
+      "resource": "res://city/materials/palm_leaf.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "roof": {
+      "resource": "res://city/materials/roof.tres",
+      "textured": true,
+      "night_emission": false
+    },
+    "sandstone": {
+      "resource": "res://city/materials/sandstone.tres",
+      "textured": true,
+      "night_emission": true
+    },
+    "sidewalk": {
+      "resource": "res://city/materials/sidewalk.tres",
+      "textured": true,
+      "night_emission": false
+    },
+    "trunk": {
+      "resource": "res://city/materials/trunk.tres",
+      "textured": false,
+      "night_emission": false
+    },
+    "water": {
+      "resource": "res://city/materials/water.tres",
+      "textured": true,
+      "night_emission": false
+    }
+  }
+}

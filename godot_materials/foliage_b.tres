@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=1 format=3]
+
+
+[resource]
+resource_name = "foliage_b"
+albedo_color = Color(0.2902, 0.4863, 0.2275, 1.0000)
+metallic = 0.000
+roughness = 0.900

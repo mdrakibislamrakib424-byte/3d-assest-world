@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=1 format=3]
+
+
+[resource]
+resource_name = "lamp_pole"
+albedo_color = Color(0.2745, 0.2824, 0.2980, 1.0000)
+metallic = 0.600
+roughness = 0.500

@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=1 format=3]
+
+
+[resource]
+resource_name = "landmark_metal"
+albedo_color = Color(0.7843, 0.8039, 0.8235, 1.0000)
+metallic = 0.900
+roughness = 0.250
