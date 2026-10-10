@@ -1,0 +1,6690 @@
+{
+  "city": "dubai",
+  "tile_size_m": 250.0,
+  "origin_lat": 25.2,
+  "origin_lon": 55.2775,
+  "bbox_south_west_north_east": [
+    25.185,
+    55.265,
+    25.215,
+    55.29
+  ],
+  "coordinates": "Vertices are in world metres (x east, y up, z south). Instantiate every tile at position (0, 0, 0).",
+  "lod_distances_m": {
+    "near": 150.0,
+    "far": 600.0
+  },
+  "tile_range": {
+    "min_tx": -19,
+    "max_tx": 24,
+    "min_tz": -13,
+    "max_tz": 9
+  },
+  "tiles": [
+    {
+      "tx": -19,
+      "tz": 1,
+      "center_x": -4625.0,
+      "center_z": 375.0,
+      "bounds": [
+        -4750.0,
+        250.0,
+        -4500.0,
+        500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_-19_1.glb",
+      "full_triangles": 37,
+      "full_size_kb": 2.4,
+      "far_file": "tile_-19_1_far.glb",
+      "far_triangles": 37,
+      "far_size_kb": 2.4
+    },
+    {
+      "tx": -18,
+      "tz": 1,
+      "center_x": -4375.0,
+      "center_z": 375.0,
+      "bounds": [
+        -4500.0,
+        250.0,
+        -4250.0,
+        500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_-18_1.glb",
+      "full_triangles": 13,
+      "full_size_kb": 1.6,
+      "far_file": "tile_-18_1_far.glb",
+      "far_triangles": 13,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -18,
+      "tz": 2,
+      "center_x": -4375.0,
+      "center_z": 625.0,
+      "bounds": [
+        -4500.0,
+        500.0,
+        -4250.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_-18_2.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_-18_2_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": -17,
+      "tz": 1,
+      "center_x": -4125.0,
+      "center_z": 375.0,
+      "bounds": [
+        -4250.0,
+        250.0,
+        -4000.0,
+        500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-17_1.glb",
+      "full_triangles": 23,
+      "full_size_kb": 3.2,
+      "far_file": "tile_-17_1_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -17,
+      "tz": 2,
+      "center_x": -4125.0,
+      "center_z": 625.0,
+      "bounds": [
+        -4250.0,
+        500.0,
+        -4000.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_-17_2.glb",
+      "full_triangles": 9,
+      "full_size_kb": 1.5,
+      "far_file": "tile_-17_2_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -16,
+      "tz": 1,
+      "center_x": -3875.0,
+      "center_z": 375.0,
+      "bounds": [
+        -4000.0,
+        250.0,
+        -3750.0,
+        500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-16_1.glb",
+      "full_triangles": 5,
+      "full_size_kb": 2.4,
+      "far_file": "tile_-16_1_far.glb",
+      "far_triangles": 1,
+      "far_size_kb": 1.2
+    },
+    {
+      "tx": -16,
+      "tz": 2,
+      "center_x": -3875.0,
+      "center_z": 625.0,
+      "bounds": [
+        -4000.0,
+        500.0,
+        -3750.0,
+        750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-16_2.glb",
+      "full_triangles": 24,
+      "full_size_kb": 3.2,
+      "far_file": "tile_-16_2_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -15,
+      "tz": 2,
+      "center_x": -3625.0,
+      "center_z": 625.0,
+      "bounds": [
+        -3750.0,
+        500.0,
+        -3500.0,
+        750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-15_2.glb",
+      "full_triangles": 41,
+      "full_size_kb": 4.1,
+      "far_file": "tile_-15_2_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -15,
+      "tz": 3,
+      "center_x": -3625.0,
+      "center_z": 875.0,
+      "bounds": [
+        -3750.0,
+        750.0,
+        -3500.0,
+        1000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-15_3.glb",
+      "full_triangles": 26,
+      "full_size_kb": 3.2,
+      "far_file": "tile_-15_3_far.glb",
+      "far_triangles": 16,
+      "far_size_kb": 1.7
+    },
+    {
+      "tx": -15,
+      "tz": 4,
+      "center_x": -3625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -3750.0,
+        1000.0,
+        -3500.0,
+        1250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_-15_4.glb",
+      "full_triangles": 3,
+      "full_size_kb": 1.3,
+      "far_file": "tile_-15_4_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -14,
+      "tz": 3,
+      "center_x": -3375.0,
+      "center_z": 875.0,
+      "bounds": [
+        -3500.0,
+        750.0,
+        -3250.0,
+        1000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-14_3.glb",
+      "full_triangles": 9,
+      "full_size_kb": 2.6,
+      "far_file": "tile_-14_3_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -14,
+      "tz": 4,
+      "center_x": -3375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -3500.0,
+        1000.0,
+        -3250.0,
+        1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-14_4.glb",
+      "full_triangles": 53,
+      "full_size_kb": 4.5,
+      "far_file": "tile_-14_4_far.glb",
+      "far_triangles": 19,
+      "far_size_kb": 1.8
+    },
+    {
+      "tx": -14,
+      "tz": 5,
+      "center_x": -3375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -3500.0,
+        1250.0,
+        -3250.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-14_5.glb",
+      "full_triangles": 8,
+      "full_size_kb": 2.5,
+      "far_file": "tile_-14_5_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -13,
+      "tz": 4,
+      "center_x": -3125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -3250.0,
+        1000.0,
+        -3000.0,
+        1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-13_4.glb",
+      "full_triangles": 9,
+      "full_size_kb": 2.6,
+      "far_file": "tile_-13_4_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -13,
+      "tz": 5,
+      "center_x": -3125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -3250.0,
+        1250.0,
+        -3000.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-13_5.glb",
+      "full_triangles": 45,
+      "full_size_kb": 4.2,
+      "far_file": "tile_-13_5_far.glb",
+      "far_triangles": 11,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -13,
+      "tz": 6,
+      "center_x": -3125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -3250.0,
+        1500.0,
+        -3000.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-13_6.glb",
+      "full_triangles": 6,
+      "full_size_kb": 2.5,
+      "far_file": "tile_-13_6_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -12,
+      "tz": 5,
+      "center_x": -2875.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -3000.0,
+        1250.0,
+        -2750.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-12_5.glb",
+      "full_triangles": 24,
+      "full_size_kb": 3.3,
+      "far_file": "tile_-12_5_far.glb",
+      "far_triangles": 8,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -12,
+      "tz": 6,
+      "center_x": -2875.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -3000.0,
+        1500.0,
+        -2750.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-12_6.glb",
+      "full_triangles": 32,
+      "full_size_kb": 3.6,
+      "far_file": "tile_-12_6_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -11,
+      "tz": 5,
+      "center_x": -2625.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -2750.0,
+        1250.0,
+        -2500.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-11_5.glb",
+      "full_triangles": 9,
+      "full_size_kb": 2.6,
+      "far_file": "tile_-11_5_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": -11,
+      "tz": 6,
+      "center_x": -2625.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -2750.0,
+        1500.0,
+        -2500.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-11_6.glb",
+      "full_triangles": 30,
+      "full_size_kb": 3.4,
+      "far_file": "tile_-11_6_far.glb",
+      "far_triangles": 16,
+      "far_size_kb": 1.7
+    },
+    {
+      "tx": -10,
+      "tz": 5,
+      "center_x": -2375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -2500.0,
+        1250.0,
+        -2250.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-10_5.glb",
+      "full_triangles": 20,
+      "full_size_kb": 3.2,
+      "far_file": "tile_-10_5_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -10,
+      "tz": 6,
+      "center_x": -2375.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -2500.0,
+        1500.0,
+        -2250.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-10_6.glb",
+      "full_triangles": 38,
+      "full_size_kb": 3.9,
+      "far_file": "tile_-10_6_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -9,
+      "tz": 4,
+      "center_x": -2125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -2250.0,
+        1000.0,
+        -2000.0,
+        1250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-9_4.glb",
+      "full_triangles": 28,
+      "full_size_kb": 2.6,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -9,
+      "tz": 5,
+      "center_x": -2125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -2250.0,
+        1250.0,
+        -2000.0,
+        1500.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-9_5.glb",
+      "full_triangles": 16,
+      "full_size_kb": 2.0,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -9,
+      "tz": 6,
+      "center_x": -2125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -2250.0,
+        1500.0,
+        -2000.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-9_6.glb",
+      "full_triangles": 51,
+      "full_size_kb": 4.6,
+      "far_file": "tile_-9_6_far.glb",
+      "far_triangles": 11,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -9,
+      "tz": 7,
+      "center_x": -2125.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -2250.0,
+        1750.0,
+        -2000.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-9_7.glb",
+      "full_triangles": 12,
+      "full_size_kb": 2.8,
+      "far_file": "tile_-9_7_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -8,
+      "tz": 3,
+      "center_x": -1875.0,
+      "center_z": 875.0,
+      "bounds": [
+        -2000.0,
+        750.0,
+        -1750.0,
+        1000.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-8_3.glb",
+      "full_triangles": 38,
+      "full_size_kb": 3.1,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -8,
+      "tz": 4,
+      "center_x": -1875.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -2000.0,
+        1000.0,
+        -1750.0,
+        1250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-8_4.glb",
+      "full_triangles": 8,
+      "full_size_kb": 1.6,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -8,
+      "tz": 6,
+      "center_x": -1875.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -2000.0,
+        1500.0,
+        -1750.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-8_6.glb",
+      "full_triangles": 10,
+      "full_size_kb": 2.6,
+      "far_file": "tile_-8_6_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -8,
+      "tz": 7,
+      "center_x": -1875.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -2000.0,
+        1750.0,
+        -1750.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-8_7.glb",
+      "full_triangles": 54,
+      "full_size_kb": 4.6,
+      "far_file": "tile_-8_7_far.glb",
+      "far_triangles": 18,
+      "far_size_kb": 1.8
+    },
+    {
+      "tx": -7,
+      "tz": -5,
+      "center_x": -1625.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -1750.0,
+        -1250.0,
+        -1500.0,
+        -1000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_-5.glb",
+      "full_triangles": 164,
+      "full_size_kb": 9.0,
+      "far_file": "tile_-7_-5_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -7,
+      "tz": -2,
+      "center_x": -1625.0,
+      "center_z": -375.0,
+      "bounds": [
+        -1750.0,
+        -500.0,
+        -1500.0,
+        -250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_-2.glb",
+      "full_triangles": 1104,
+      "full_size_kb": 35.7,
+      "far_file": "tile_-7_-2_far.glb",
+      "far_triangles": 14,
+      "far_size_kb": 1.9
+    },
+    {
+      "tx": -7,
+      "tz": 1,
+      "center_x": -1625.0,
+      "center_z": 375.0,
+      "bounds": [
+        -1750.0,
+        250.0,
+        -1500.0,
+        500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_1.glb",
+      "full_triangles": 626,
+      "full_size_kb": 22.7,
+      "far_file": "tile_-7_1_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -7,
+      "tz": 2,
+      "center_x": -1625.0,
+      "center_z": 625.0,
+      "bounds": [
+        -1750.0,
+        500.0,
+        -1500.0,
+        750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_2.glb",
+      "full_triangles": 254,
+      "full_size_kb": 14.2,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -7,
+      "tz": 3,
+      "center_x": -1625.0,
+      "center_z": 875.0,
+      "bounds": [
+        -1750.0,
+        750.0,
+        -1500.0,
+        1000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_3.glb",
+      "full_triangles": 70,
+      "full_size_kb": 7.2,
+      "far_file": "tile_-7_3_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -7,
+      "tz": 4,
+      "center_x": -1625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -1750.0,
+        1000.0,
+        -1500.0,
+        1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_4.glb",
+      "full_triangles": 2476,
+      "full_size_kb": 74.5,
+      "far_file": "tile_-7_4_far.glb",
+      "far_triangles": 40,
+      "far_size_kb": 3.2
+    },
+    {
+      "tx": -7,
+      "tz": 7,
+      "center_x": -1625.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -1750.0,
+        1750.0,
+        -1500.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_7.glb",
+      "full_triangles": 32,
+      "full_size_kb": 3.6,
+      "far_file": "tile_-7_7_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -7,
+      "tz": 8,
+      "center_x": -1625.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -1750.0,
+        2000.0,
+        -1500.0,
+        2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-7_8.glb",
+      "full_triangles": 5,
+      "full_size_kb": 2.4,
+      "far_file": "tile_-7_8_far.glb",
+      "far_triangles": 1,
+      "far_size_kb": 1.2
+    },
+    {
+      "tx": -6,
+      "tz": -7,
+      "center_x": -1375.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -1500.0,
+        -1750.0,
+        -1250.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-7.glb",
+      "full_triangles": 2024,
+      "full_size_kb": 69.5,
+      "far_file": "tile_-6_-7_far.glb",
+      "far_triangles": 212,
+      "far_size_kb": 16.3
+    },
+    {
+      "tx": -6,
+      "tz": -6,
+      "center_x": -1375.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -1500.0,
+        -1500.0,
+        -1250.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-6.glb",
+      "full_triangles": 1427,
+      "full_size_kb": 56.6,
+      "far_file": "tile_-6_-6_far.glb",
+      "far_triangles": 249,
+      "far_size_kb": 18.8
+    },
+    {
+      "tx": -6,
+      "tz": -5,
+      "center_x": -1375.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -1500.0,
+        -1250.0,
+        -1250.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-5.glb",
+      "full_triangles": 2142,
+      "full_size_kb": 76.2,
+      "far_file": "tile_-6_-5_far.glb",
+      "far_triangles": 86,
+      "far_size_kb": 11.1
+    },
+    {
+      "tx": -6,
+      "tz": -4,
+      "center_x": -1375.0,
+      "center_z": -875.0,
+      "bounds": [
+        -1500.0,
+        -1000.0,
+        -1250.0,
+        -750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-4.glb",
+      "full_triangles": 5715,
+      "full_size_kb": 167.0,
+      "far_file": "tile_-6_-4_far.glb",
+      "far_triangles": 45,
+      "far_size_kb": 5.3
+    },
+    {
+      "tx": -6,
+      "tz": -3,
+      "center_x": -1375.0,
+      "center_z": -625.0,
+      "bounds": [
+        -1500.0,
+        -750.0,
+        -1250.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-3.glb",
+      "full_triangles": 1448,
+      "full_size_kb": 54.8,
+      "far_file": "tile_-6_-3_far.glb",
+      "far_triangles": 140,
+      "far_size_kb": 11.0
+    },
+    {
+      "tx": -6,
+      "tz": -2,
+      "center_x": -1375.0,
+      "center_z": -375.0,
+      "bounds": [
+        -1500.0,
+        -500.0,
+        -1250.0,
+        -250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-2.glb",
+      "full_triangles": 1516,
+      "full_size_kb": 47.5,
+      "far_file": "tile_-6_-2_far.glb",
+      "far_triangles": 72,
+      "far_size_kb": 5.8
+    },
+    {
+      "tx": -6,
+      "tz": -1,
+      "center_x": -1375.0,
+      "center_z": -125.0,
+      "bounds": [
+        -1500.0,
+        -250.0,
+        -1250.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_-1.glb",
+      "full_triangles": 2188,
+      "full_size_kb": 70.2,
+      "far_file": "tile_-6_-1_far.glb",
+      "far_triangles": 96,
+      "far_size_kb": 8.9
+    },
+    {
+      "tx": -6,
+      "tz": 0,
+      "center_x": -1375.0,
+      "center_z": 125.0,
+      "bounds": [
+        -1500.0,
+        0.0,
+        -1250.0,
+        250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_0.glb",
+      "full_triangles": 2810,
+      "full_size_kb": 86.9,
+      "far_file": "tile_-6_0_far.glb",
+      "far_triangles": 96,
+      "far_size_kb": 7.0
+    },
+    {
+      "tx": -6,
+      "tz": 1,
+      "center_x": -1375.0,
+      "center_z": 375.0,
+      "bounds": [
+        -1500.0,
+        250.0,
+        -1250.0,
+        500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_1.glb",
+      "full_triangles": 3856,
+      "full_size_kb": 117.8,
+      "far_file": "tile_-6_1_far.glb",
+      "far_triangles": 24,
+      "far_size_kb": 3.3
+    },
+    {
+      "tx": -6,
+      "tz": 2,
+      "center_x": -1375.0,
+      "center_z": 625.0,
+      "bounds": [
+        -1500.0,
+        500.0,
+        -1250.0,
+        750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_2.glb",
+      "full_triangles": 4070,
+      "full_size_kb": 124.2,
+      "far_file": "tile_-6_2_far.glb",
+      "far_triangles": 30,
+      "far_size_kb": 3.6
+    },
+    {
+      "tx": -6,
+      "tz": 3,
+      "center_x": -1375.0,
+      "center_z": 875.0,
+      "bounds": [
+        -1500.0,
+        750.0,
+        -1250.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_3.glb",
+      "full_triangles": 6140,
+      "full_size_kb": 181.9,
+      "far_file": "tile_-6_3_far.glb",
+      "far_triangles": 160,
+      "far_size_kb": 13.1
+    },
+    {
+      "tx": -6,
+      "tz": 4,
+      "center_x": -1375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -1500.0,
+        1000.0,
+        -1250.0,
+        1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_4.glb",
+      "full_triangles": 4495,
+      "full_size_kb": 132.7,
+      "far_file": "tile_-6_4_far.glb",
+      "far_triangles": 55,
+      "far_size_kb": 5.9
+    },
+    {
+      "tx": -6,
+      "tz": 5,
+      "center_x": -1375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -1500.0,
+        1250.0,
+        -1250.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_5.glb",
+      "full_triangles": 1504,
+      "full_size_kb": 52.9,
+      "far_file": "tile_-6_5_far.glb",
+      "far_triangles": 106,
+      "far_size_kb": 8.4
+    },
+    {
+      "tx": -6,
+      "tz": 6,
+      "center_x": -1375.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -1500.0,
+        1500.0,
+        -1250.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_6.glb",
+      "full_triangles": 1847,
+      "full_size_kb": 64.5,
+      "far_file": "tile_-6_6_far.glb",
+      "far_triangles": 91,
+      "far_size_kb": 8.6
+    },
+    {
+      "tx": -6,
+      "tz": 7,
+      "center_x": -1375.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -1500.0,
+        1750.0,
+        -1250.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_7.glb",
+      "full_triangles": 32,
+      "full_size_kb": 3.6,
+      "far_file": "tile_-6_7_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -6,
+      "tz": 8,
+      "center_x": -1375.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -1500.0,
+        2000.0,
+        -1250.0,
+        2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-6_8.glb",
+      "full_triangles": 6,
+      "full_size_kb": 2.4,
+      "far_file": "tile_-6_8_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -5,
+      "tz": -8,
+      "center_x": -1125.0,
+      "center_z": -1875.0,
+      "bounds": [
+        -1250.0,
+        -2000.0,
+        -1000.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-8.glb",
+      "full_triangles": 1302,
+      "full_size_kb": 42.0,
+      "far_file": "tile_-5_-8_far.glb",
+      "far_triangles": 14,
+      "far_size_kb": 1.9
+    },
+    {
+      "tx": -5,
+      "tz": -7,
+      "center_x": -1125.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -1250.0,
+        -1750.0,
+        -1000.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-7.glb",
+      "full_triangles": 7212,
+      "full_size_kb": 248.7,
+      "far_file": "tile_-5_-7_far.glb",
+      "far_triangles": 1790,
+      "far_size_kb": 97.1
+    },
+    {
+      "tx": -5,
+      "tz": -6,
+      "center_x": -1125.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -1250.0,
+        -1500.0,
+        -1000.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-6.glb",
+      "full_triangles": 7150,
+      "full_size_kb": 270.6,
+      "far_file": "tile_-5_-6_far.glb",
+      "far_triangles": 2422,
+      "far_size_kb": 129.8
+    },
+    {
+      "tx": -5,
+      "tz": -5,
+      "center_x": -1125.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -1250.0,
+        -1250.0,
+        -1000.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-5.glb",
+      "full_triangles": 7327,
+      "full_size_kb": 253.0,
+      "far_file": "tile_-5_-5_far.glb",
+      "far_triangles": 1299,
+      "far_size_kb": 72.5
+    },
+    {
+      "tx": -5,
+      "tz": -4,
+      "center_x": -1125.0,
+      "center_z": -875.0,
+      "bounds": [
+        -1250.0,
+        -1000.0,
+        -1000.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-4.glb",
+      "full_triangles": 6797,
+      "full_size_kb": 225.2,
+      "far_file": "tile_-5_-4_far.glb",
+      "far_triangles": 523,
+      "far_size_kb": 34.5
+    },
+    {
+      "tx": -5,
+      "tz": -3,
+      "center_x": -1125.0,
+      "center_z": -625.0,
+      "bounds": [
+        -1250.0,
+        -750.0,
+        -1000.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-3.glb",
+      "full_triangles": 3360,
+      "full_size_kb": 115.9,
+      "far_file": "tile_-5_-3_far.glb",
+      "far_triangles": 338,
+      "far_size_kb": 22.3
+    },
+    {
+      "tx": -5,
+      "tz": -2,
+      "center_x": -1125.0,
+      "center_z": -375.0,
+      "bounds": [
+        -1250.0,
+        -500.0,
+        -1000.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-2.glb",
+      "full_triangles": 1897,
+      "full_size_kb": 72.6,
+      "far_file": "tile_-5_-2_far.glb",
+      "far_triangles": 399,
+      "far_size_kb": 24.6
+    },
+    {
+      "tx": -5,
+      "tz": -1,
+      "center_x": -1125.0,
+      "center_z": -125.0,
+      "bounds": [
+        -1250.0,
+        -250.0,
+        -1000.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_-1.glb",
+      "full_triangles": 5834,
+      "full_size_kb": 190.8,
+      "far_file": "tile_-5_-1_far.glb",
+      "far_triangles": 688,
+      "far_size_kb": 41.3
+    },
+    {
+      "tx": -5,
+      "tz": 0,
+      "center_x": -1125.0,
+      "center_z": 125.0,
+      "bounds": [
+        -1250.0,
+        0.0,
+        -1000.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_0.glb",
+      "full_triangles": 6426,
+      "full_size_kb": 207.1,
+      "far_file": "tile_-5_0_far.glb",
+      "far_triangles": 286,
+      "far_size_kb": 19.3
+    },
+    {
+      "tx": -5,
+      "tz": 1,
+      "center_x": -1125.0,
+      "center_z": 375.0,
+      "bounds": [
+        -1250.0,
+        250.0,
+        -1000.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_1.glb",
+      "full_triangles": 5746,
+      "full_size_kb": 183.4,
+      "far_file": "tile_-5_1_far.glb",
+      "far_triangles": 272,
+      "far_size_kb": 20.7
+    },
+    {
+      "tx": -5,
+      "tz": 2,
+      "center_x": -1125.0,
+      "center_z": 625.0,
+      "bounds": [
+        -1250.0,
+        500.0,
+        -1000.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_2.glb",
+      "full_triangles": 10886,
+      "full_size_kb": 352.8,
+      "far_file": "tile_-5_2_far.glb",
+      "far_triangles": 552,
+      "far_size_kb": 33.8
+    },
+    {
+      "tx": -5,
+      "tz": 3,
+      "center_x": -1125.0,
+      "center_z": 875.0,
+      "bounds": [
+        -1250.0,
+        750.0,
+        -1000.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_3.glb",
+      "full_triangles": 5550,
+      "full_size_kb": 179.3,
+      "far_file": "tile_-5_3_far.glb",
+      "far_triangles": 484,
+      "far_size_kb": 31.2
+    },
+    {
+      "tx": -5,
+      "tz": 4,
+      "center_x": -1125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -1250.0,
+        1000.0,
+        -1000.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_4.glb",
+      "full_triangles": 10144,
+      "full_size_kb": 299.7,
+      "far_file": "tile_-5_4_far.glb",
+      "far_triangles": 948,
+      "far_size_kb": 49.6
+    },
+    {
+      "tx": -5,
+      "tz": 5,
+      "center_x": -1125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -1250.0,
+        1250.0,
+        -1000.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_5.glb",
+      "full_triangles": 6882,
+      "full_size_kb": 222.2,
+      "far_file": "tile_-5_5_far.glb",
+      "far_triangles": 592,
+      "far_size_kb": 37.5
+    },
+    {
+      "tx": -5,
+      "tz": 6,
+      "center_x": -1125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -1250.0,
+        1500.0,
+        -1000.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_6.glb",
+      "full_triangles": 4597,
+      "full_size_kb": 165.2,
+      "far_file": "tile_-5_6_far.glb",
+      "far_triangles": 563,
+      "far_size_kb": 36.3
+    },
+    {
+      "tx": -5,
+      "tz": 7,
+      "center_x": -1125.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -1250.0,
+        1750.0,
+        -1000.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_7.glb",
+      "full_triangles": 46,
+      "full_size_kb": 4.3,
+      "far_file": "tile_-5_7_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -5,
+      "tz": 8,
+      "center_x": -1125.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -1250.0,
+        2000.0,
+        -1000.0,
+        2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-5_8.glb",
+      "full_triangles": 14,
+      "full_size_kb": 2.8,
+      "far_file": "tile_-5_8_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": -4,
+      "tz": -9,
+      "center_x": -875.0,
+      "center_z": -2125.0,
+      "bounds": [
+        -1000.0,
+        -2250.0,
+        -750.0,
+        -2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-9.glb",
+      "full_triangles": 918,
+      "full_size_kb": 30.4,
+      "far_file": "tile_-4_-9_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": -4,
+      "tz": -8,
+      "center_x": -875.0,
+      "center_z": -1875.0,
+      "bounds": [
+        -1000.0,
+        -2000.0,
+        -750.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-8.glb",
+      "full_triangles": 2946,
+      "full_size_kb": 86.2,
+      "far_file": "tile_-4_-8_far.glb",
+      "far_triangles": 16,
+      "far_size_kb": 2.0
+    },
+    {
+      "tx": -4,
+      "tz": -7,
+      "center_x": -875.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -1000.0,
+        -1750.0,
+        -750.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-7.glb",
+      "full_triangles": 6584,
+      "full_size_kb": 223.0,
+      "far_file": "tile_-4_-7_far.glb",
+      "far_triangles": 1284,
+      "far_size_kb": 70.7
+    },
+    {
+      "tx": -4,
+      "tz": -6,
+      "center_x": -875.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -1000.0,
+        -1500.0,
+        -750.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-6.glb",
+      "full_triangles": 7034,
+      "full_size_kb": 257.6,
+      "far_file": "tile_-4_-6_far.glb",
+      "far_triangles": 2014,
+      "far_size_kb": 108.4
+    },
+    {
+      "tx": -4,
+      "tz": -5,
+      "center_x": -875.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -1000.0,
+        -1250.0,
+        -750.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-5.glb",
+      "full_triangles": 7853,
+      "full_size_kb": 269.6,
+      "far_file": "tile_-4_-5_far.glb",
+      "far_triangles": 1655,
+      "far_size_kb": 89.5
+    },
+    {
+      "tx": -4,
+      "tz": -4,
+      "center_x": -875.0,
+      "center_z": -875.0,
+      "bounds": [
+        -1000.0,
+        -1000.0,
+        -750.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-4.glb",
+      "full_triangles": 4731,
+      "full_size_kb": 176.3,
+      "far_file": "tile_-4_-4_far.glb",
+      "far_triangles": 1207,
+      "far_size_kb": 69.1
+    },
+    {
+      "tx": -4,
+      "tz": -3,
+      "center_x": -875.0,
+      "center_z": -625.0,
+      "bounds": [
+        -1000.0,
+        -750.0,
+        -750.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-3.glb",
+      "full_triangles": 5607,
+      "full_size_kb": 182.7,
+      "far_file": "tile_-4_-3_far.glb",
+      "far_triangles": 577,
+      "far_size_kb": 35.9
+    },
+    {
+      "tx": -4,
+      "tz": -2,
+      "center_x": -875.0,
+      "center_z": -375.0,
+      "bounds": [
+        -1000.0,
+        -500.0,
+        -750.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-2.glb",
+      "full_triangles": 5163,
+      "full_size_kb": 173.8,
+      "far_file": "tile_-4_-2_far.glb",
+      "far_triangles": 475,
+      "far_size_kb": 29.3
+    },
+    {
+      "tx": -4,
+      "tz": -1,
+      "center_x": -875.0,
+      "center_z": -125.0,
+      "bounds": [
+        -1000.0,
+        -250.0,
+        -750.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_-1.glb",
+      "full_triangles": 5743,
+      "full_size_kb": 189.1,
+      "far_file": "tile_-4_-1_far.glb",
+      "far_triangles": 453,
+      "far_size_kb": 28.4
+    },
+    {
+      "tx": -4,
+      "tz": 0,
+      "center_x": -875.0,
+      "center_z": 125.0,
+      "bounds": [
+        -1000.0,
+        0.0,
+        -750.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_0.glb",
+      "full_triangles": 7812,
+      "full_size_kb": 236.7,
+      "far_file": "tile_-4_0_far.glb",
+      "far_triangles": 388,
+      "far_size_kb": 25.7
+    },
+    {
+      "tx": -4,
+      "tz": 1,
+      "center_x": -875.0,
+      "center_z": 375.0,
+      "bounds": [
+        -1000.0,
+        250.0,
+        -750.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_1.glb",
+      "full_triangles": 9446,
+      "full_size_kb": 287.9,
+      "far_file": "tile_-4_1_far.glb",
+      "far_triangles": 520,
+      "far_size_kb": 34.1
+    },
+    {
+      "tx": -4,
+      "tz": 2,
+      "center_x": -875.0,
+      "center_z": 625.0,
+      "bounds": [
+        -1000.0,
+        500.0,
+        -750.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_2.glb",
+      "full_triangles": 9044,
+      "full_size_kb": 288.3,
+      "far_file": "tile_-4_2_far.glb",
+      "far_triangles": 516,
+      "far_size_kb": 32.4
+    },
+    {
+      "tx": -4,
+      "tz": 3,
+      "center_x": -875.0,
+      "center_z": 875.0,
+      "bounds": [
+        -1000.0,
+        750.0,
+        -750.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_3.glb",
+      "full_triangles": 7731,
+      "full_size_kb": 245.7,
+      "far_file": "tile_-4_3_far.glb",
+      "far_triangles": 587,
+      "far_size_kb": 36.7
+    },
+    {
+      "tx": -4,
+      "tz": 4,
+      "center_x": -875.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -1000.0,
+        1000.0,
+        -750.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_4.glb",
+      "full_triangles": 7185,
+      "full_size_kb": 238.5,
+      "far_file": "tile_-4_4_far.glb",
+      "far_triangles": 889,
+      "far_size_kb": 49.8
+    },
+    {
+      "tx": -4,
+      "tz": 5,
+      "center_x": -875.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -1000.0,
+        1250.0,
+        -750.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_5.glb",
+      "full_triangles": 5302,
+      "full_size_kb": 173.9,
+      "far_file": "tile_-4_5_far.glb",
+      "far_triangles": 362,
+      "far_size_kb": 26.1
+    },
+    {
+      "tx": -4,
+      "tz": 6,
+      "center_x": -875.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -1000.0,
+        1500.0,
+        -750.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_6.glb",
+      "full_triangles": 868,
+      "full_size_kb": 53.2,
+      "far_file": "tile_-4_6_far.glb",
+      "far_triangles": 382,
+      "far_size_kb": 28.9
+    },
+    {
+      "tx": -4,
+      "tz": 7,
+      "center_x": -875.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -1000.0,
+        1750.0,
+        -750.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_7.glb",
+      "full_triangles": 39,
+      "full_size_kb": 4.0,
+      "far_file": "tile_-4_7_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -4,
+      "tz": 8,
+      "center_x": -875.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -1000.0,
+        2000.0,
+        -750.0,
+        2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-4_8.glb",
+      "full_triangles": 35,
+      "full_size_kb": 3.8,
+      "far_file": "tile_-4_8_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -3,
+      "tz": -8,
+      "center_x": -625.0,
+      "center_z": -1875.0,
+      "bounds": [
+        -750.0,
+        -2000.0,
+        -500.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-8.glb",
+      "full_triangles": 1424,
+      "full_size_kb": 46.5,
+      "far_file": "tile_-3_-8_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.7
+    },
+    {
+      "tx": -3,
+      "tz": -7,
+      "center_x": -625.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -750.0,
+        -1750.0,
+        -500.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-7.glb",
+      "full_triangles": 6613,
+      "full_size_kb": 237.5,
+      "far_file": "tile_-3_-7_far.glb",
+      "far_triangles": 1763,
+      "far_size_kb": 95.0
+    },
+    {
+      "tx": -3,
+      "tz": -6,
+      "center_x": -625.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -750.0,
+        -1500.0,
+        -500.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-6.glb",
+      "full_triangles": 5710,
+      "full_size_kb": 207.6,
+      "far_file": "tile_-3_-6_far.glb",
+      "far_triangles": 1514,
+      "far_size_kb": 82.9
+    },
+    {
+      "tx": -3,
+      "tz": -5,
+      "center_x": -625.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -750.0,
+        -1250.0,
+        -500.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-5.glb",
+      "full_triangles": 5184,
+      "full_size_kb": 187.5,
+      "far_file": "tile_-3_-5_far.glb",
+      "far_triangles": 828,
+      "far_size_kb": 49.5
+    },
+    {
+      "tx": -3,
+      "tz": -4,
+      "center_x": -625.0,
+      "center_z": -875.0,
+      "bounds": [
+        -750.0,
+        -1000.0,
+        -500.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-4.glb",
+      "full_triangles": 4576,
+      "full_size_kb": 149.2,
+      "far_file": "tile_-3_-4_far.glb",
+      "far_triangles": 442,
+      "far_size_kb": 28.5
+    },
+    {
+      "tx": -3,
+      "tz": -3,
+      "center_x": -625.0,
+      "center_z": -625.0,
+      "bounds": [
+        -750.0,
+        -750.0,
+        -500.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-3.glb",
+      "full_triangles": 2705,
+      "full_size_kb": 101.6,
+      "far_file": "tile_-3_-3_far.glb",
+      "far_triangles": 443,
+      "far_size_kb": 27.0
+    },
+    {
+      "tx": -3,
+      "tz": -2,
+      "center_x": -625.0,
+      "center_z": -375.0,
+      "bounds": [
+        -750.0,
+        -500.0,
+        -500.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-2.glb",
+      "full_triangles": 3297,
+      "full_size_kb": 113.9,
+      "far_file": "tile_-3_-2_far.glb",
+      "far_triangles": 585,
+      "far_size_kb": 33.2
+    },
+    {
+      "tx": -3,
+      "tz": -1,
+      "center_x": -625.0,
+      "center_z": -125.0,
+      "bounds": [
+        -750.0,
+        -250.0,
+        -500.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_-1.glb",
+      "full_triangles": 4405,
+      "full_size_kb": 168.5,
+      "far_file": "tile_-3_-1_far.glb",
+      "far_triangles": 1133,
+      "far_size_kb": 62.7
+    },
+    {
+      "tx": -3,
+      "tz": 0,
+      "center_x": -625.0,
+      "center_z": 125.0,
+      "bounds": [
+        -750.0,
+        0.0,
+        -500.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_0.glb",
+      "full_triangles": 9885,
+      "full_size_kb": 322.4,
+      "far_file": "tile_-3_0_far.glb",
+      "far_triangles": 765,
+      "far_size_kb": 44.2
+    },
+    {
+      "tx": -3,
+      "tz": 1,
+      "center_x": -625.0,
+      "center_z": 375.0,
+      "bounds": [
+        -750.0,
+        250.0,
+        -500.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_1.glb",
+      "full_triangles": 6833,
+      "full_size_kb": 242.5,
+      "far_file": "tile_-3_1_far.glb",
+      "far_triangles": 1155,
+      "far_size_kb": 64.2
+    },
+    {
+      "tx": -3,
+      "tz": 2,
+      "center_x": -625.0,
+      "center_z": 625.0,
+      "bounds": [
+        -750.0,
+        500.0,
+        -500.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_2.glb",
+      "full_triangles": 3346,
+      "full_size_kb": 125.4,
+      "far_file": "tile_-3_2_far.glb",
+      "far_triangles": 488,
+      "far_size_kb": 33.3
+    },
+    {
+      "tx": -3,
+      "tz": 3,
+      "center_x": -625.0,
+      "center_z": 875.0,
+      "bounds": [
+        -750.0,
+        750.0,
+        -500.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_3.glb",
+      "full_triangles": 7955,
+      "full_size_kb": 250.8,
+      "far_file": "tile_-3_3_far.glb",
+      "far_triangles": 515,
+      "far_size_kb": 31.6
+    },
+    {
+      "tx": -3,
+      "tz": 4,
+      "center_x": -625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -750.0,
+        1000.0,
+        -500.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_4.glb",
+      "full_triangles": 5685,
+      "full_size_kb": 188.4,
+      "far_file": "tile_-3_4_far.glb",
+      "far_triangles": 637,
+      "far_size_kb": 38.3
+    },
+    {
+      "tx": -3,
+      "tz": 5,
+      "center_x": -625.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -750.0,
+        1250.0,
+        -500.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_5.glb",
+      "full_triangles": 5797,
+      "full_size_kb": 197.9,
+      "far_file": "tile_-3_5_far.glb",
+      "far_triangles": 679,
+      "far_size_kb": 42.4
+    },
+    {
+      "tx": -3,
+      "tz": 6,
+      "center_x": -625.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -750.0,
+        1500.0,
+        -500.0,
+        1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_6.glb",
+      "full_triangles": 276,
+      "full_size_kb": 13.4,
+      "far_file": "tile_-3_6_far.glb",
+      "far_triangles": 28,
+      "far_size_kb": 3.1
+    },
+    {
+      "tx": -3,
+      "tz": 7,
+      "center_x": -625.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -750.0,
+        1750.0,
+        -500.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_7.glb",
+      "full_triangles": 38,
+      "full_size_kb": 3.8,
+      "far_file": "tile_-3_7_far.glb",
+      "far_triangles": 14,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -3,
+      "tz": 8,
+      "center_x": -625.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -750.0,
+        2000.0,
+        -500.0,
+        2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-3_8.glb",
+      "full_triangles": 9,
+      "full_size_kb": 2.6,
+      "far_file": "tile_-3_8_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": -3,
+      "tz": 9,
+      "center_x": -625.0,
+      "center_z": 2375.0,
+      "bounds": [
+        -750.0,
+        2250.0,
+        -500.0,
+        2500.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-3_9.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.5,
+      "far_file": "tile_-3_9_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": -2,
+      "tz": -8,
+      "center_x": -375.0,
+      "center_z": -1875.0,
+      "bounds": [
+        -500.0,
+        -2000.0,
+        -250.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-8.glb",
+      "full_triangles": 220,
+      "full_size_kb": 10.1,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": -2,
+      "tz": -7,
+      "center_x": -375.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -500.0,
+        -1750.0,
+        -250.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-7.glb",
+      "full_triangles": 8501,
+      "full_size_kb": 278.5,
+      "far_file": "tile_-2_-7_far.glb",
+      "far_triangles": 853,
+      "far_size_kb": 50.9
+    },
+    {
+      "tx": -2,
+      "tz": -6,
+      "center_x": -375.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -500.0,
+        -1500.0,
+        -250.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-6.glb",
+      "full_triangles": 6718,
+      "full_size_kb": 214.1,
+      "far_file": "tile_-2_-6_far.glb",
+      "far_triangles": 594,
+      "far_size_kb": 39.7
+    },
+    {
+      "tx": -2,
+      "tz": -5,
+      "center_x": -375.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -500.0,
+        -1250.0,
+        -250.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-5.glb",
+      "full_triangles": 6126,
+      "full_size_kb": 193.1,
+      "far_file": "tile_-2_-5_far.glb",
+      "far_triangles": 310,
+      "far_size_kb": 21.8
+    },
+    {
+      "tx": -2,
+      "tz": -4,
+      "center_x": -375.0,
+      "center_z": -875.0,
+      "bounds": [
+        -500.0,
+        -1000.0,
+        -250.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-4.glb",
+      "full_triangles": 5748,
+      "full_size_kb": 181.3,
+      "far_file": "tile_-2_-4_far.glb",
+      "far_triangles": 400,
+      "far_size_kb": 25.4
+    },
+    {
+      "tx": -2,
+      "tz": -3,
+      "center_x": -375.0,
+      "center_z": -625.0,
+      "bounds": [
+        -500.0,
+        -750.0,
+        -250.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-3.glb",
+      "full_triangles": 5830,
+      "full_size_kb": 177.2,
+      "far_file": "tile_-2_-3_far.glb",
+      "far_triangles": 486,
+      "far_size_kb": 29.5
+    },
+    {
+      "tx": -2,
+      "tz": -2,
+      "center_x": -375.0,
+      "center_z": -375.0,
+      "bounds": [
+        -500.0,
+        -500.0,
+        -250.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-2.glb",
+      "full_triangles": 2912,
+      "full_size_kb": 109.6,
+      "far_file": "tile_-2_-2_far.glb",
+      "far_triangles": 558,
+      "far_size_kb": 34.5
+    },
+    {
+      "tx": -2,
+      "tz": -1,
+      "center_x": -375.0,
+      "center_z": -125.0,
+      "bounds": [
+        -500.0,
+        -250.0,
+        -250.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_-1.glb",
+      "full_triangles": 2898,
+      "full_size_kb": 111.9,
+      "far_file": "tile_-2_-1_far.glb",
+      "far_triangles": 780,
+      "far_size_kb": 46.9
+    },
+    {
+      "tx": -2,
+      "tz": 0,
+      "center_x": -375.0,
+      "center_z": 125.0,
+      "bounds": [
+        -500.0,
+        0.0,
+        -250.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_0.glb",
+      "full_triangles": 11458,
+      "full_size_kb": 356.7,
+      "far_file": "tile_-2_0_far.glb",
+      "far_triangles": 954,
+      "far_size_kb": 48.7
+    },
+    {
+      "tx": -2,
+      "tz": 1,
+      "center_x": -375.0,
+      "center_z": 375.0,
+      "bounds": [
+        -500.0,
+        250.0,
+        -250.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_1.glb",
+      "full_triangles": 7716,
+      "full_size_kb": 252.6,
+      "far_file": "tile_-2_1_far.glb",
+      "far_triangles": 914,
+      "far_size_kb": 45.8
+    },
+    {
+      "tx": -2,
+      "tz": 2,
+      "center_x": -375.0,
+      "center_z": 625.0,
+      "bounds": [
+        -500.0,
+        500.0,
+        -250.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_2.glb",
+      "full_triangles": 6448,
+      "full_size_kb": 193.8,
+      "far_file": "tile_-2_2_far.glb",
+      "far_triangles": 418,
+      "far_size_kb": 20.9
+    },
+    {
+      "tx": -2,
+      "tz": 3,
+      "center_x": -375.0,
+      "center_z": 875.0,
+      "bounds": [
+        -500.0,
+        750.0,
+        -250.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_3.glb",
+      "full_triangles": 5273,
+      "full_size_kb": 197.0,
+      "far_file": "tile_-2_3_far.glb",
+      "far_triangles": 1239,
+      "far_size_kb": 69.6
+    },
+    {
+      "tx": -2,
+      "tz": 4,
+      "center_x": -375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -500.0,
+        1000.0,
+        -250.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_4.glb",
+      "full_triangles": 7802,
+      "full_size_kb": 261.3,
+      "far_file": "tile_-2_4_far.glb",
+      "far_triangles": 1434,
+      "far_size_kb": 74.6
+    },
+    {
+      "tx": -2,
+      "tz": 5,
+      "center_x": -375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -500.0,
+        1250.0,
+        -250.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_5.glb",
+      "full_triangles": 5270,
+      "full_size_kb": 164.1,
+      "far_file": "tile_-2_5_far.glb",
+      "far_triangles": 498,
+      "far_size_kb": 29.8
+    },
+    {
+      "tx": -2,
+      "tz": 6,
+      "center_x": -375.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -500.0,
+        1500.0,
+        -250.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_6.glb",
+      "full_triangles": 3667,
+      "full_size_kb": 124.3,
+      "far_file": "tile_-2_6_far.glb",
+      "far_triangles": 347,
+      "far_size_kb": 26.3
+    },
+    {
+      "tx": -2,
+      "tz": 7,
+      "center_x": -375.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -500.0,
+        1750.0,
+        -250.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-2_7.glb",
+      "full_triangles": 32,
+      "full_size_kb": 3.6,
+      "far_file": "tile_-2_7_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": -2,
+      "tz": 8,
+      "center_x": -375.0,
+      "center_z": 2125.0,
+      "bounds": [
+        -500.0,
+        2000.0,
+        -250.0,
+        2250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-2_8.glb",
+      "full_triangles": 24,
+      "full_size_kb": 2.4,
+      "far_file": "tile_-2_8_far.glb",
+      "far_triangles": 24,
+      "far_size_kb": 2.4
+    },
+    {
+      "tx": -2,
+      "tz": 9,
+      "center_x": -375.0,
+      "center_z": 2375.0,
+      "bounds": [
+        -500.0,
+        2250.0,
+        -250.0,
+        2500.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_-2_9.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.4,
+      "far_file": "tile_-2_9_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": -1,
+      "tz": -9,
+      "center_x": -125.0,
+      "center_z": -2125.0,
+      "bounds": [
+        -250.0,
+        -2250.0,
+        0.0,
+        -2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-9.glb",
+      "full_triangles": 2536,
+      "full_size_kb": 74.9,
+      "far_file": "tile_-1_-9_far.glb",
+      "far_triangles": 22,
+      "far_size_kb": 2.3
+    },
+    {
+      "tx": -1,
+      "tz": -8,
+      "center_x": -125.0,
+      "center_z": -1875.0,
+      "bounds": [
+        -250.0,
+        -2000.0,
+        0.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-8.glb",
+      "full_triangles": 2474,
+      "full_size_kb": 79.8,
+      "far_file": "tile_-1_-8_far.glb",
+      "far_triangles": 30,
+      "far_size_kb": 2.7
+    },
+    {
+      "tx": -1,
+      "tz": -7,
+      "center_x": -125.0,
+      "center_z": -1625.0,
+      "bounds": [
+        -250.0,
+        -1750.0,
+        0.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-7.glb",
+      "full_triangles": 4856,
+      "full_size_kb": 156.8,
+      "far_file": "tile_-1_-7_far.glb",
+      "far_triangles": 336,
+      "far_size_kb": 24.2
+    },
+    {
+      "tx": -1,
+      "tz": -6,
+      "center_x": -125.0,
+      "center_z": -1375.0,
+      "bounds": [
+        -250.0,
+        -1500.0,
+        0.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-6.glb",
+      "full_triangles": 5524,
+      "full_size_kb": 182.3,
+      "far_file": "tile_-1_-6_far.glb",
+      "far_triangles": 520,
+      "far_size_kb": 33.9
+    },
+    {
+      "tx": -1,
+      "tz": -5,
+      "center_x": -125.0,
+      "center_z": -1125.0,
+      "bounds": [
+        -250.0,
+        -1250.0,
+        0.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-5.glb",
+      "full_triangles": 7323,
+      "full_size_kb": 226.5,
+      "far_file": "tile_-1_-5_far.glb",
+      "far_triangles": 577,
+      "far_size_kb": 37.0
+    },
+    {
+      "tx": -1,
+      "tz": -4,
+      "center_x": -125.0,
+      "center_z": -875.0,
+      "bounds": [
+        -250.0,
+        -1000.0,
+        0.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-4.glb",
+      "full_triangles": 5978,
+      "full_size_kb": 201.7,
+      "far_file": "tile_-1_-4_far.glb",
+      "far_triangles": 646,
+      "far_size_kb": 39.5
+    },
+    {
+      "tx": -1,
+      "tz": -3,
+      "center_x": -125.0,
+      "center_z": -625.0,
+      "bounds": [
+        -250.0,
+        -750.0,
+        0.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-3.glb",
+      "full_triangles": 8159,
+      "full_size_kb": 257.9,
+      "far_file": "tile_-1_-3_far.glb",
+      "far_triangles": 1073,
+      "far_size_kb": 57.9
+    },
+    {
+      "tx": -1,
+      "tz": -2,
+      "center_x": -125.0,
+      "center_z": -375.0,
+      "bounds": [
+        -250.0,
+        -500.0,
+        0.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-2.glb",
+      "full_triangles": 6683,
+      "full_size_kb": 236.0,
+      "far_file": "tile_-1_-2_far.glb",
+      "far_triangles": 703,
+      "far_size_kb": 42.2
+    },
+    {
+      "tx": -1,
+      "tz": -1,
+      "center_x": -125.0,
+      "center_z": -125.0,
+      "bounds": [
+        -250.0,
+        -250.0,
+        0.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_-1.glb",
+      "full_triangles": 7312,
+      "full_size_kb": 243.5,
+      "far_file": "tile_-1_-1_far.glb",
+      "far_triangles": 618,
+      "far_size_kb": 36.1
+    },
+    {
+      "tx": -1,
+      "tz": 0,
+      "center_x": -125.0,
+      "center_z": 125.0,
+      "bounds": [
+        -250.0,
+        0.0,
+        0.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_0.glb",
+      "full_triangles": 3048,
+      "full_size_kb": 104.4,
+      "far_file": "tile_-1_0_far.glb",
+      "far_triangles": 288,
+      "far_size_kb": 18.6
+    },
+    {
+      "tx": -1,
+      "tz": 1,
+      "center_x": -125.0,
+      "center_z": 375.0,
+      "bounds": [
+        -250.0,
+        250.0,
+        0.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_1.glb",
+      "full_triangles": 2033,
+      "full_size_kb": 73.6,
+      "far_file": "tile_-1_1_far.glb",
+      "far_triangles": 371,
+      "far_size_kb": 21.7
+    },
+    {
+      "tx": -1,
+      "tz": 2,
+      "center_x": -125.0,
+      "center_z": 625.0,
+      "bounds": [
+        -250.0,
+        500.0,
+        0.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_2.glb",
+      "full_triangles": 7630,
+      "full_size_kb": 227.1,
+      "far_file": "tile_-1_2_far.glb",
+      "far_triangles": 1456,
+      "far_size_kb": 71.1
+    },
+    {
+      "tx": -1,
+      "tz": 3,
+      "center_x": -125.0,
+      "center_z": 875.0,
+      "bounds": [
+        -250.0,
+        750.0,
+        0.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_3.glb",
+      "full_triangles": 6133,
+      "full_size_kb": 220.8,
+      "far_file": "tile_-1_3_far.glb",
+      "far_triangles": 1795,
+      "far_size_kb": 90.7
+    },
+    {
+      "tx": -1,
+      "tz": 4,
+      "center_x": -125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        -250.0,
+        1000.0,
+        0.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_4.glb",
+      "full_triangles": 6828,
+      "full_size_kb": 258.0,
+      "far_file": "tile_-1_4_far.glb",
+      "far_triangles": 1824,
+      "far_size_kb": 94.5
+    },
+    {
+      "tx": -1,
+      "tz": 5,
+      "center_x": -125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        -250.0,
+        1250.0,
+        0.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_5.glb",
+      "full_triangles": 6546,
+      "full_size_kb": 231.8,
+      "far_file": "tile_-1_5_far.glb",
+      "far_triangles": 1230,
+      "far_size_kb": 67.6
+    },
+    {
+      "tx": -1,
+      "tz": 6,
+      "center_x": -125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        -250.0,
+        1500.0,
+        0.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_6.glb",
+      "full_triangles": 7347,
+      "full_size_kb": 251.2,
+      "far_file": "tile_-1_6_far.glb",
+      "far_triangles": 581,
+      "far_size_kb": 36.6
+    },
+    {
+      "tx": -1,
+      "tz": 7,
+      "center_x": -125.0,
+      "center_z": 1875.0,
+      "bounds": [
+        -250.0,
+        1750.0,
+        0.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_-1_7.glb",
+      "full_triangles": 76,
+      "full_size_kb": 6.8,
+      "far_file": "tile_-1_7_far.glb",
+      "far_triangles": 32,
+      "far_size_kb": 3.6
+    },
+    {
+      "tx": 0,
+      "tz": -10,
+      "center_x": 125.0,
+      "center_z": -2375.0,
+      "bounds": [
+        0.0,
+        -2500.0,
+        250.0,
+        -2250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_0_-10.glb",
+      "full_triangles": 90,
+      "full_size_kb": 4.1,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 0,
+      "tz": -9,
+      "center_x": 125.0,
+      "center_z": -2125.0,
+      "bounds": [
+        0.0,
+        -2250.0,
+        250.0,
+        -2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-9.glb",
+      "full_triangles": 662,
+      "full_size_kb": 27.3,
+      "far_file": "tile_0_-9_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 0,
+      "tz": -8,
+      "center_x": 125.0,
+      "center_z": -1875.0,
+      "bounds": [
+        0.0,
+        -2000.0,
+        250.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-8.glb",
+      "full_triangles": 1698,
+      "full_size_kb": 60.5,
+      "far_file": "tile_0_-8_far.glb",
+      "far_triangles": 18,
+      "far_size_kb": 2.1
+    },
+    {
+      "tx": 0,
+      "tz": -7,
+      "center_x": 125.0,
+      "center_z": -1625.0,
+      "bounds": [
+        0.0,
+        -1750.0,
+        250.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-7.glb",
+      "full_triangles": 6758,
+      "full_size_kb": 218.7,
+      "far_file": "tile_0_-7_far.glb",
+      "far_triangles": 644,
+      "far_size_kb": 40.6
+    },
+    {
+      "tx": 0,
+      "tz": -6,
+      "center_x": 125.0,
+      "center_z": -1375.0,
+      "bounds": [
+        0.0,
+        -1500.0,
+        250.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-6.glb",
+      "full_triangles": 6721,
+      "full_size_kb": 207.2,
+      "far_file": "tile_0_-6_far.glb",
+      "far_triangles": 689,
+      "far_size_kb": 42.7
+    },
+    {
+      "tx": 0,
+      "tz": -5,
+      "center_x": 125.0,
+      "center_z": -1125.0,
+      "bounds": [
+        0.0,
+        -1250.0,
+        250.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-5.glb",
+      "full_triangles": 3009,
+      "full_size_kb": 117.7,
+      "far_file": "tile_0_-5_far.glb",
+      "far_triangles": 449,
+      "far_size_kb": 29.2
+    },
+    {
+      "tx": 0,
+      "tz": -4,
+      "center_x": 125.0,
+      "center_z": -875.0,
+      "bounds": [
+        0.0,
+        -1000.0,
+        250.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-4.glb",
+      "full_triangles": 8143,
+      "full_size_kb": 264.5,
+      "far_file": "tile_0_-4_far.glb",
+      "far_triangles": 609,
+      "far_size_kb": 38.2
+    },
+    {
+      "tx": 0,
+      "tz": -3,
+      "center_x": 125.0,
+      "center_z": -625.0,
+      "bounds": [
+        0.0,
+        -750.0,
+        250.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-3.glb",
+      "full_triangles": 13551,
+      "full_size_kb": 410.5,
+      "far_file": "tile_0_-3_far.glb",
+      "far_triangles": 1143,
+      "far_size_kb": 61.4
+    },
+    {
+      "tx": 0,
+      "tz": -2,
+      "center_x": 125.0,
+      "center_z": -375.0,
+      "bounds": [
+        0.0,
+        -500.0,
+        250.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-2.glb",
+      "full_triangles": 10399,
+      "full_size_kb": 340.7,
+      "far_file": "tile_0_-2_far.glb",
+      "far_triangles": 1275,
+      "far_size_kb": 71.5
+    },
+    {
+      "tx": 0,
+      "tz": -1,
+      "center_x": 125.0,
+      "center_z": -125.0,
+      "bounds": [
+        0.0,
+        -250.0,
+        250.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_-1.glb",
+      "full_triangles": 6311,
+      "full_size_kb": 219.2,
+      "far_file": "tile_0_-1_far.glb",
+      "far_triangles": 843,
+      "far_size_kb": 48.6
+    },
+    {
+      "tx": 0,
+      "tz": 0,
+      "center_x": 125.0,
+      "center_z": 125.0,
+      "bounds": [
+        0.0,
+        0.0,
+        250.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_0.glb",
+      "full_triangles": 1140,
+      "full_size_kb": 44.7,
+      "far_file": "tile_0_0_far.glb",
+      "far_triangles": 176,
+      "far_size_kb": 12.6
+    },
+    {
+      "tx": 0,
+      "tz": 1,
+      "center_x": 125.0,
+      "center_z": 375.0,
+      "bounds": [
+        0.0,
+        250.0,
+        250.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_1.glb",
+      "full_triangles": 1033,
+      "full_size_kb": 50.2,
+      "far_file": "tile_0_1_far.glb",
+      "far_triangles": 827,
+      "far_size_kb": 40.6
+    },
+    {
+      "tx": 0,
+      "tz": 2,
+      "center_x": 125.0,
+      "center_z": 625.0,
+      "bounds": [
+        0.0,
+        500.0,
+        250.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_2.glb",
+      "full_triangles": 10237,
+      "full_size_kb": 285.0,
+      "far_file": "tile_0_2_far.glb",
+      "far_triangles": 789,
+      "far_size_kb": 44.7
+    },
+    {
+      "tx": 0,
+      "tz": 3,
+      "center_x": 125.0,
+      "center_z": 875.0,
+      "bounds": [
+        0.0,
+        750.0,
+        250.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_3.glb",
+      "full_triangles": 5841,
+      "full_size_kb": 211.9,
+      "far_file": "tile_0_3_far.glb",
+      "far_triangles": 1569,
+      "far_size_kb": 81.2
+    },
+    {
+      "tx": 0,
+      "tz": 4,
+      "center_x": 125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        0.0,
+        1000.0,
+        250.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_4.glb",
+      "full_triangles": 4218,
+      "full_size_kb": 155.7,
+      "far_file": "tile_0_4_far.glb",
+      "far_triangles": 978,
+      "far_size_kb": 53.2
+    },
+    {
+      "tx": 0,
+      "tz": 5,
+      "center_x": 125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        0.0,
+        1250.0,
+        250.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_5.glb",
+      "full_triangles": 10932,
+      "full_size_kb": 338.8,
+      "far_file": "tile_0_5_far.glb",
+      "far_triangles": 740,
+      "far_size_kb": 43.5
+    },
+    {
+      "tx": 0,
+      "tz": 6,
+      "center_x": 125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        0.0,
+        1500.0,
+        250.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_6.glb",
+      "full_triangles": 7478,
+      "full_size_kb": 235.9,
+      "far_file": "tile_0_6_far.glb",
+      "far_triangles": 556,
+      "far_size_kb": 36.3
+    },
+    {
+      "tx": 0,
+      "tz": 7,
+      "center_x": 125.0,
+      "center_z": 1875.0,
+      "bounds": [
+        0.0,
+        1750.0,
+        250.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_0_7.glb",
+      "full_triangles": 1503,
+      "full_size_kb": 54.3,
+      "far_file": "tile_0_7_far.glb",
+      "far_triangles": 41,
+      "far_size_kb": 4.0
+    },
+    {
+      "tx": 1,
+      "tz": -11,
+      "center_x": 375.0,
+      "center_z": -2625.0,
+      "bounds": [
+        250.0,
+        -2750.0,
+        500.0,
+        -2500.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_1_-11.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 1,
+      "tz": -10,
+      "center_x": 375.0,
+      "center_z": -2375.0,
+      "bounds": [
+        250.0,
+        -2500.0,
+        500.0,
+        -2250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-10.glb",
+      "full_triangles": 508,
+      "full_size_kb": 19.7,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 1,
+      "tz": -9,
+      "center_x": 375.0,
+      "center_z": -2125.0,
+      "bounds": [
+        250.0,
+        -2250.0,
+        500.0,
+        -2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-9.glb",
+      "full_triangles": 958,
+      "full_size_kb": 32.5,
+      "far_file": "tile_1_-9_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 1,
+      "tz": -8,
+      "center_x": 375.0,
+      "center_z": -1875.0,
+      "bounds": [
+        250.0,
+        -2000.0,
+        500.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-8.glb",
+      "full_triangles": 2138,
+      "full_size_kb": 68.2,
+      "far_file": "tile_1_-8_far.glb",
+      "far_triangles": 86,
+      "far_size_kb": 5.6
+    },
+    {
+      "tx": 1,
+      "tz": -7,
+      "center_x": 375.0,
+      "center_z": -1625.0,
+      "bounds": [
+        250.0,
+        -1750.0,
+        500.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-7.glb",
+      "full_triangles": 1887,
+      "full_size_kb": 80.9,
+      "far_file": "tile_1_-7_far.glb",
+      "far_triangles": 457,
+      "far_size_kb": 31.6
+    },
+    {
+      "tx": 1,
+      "tz": -6,
+      "center_x": 375.0,
+      "center_z": -1375.0,
+      "bounds": [
+        250.0,
+        -1500.0,
+        500.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-6.glb",
+      "full_triangles": 4187,
+      "full_size_kb": 137.6,
+      "far_file": "tile_1_-6_far.glb",
+      "far_triangles": 379,
+      "far_size_kb": 23.2
+    },
+    {
+      "tx": 1,
+      "tz": -5,
+      "center_x": 375.0,
+      "center_z": -1125.0,
+      "bounds": [
+        250.0,
+        -1250.0,
+        500.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-5.glb",
+      "full_triangles": 3950,
+      "full_size_kb": 127.6,
+      "far_file": "tile_1_-5_far.glb",
+      "far_triangles": 186,
+      "far_size_kb": 14.3
+    },
+    {
+      "tx": 1,
+      "tz": -4,
+      "center_x": 375.0,
+      "center_z": -875.0,
+      "bounds": [
+        250.0,
+        -1000.0,
+        500.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-4.glb",
+      "full_triangles": 18339,
+      "full_size_kb": 546.6,
+      "far_file": "tile_1_-4_far.glb",
+      "far_triangles": 995,
+      "far_size_kb": 54.0
+    },
+    {
+      "tx": 1,
+      "tz": -3,
+      "center_x": 375.0,
+      "center_z": -625.0,
+      "bounds": [
+        250.0,
+        -750.0,
+        500.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-3.glb",
+      "full_triangles": 15498,
+      "full_size_kb": 480.3,
+      "far_file": "tile_1_-3_far.glb",
+      "far_triangles": 1872,
+      "far_size_kb": 95.7
+    },
+    {
+      "tx": 1,
+      "tz": -2,
+      "center_x": 375.0,
+      "center_z": -375.0,
+      "bounds": [
+        250.0,
+        -500.0,
+        500.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-2.glb",
+      "full_triangles": 8857,
+      "full_size_kb": 275.7,
+      "far_file": "tile_1_-2_far.glb",
+      "far_triangles": 891,
+      "far_size_kb": 51.8
+    },
+    {
+      "tx": 1,
+      "tz": -1,
+      "center_x": 375.0,
+      "center_z": -125.0,
+      "bounds": [
+        250.0,
+        -250.0,
+        500.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_-1.glb",
+      "full_triangles": 2138,
+      "full_size_kb": 108.9,
+      "far_file": "tile_1_-1_far.glb",
+      "far_triangles": 1240,
+      "far_size_kb": 69.0
+    },
+    {
+      "tx": 1,
+      "tz": 0,
+      "center_x": 375.0,
+      "center_z": 125.0,
+      "bounds": [
+        250.0,
+        0.0,
+        500.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_0.glb",
+      "full_triangles": 6480,
+      "full_size_kb": 201.4,
+      "far_file": "tile_1_0_far.glb",
+      "far_triangles": 532,
+      "far_size_kb": 32.1
+    },
+    {
+      "tx": 1,
+      "tz": 1,
+      "center_x": 375.0,
+      "center_z": 375.0,
+      "bounds": [
+        250.0,
+        250.0,
+        500.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_1.glb",
+      "full_triangles": 895,
+      "full_size_kb": 44.5,
+      "far_file": "tile_1_1_far.glb",
+      "far_triangles": 361,
+      "far_size_kb": 23.8
+    },
+    {
+      "tx": 1,
+      "tz": 2,
+      "center_x": 375.0,
+      "center_z": 625.0,
+      "bounds": [
+        250.0,
+        500.0,
+        500.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_2.glb",
+      "full_triangles": 5602,
+      "full_size_kb": 183.9,
+      "far_file": "tile_1_2_far.glb",
+      "far_triangles": 562,
+      "far_size_kb": 33.7
+    },
+    {
+      "tx": 1,
+      "tz": 3,
+      "center_x": 375.0,
+      "center_z": 875.0,
+      "bounds": [
+        250.0,
+        750.0,
+        500.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_3.glb",
+      "full_triangles": 8427,
+      "full_size_kb": 270.5,
+      "far_file": "tile_1_3_far.glb",
+      "far_triangles": 767,
+      "far_size_kb": 44.8
+    },
+    {
+      "tx": 1,
+      "tz": 4,
+      "center_x": 375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        250.0,
+        1000.0,
+        500.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_4.glb",
+      "full_triangles": 6400,
+      "full_size_kb": 195.3,
+      "far_file": "tile_1_4_far.glb",
+      "far_triangles": 216,
+      "far_size_kb": 16.9
+    },
+    {
+      "tx": 1,
+      "tz": 5,
+      "center_x": 375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        250.0,
+        1250.0,
+        500.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_5.glb",
+      "full_triangles": 7765,
+      "full_size_kb": 234.9,
+      "far_file": "tile_1_5_far.glb",
+      "far_triangles": 547,
+      "far_size_kb": 36.2
+    },
+    {
+      "tx": 1,
+      "tz": 6,
+      "center_x": 375.0,
+      "center_z": 1625.0,
+      "bounds": [
+        250.0,
+        1500.0,
+        500.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_6.glb",
+      "full_triangles": 7221,
+      "full_size_kb": 222.8,
+      "far_file": "tile_1_6_far.glb",
+      "far_triangles": 577,
+      "far_size_kb": 35.7
+    },
+    {
+      "tx": 1,
+      "tz": 7,
+      "center_x": 375.0,
+      "center_z": 1875.0,
+      "bounds": [
+        250.0,
+        1750.0,
+        500.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_1_7.glb",
+      "full_triangles": 264,
+      "full_size_kb": 12.2,
+      "far_file": "tile_1_7_far.glb",
+      "far_triangles": 14,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": 1,
+      "tz": 8,
+      "center_x": 375.0,
+      "center_z": 2125.0,
+      "bounds": [
+        250.0,
+        2000.0,
+        500.0,
+        2250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_1_8.glb",
+      "full_triangles": 12,
+      "full_size_kb": 1.8,
+      "far_file": "tile_1_8_far.glb",
+      "far_triangles": 12,
+      "far_size_kb": 1.8
+    },
+    {
+      "tx": 2,
+      "tz": -12,
+      "center_x": 625.0,
+      "center_z": -2875.0,
+      "bounds": [
+        500.0,
+        -3000.0,
+        750.0,
+        -2750.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_2_-12.glb",
+      "full_triangles": 32,
+      "full_size_kb": 2.8,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 2,
+      "tz": -11,
+      "center_x": 625.0,
+      "center_z": -2625.0,
+      "bounds": [
+        500.0,
+        -2750.0,
+        750.0,
+        -2500.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_2_-11.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.5,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 2,
+      "tz": -7,
+      "center_x": 625.0,
+      "center_z": -1625.0,
+      "bounds": [
+        500.0,
+        -1750.0,
+        750.0,
+        -1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-7.glb",
+      "full_triangles": 5768,
+      "full_size_kb": 184.9,
+      "far_file": "tile_2_-7_far.glb",
+      "far_triangles": 368,
+      "far_size_kb": 25.2
+    },
+    {
+      "tx": 2,
+      "tz": -6,
+      "center_x": 625.0,
+      "center_z": -1375.0,
+      "bounds": [
+        500.0,
+        -1500.0,
+        750.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-6.glb",
+      "full_triangles": 5459,
+      "full_size_kb": 185.2,
+      "far_file": "tile_2_-6_far.glb",
+      "far_triangles": 689,
+      "far_size_kb": 43.0
+    },
+    {
+      "tx": 2,
+      "tz": -5,
+      "center_x": 625.0,
+      "center_z": -1125.0,
+      "bounds": [
+        500.0,
+        -1250.0,
+        750.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-5.glb",
+      "full_triangles": 8908,
+      "full_size_kb": 267.2,
+      "far_file": "tile_2_-5_far.glb",
+      "far_triangles": 538,
+      "far_size_kb": 32.1
+    },
+    {
+      "tx": 2,
+      "tz": -4,
+      "center_x": 625.0,
+      "center_z": -875.0,
+      "bounds": [
+        500.0,
+        -1000.0,
+        750.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-4.glb",
+      "full_triangles": 15084,
+      "full_size_kb": 417.6,
+      "far_file": "tile_2_-4_far.glb",
+      "far_triangles": 138,
+      "far_size_kb": 12.7
+    },
+    {
+      "tx": 2,
+      "tz": -3,
+      "center_x": 625.0,
+      "center_z": -625.0,
+      "bounds": [
+        500.0,
+        -750.0,
+        750.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-3.glb",
+      "full_triangles": 14397,
+      "full_size_kb": 453.2,
+      "far_file": "tile_2_-3_far.glb",
+      "far_triangles": 1679,
+      "far_size_kb": 88.5
+    },
+    {
+      "tx": 2,
+      "tz": -2,
+      "center_x": 625.0,
+      "center_z": -375.0,
+      "bounds": [
+        500.0,
+        -500.0,
+        750.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-2.glb",
+      "full_triangles": 5614,
+      "full_size_kb": 209.2,
+      "far_file": "tile_2_-2_far.glb",
+      "far_triangles": 1504,
+      "far_size_kb": 83.3
+    },
+    {
+      "tx": 2,
+      "tz": -1,
+      "center_x": 625.0,
+      "center_z": -125.0,
+      "bounds": [
+        500.0,
+        -250.0,
+        750.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_-1.glb",
+      "full_triangles": 7029,
+      "full_size_kb": 259.0,
+      "far_file": "tile_2_-1_far.glb",
+      "far_triangles": 2159,
+      "far_size_kb": 116.1
+    },
+    {
+      "tx": 2,
+      "tz": 0,
+      "center_x": 625.0,
+      "center_z": 125.0,
+      "bounds": [
+        500.0,
+        0.0,
+        750.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_0.glb",
+      "full_triangles": 6558,
+      "full_size_kb": 227.0,
+      "far_file": "tile_2_0_far.glb",
+      "far_triangles": 952,
+      "far_size_kb": 54.3
+    },
+    {
+      "tx": 2,
+      "tz": 1,
+      "center_x": 625.0,
+      "center_z": 375.0,
+      "bounds": [
+        500.0,
+        250.0,
+        750.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_1.glb",
+      "full_triangles": 7218,
+      "full_size_kb": 231.9,
+      "far_file": "tile_2_1_far.glb",
+      "far_triangles": 598,
+      "far_size_kb": 36.8
+    },
+    {
+      "tx": 2,
+      "tz": 2,
+      "center_x": 625.0,
+      "center_z": 625.0,
+      "bounds": [
+        500.0,
+        500.0,
+        750.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_2.glb",
+      "full_triangles": 4236,
+      "full_size_kb": 144.2,
+      "far_file": "tile_2_2_far.glb",
+      "far_triangles": 594,
+      "far_size_kb": 35.7
+    },
+    {
+      "tx": 2,
+      "tz": 3,
+      "center_x": 625.0,
+      "center_z": 875.0,
+      "bounds": [
+        500.0,
+        750.0,
+        750.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_3.glb",
+      "full_triangles": 8004,
+      "full_size_kb": 256.7,
+      "far_file": "tile_2_3_far.glb",
+      "far_triangles": 486,
+      "far_size_kb": 29.3
+    },
+    {
+      "tx": 2,
+      "tz": 4,
+      "center_x": 625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        500.0,
+        1000.0,
+        750.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_4.glb",
+      "full_triangles": 6775,
+      "full_size_kb": 222.4,
+      "far_file": "tile_2_4_far.glb",
+      "far_triangles": 663,
+      "far_size_kb": 41.9
+    },
+    {
+      "tx": 2,
+      "tz": 5,
+      "center_x": 625.0,
+      "center_z": 1375.0,
+      "bounds": [
+        500.0,
+        1250.0,
+        750.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_5.glb",
+      "full_triangles": 6306,
+      "full_size_kb": 198.4,
+      "far_file": "tile_2_5_far.glb",
+      "far_triangles": 368,
+      "far_size_kb": 27.1
+    },
+    {
+      "tx": 2,
+      "tz": 6,
+      "center_x": 625.0,
+      "center_z": 1625.0,
+      "bounds": [
+        500.0,
+        1500.0,
+        750.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_6.glb",
+      "full_triangles": 2106,
+      "full_size_kb": 72.8,
+      "far_file": "tile_2_6_far.glb",
+      "far_triangles": 146,
+      "far_size_kb": 11.9
+    },
+    {
+      "tx": 2,
+      "tz": 7,
+      "center_x": 625.0,
+      "center_z": 1875.0,
+      "bounds": [
+        500.0,
+        1750.0,
+        750.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_2_7.glb",
+      "full_triangles": 1605,
+      "full_size_kb": 50.2,
+      "far_file": "tile_2_7_far.glb",
+      "far_triangles": 39,
+      "far_size_kb": 4.1
+    },
+    {
+      "tx": 2,
+      "tz": 8,
+      "center_x": 625.0,
+      "center_z": 2125.0,
+      "bounds": [
+        500.0,
+        2000.0,
+        750.0,
+        2250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_2_8.glb",
+      "full_triangles": 16,
+      "full_size_kb": 2.0,
+      "far_file": "tile_2_8_far.glb",
+      "far_triangles": 16,
+      "far_size_kb": 2.0
+    },
+    {
+      "tx": 3,
+      "tz": -13,
+      "center_x": 875.0,
+      "center_z": -3125.0,
+      "bounds": [
+        750.0,
+        -3250.0,
+        1000.0,
+        -3000.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_3_-13.glb",
+      "full_triangles": 20,
+      "full_size_kb": 2.2,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 3,
+      "tz": -12,
+      "center_x": 875.0,
+      "center_z": -2875.0,
+      "bounds": [
+        750.0,
+        -3000.0,
+        1000.0,
+        -2750.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_3_-12.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": null,
+      "far_triangles": 0,
+      "far_size_kb": 0.0
+    },
+    {
+      "tx": 3,
+      "tz": -8,
+      "center_x": 875.0,
+      "center_z": -1875.0,
+      "bounds": [
+        750.0,
+        -2000.0,
+        1000.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-8.glb",
+      "full_triangles": 1398,
+      "full_size_kb": 49.3,
+      "far_file": "tile_3_-8_far.glb",
+      "far_triangles": 22,
+      "far_size_kb": 2.3
+    },
+    {
+      "tx": 3,
+      "tz": -7,
+      "center_x": 875.0,
+      "center_z": -1625.0,
+      "bounds": [
+        750.0,
+        -1750.0,
+        1000.0,
+        -1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-7.glb",
+      "full_triangles": 764,
+      "full_size_kb": 30.2,
+      "far_file": "tile_3_-7_far.glb",
+      "far_triangles": 18,
+      "far_size_kb": 3.0
+    },
+    {
+      "tx": 3,
+      "tz": -6,
+      "center_x": 875.0,
+      "center_z": -1375.0,
+      "bounds": [
+        750.0,
+        -1500.0,
+        1000.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-6.glb",
+      "full_triangles": 6354,
+      "full_size_kb": 184.8,
+      "far_file": "tile_3_-6_far.glb",
+      "far_triangles": 48,
+      "far_size_kb": 7.1
+    },
+    {
+      "tx": 3,
+      "tz": -5,
+      "center_x": 875.0,
+      "center_z": -1125.0,
+      "bounds": [
+        750.0,
+        -1250.0,
+        1000.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-5.glb",
+      "full_triangles": 6373,
+      "full_size_kb": 199.2,
+      "far_file": "tile_3_-5_far.glb",
+      "far_triangles": 655,
+      "far_size_kb": 36.7
+    },
+    {
+      "tx": 3,
+      "tz": -4,
+      "center_x": 875.0,
+      "center_z": -875.0,
+      "bounds": [
+        750.0,
+        -1000.0,
+        1000.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-4.glb",
+      "full_triangles": 3961,
+      "full_size_kb": 133.8,
+      "far_file": "tile_3_-4_far.glb",
+      "far_triangles": 479,
+      "far_size_kb": 30.1
+    },
+    {
+      "tx": 3,
+      "tz": -3,
+      "center_x": 875.0,
+      "center_z": -625.0,
+      "bounds": [
+        750.0,
+        -750.0,
+        1000.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-3.glb",
+      "full_triangles": 5708,
+      "full_size_kb": 191.6,
+      "far_file": "tile_3_-3_far.glb",
+      "far_triangles": 978,
+      "far_size_kb": 55.8
+    },
+    {
+      "tx": 3,
+      "tz": -2,
+      "center_x": 875.0,
+      "center_z": -375.0,
+      "bounds": [
+        750.0,
+        -500.0,
+        1000.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-2.glb",
+      "full_triangles": 8289,
+      "full_size_kb": 302.2,
+      "far_file": "tile_3_-2_far.glb",
+      "far_triangles": 1927,
+      "far_size_kb": 104.6
+    },
+    {
+      "tx": 3,
+      "tz": -1,
+      "center_x": 875.0,
+      "center_z": -125.0,
+      "bounds": [
+        750.0,
+        -250.0,
+        1000.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_-1.glb",
+      "full_triangles": 5594,
+      "full_size_kb": 197.6,
+      "far_file": "tile_3_-1_far.glb",
+      "far_triangles": 1224,
+      "far_size_kb": 66.4
+    },
+    {
+      "tx": 3,
+      "tz": 0,
+      "center_x": 875.0,
+      "center_z": 125.0,
+      "bounds": [
+        750.0,
+        0.0,
+        1000.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_0.glb",
+      "full_triangles": 3433,
+      "full_size_kb": 115.5,
+      "far_file": "tile_3_0_far.glb",
+      "far_triangles": 433,
+      "far_size_kb": 27.2
+    },
+    {
+      "tx": 3,
+      "tz": 1,
+      "center_x": 875.0,
+      "center_z": 375.0,
+      "bounds": [
+        750.0,
+        250.0,
+        1000.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_1.glb",
+      "full_triangles": 5632,
+      "full_size_kb": 171.4,
+      "far_file": "tile_3_1_far.glb",
+      "far_triangles": 252,
+      "far_size_kb": 17.4
+    },
+    {
+      "tx": 3,
+      "tz": 2,
+      "center_x": 875.0,
+      "center_z": 625.0,
+      "bounds": [
+        750.0,
+        500.0,
+        1000.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_2.glb",
+      "full_triangles": 5985,
+      "full_size_kb": 201.0,
+      "far_file": "tile_3_2_far.glb",
+      "far_triangles": 455,
+      "far_size_kb": 28.7
+    },
+    {
+      "tx": 3,
+      "tz": 3,
+      "center_x": 875.0,
+      "center_z": 875.0,
+      "bounds": [
+        750.0,
+        750.0,
+        1000.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_3.glb",
+      "full_triangles": 8064,
+      "full_size_kb": 248.7,
+      "far_file": "tile_3_3_far.glb",
+      "far_triangles": 558,
+      "far_size_kb": 33.6
+    },
+    {
+      "tx": 3,
+      "tz": 4,
+      "center_x": 875.0,
+      "center_z": 1125.0,
+      "bounds": [
+        750.0,
+        1000.0,
+        1000.0,
+        1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_4.glb",
+      "full_triangles": 108,
+      "full_size_kb": 8.2,
+      "far_file": "tile_3_4_far.glb",
+      "far_triangles": 94,
+      "far_size_kb": 6.5
+    },
+    {
+      "tx": 3,
+      "tz": 5,
+      "center_x": 875.0,
+      "center_z": 1375.0,
+      "bounds": [
+        750.0,
+        1250.0,
+        1000.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_5.glb",
+      "full_triangles": 651,
+      "full_size_kb": 39.0,
+      "far_file": "tile_3_5_far.glb",
+      "far_triangles": 415,
+      "far_size_kb": 27.8
+    },
+    {
+      "tx": 3,
+      "tz": 6,
+      "center_x": 875.0,
+      "center_z": 1625.0,
+      "bounds": [
+        750.0,
+        1500.0,
+        1000.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_6.glb",
+      "full_triangles": 4970,
+      "full_size_kb": 160.2,
+      "far_file": "tile_3_6_far.glb",
+      "far_triangles": 368,
+      "far_size_kb": 25.3
+    },
+    {
+      "tx": 3,
+      "tz": 7,
+      "center_x": 875.0,
+      "center_z": 1875.0,
+      "bounds": [
+        750.0,
+        1750.0,
+        1000.0,
+        2000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_3_7.glb",
+      "full_triangles": 1432,
+      "full_size_kb": 47.4,
+      "far_file": "tile_3_7_far.glb",
+      "far_triangles": 48,
+      "far_size_kb": 3.7
+    },
+    {
+      "tx": 3,
+      "tz": 8,
+      "center_x": 875.0,
+      "center_z": 2125.0,
+      "bounds": [
+        750.0,
+        2000.0,
+        1000.0,
+        2250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_3_8.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": "tile_3_8_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 4,
+      "tz": -8,
+      "center_x": 1125.0,
+      "center_z": -1875.0,
+      "bounds": [
+        1000.0,
+        -2000.0,
+        1250.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-8.glb",
+      "full_triangles": 1062,
+      "full_size_kb": 37.8,
+      "far_file": "tile_4_-8_far.glb",
+      "far_triangles": 56,
+      "far_size_kb": 4.1
+    },
+    {
+      "tx": 4,
+      "tz": -7,
+      "center_x": 1125.0,
+      "center_z": -1625.0,
+      "bounds": [
+        1000.0,
+        -1750.0,
+        1250.0,
+        -1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-7.glb",
+      "full_triangles": 4,
+      "full_size_kb": 2.3,
+      "far_file": "tile_4_-7_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 2.3
+    },
+    {
+      "tx": 4,
+      "tz": -6,
+      "center_x": 1125.0,
+      "center_z": -1375.0,
+      "bounds": [
+        1000.0,
+        -1500.0,
+        1250.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-6.glb",
+      "full_triangles": 2976,
+      "full_size_kb": 113.4,
+      "far_file": "tile_4_-6_far.glb",
+      "far_triangles": 560,
+      "far_size_kb": 34.4
+    },
+    {
+      "tx": 4,
+      "tz": -5,
+      "center_x": 1125.0,
+      "center_z": -1125.0,
+      "bounds": [
+        1000.0,
+        -1250.0,
+        1250.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-5.glb",
+      "full_triangles": 2882,
+      "full_size_kb": 131.8,
+      "far_file": "tile_4_-5_far.glb",
+      "far_triangles": 1482,
+      "far_size_kb": 82.2
+    },
+    {
+      "tx": 4,
+      "tz": -4,
+      "center_x": 1125.0,
+      "center_z": -875.0,
+      "bounds": [
+        1000.0,
+        -1000.0,
+        1250.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-4.glb",
+      "full_triangles": 5020,
+      "full_size_kb": 197.6,
+      "far_file": "tile_4_-4_far.glb",
+      "far_triangles": 1840,
+      "far_size_kb": 97.3
+    },
+    {
+      "tx": 4,
+      "tz": -3,
+      "center_x": 1125.0,
+      "center_z": -625.0,
+      "bounds": [
+        1000.0,
+        -750.0,
+        1250.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-3.glb",
+      "full_triangles": 6661,
+      "full_size_kb": 220.8,
+      "far_file": "tile_4_-3_far.glb",
+      "far_triangles": 1219,
+      "far_size_kb": 65.9
+    },
+    {
+      "tx": 4,
+      "tz": -2,
+      "center_x": 1125.0,
+      "center_z": -375.0,
+      "bounds": [
+        1000.0,
+        -500.0,
+        1250.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-2.glb",
+      "full_triangles": 7168,
+      "full_size_kb": 254.3,
+      "far_file": "tile_4_-2_far.glb",
+      "far_triangles": 1768,
+      "far_size_kb": 95.0
+    },
+    {
+      "tx": 4,
+      "tz": -1,
+      "center_x": 1125.0,
+      "center_z": -125.0,
+      "bounds": [
+        1000.0,
+        -250.0,
+        1250.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_-1.glb",
+      "full_triangles": 6847,
+      "full_size_kb": 224.9,
+      "far_file": "tile_4_-1_far.glb",
+      "far_triangles": 1119,
+      "far_size_kb": 61.2
+    },
+    {
+      "tx": 4,
+      "tz": 0,
+      "center_x": 1125.0,
+      "center_z": 125.0,
+      "bounds": [
+        1000.0,
+        0.0,
+        1250.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_0.glb",
+      "full_triangles": 4449,
+      "full_size_kb": 164.6,
+      "far_file": "tile_4_0_far.glb",
+      "far_triangles": 1199,
+      "far_size_kb": 64.6
+    },
+    {
+      "tx": 4,
+      "tz": 1,
+      "center_x": 1125.0,
+      "center_z": 375.0,
+      "bounds": [
+        1000.0,
+        250.0,
+        1250.0,
+        500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_1.glb",
+      "full_triangles": 5946,
+      "full_size_kb": 187.9,
+      "far_file": "tile_4_1_far.glb",
+      "far_triangles": 588,
+      "far_size_kb": 35.6
+    },
+    {
+      "tx": 4,
+      "tz": 2,
+      "center_x": 1125.0,
+      "center_z": 625.0,
+      "bounds": [
+        1000.0,
+        500.0,
+        1250.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_2.glb",
+      "full_triangles": 9508,
+      "full_size_kb": 298.2,
+      "far_file": "tile_4_2_far.glb",
+      "far_triangles": 552,
+      "far_size_kb": 34.1
+    },
+    {
+      "tx": 4,
+      "tz": 3,
+      "center_x": 1125.0,
+      "center_z": 875.0,
+      "bounds": [
+        1000.0,
+        750.0,
+        1250.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_3.glb",
+      "full_triangles": 2099,
+      "full_size_kb": 83.6,
+      "far_file": "tile_4_3_far.glb",
+      "far_triangles": 227,
+      "far_size_kb": 18.5
+    },
+    {
+      "tx": 4,
+      "tz": 4,
+      "center_x": 1125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        1000.0,
+        1000.0,
+        1250.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_4.glb",
+      "full_triangles": 2611,
+      "full_size_kb": 98.7,
+      "far_file": "tile_4_4_far.glb",
+      "far_triangles": 241,
+      "far_size_kb": 17.3
+    },
+    {
+      "tx": 4,
+      "tz": 5,
+      "center_x": 1125.0,
+      "center_z": 1375.0,
+      "bounds": [
+        1000.0,
+        1250.0,
+        1250.0,
+        1500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_5.glb",
+      "full_triangles": 4818,
+      "full_size_kb": 158.7,
+      "far_file": "tile_4_5_far.glb",
+      "far_triangles": 340,
+      "far_size_kb": 22.9
+    },
+    {
+      "tx": 4,
+      "tz": 6,
+      "center_x": 1125.0,
+      "center_z": 1625.0,
+      "bounds": [
+        1000.0,
+        1500.0,
+        1250.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_4_6.glb",
+      "full_triangles": 424,
+      "full_size_kb": 28.3,
+      "far_file": "tile_4_6_far.glb",
+      "far_triangles": 226,
+      "far_size_kb": 17.2
+    },
+    {
+      "tx": 5,
+      "tz": -8,
+      "center_x": 1375.0,
+      "center_z": -1875.0,
+      "bounds": [
+        1250.0,
+        -2000.0,
+        1500.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-8.glb",
+      "full_triangles": 2024,
+      "full_size_kb": 62.5,
+      "far_file": "tile_5_-8_far.glb",
+      "far_triangles": 58,
+      "far_size_kb": 4.2
+    },
+    {
+      "tx": 5,
+      "tz": -7,
+      "center_x": 1375.0,
+      "center_z": -1625.0,
+      "bounds": [
+        1250.0,
+        -1750.0,
+        1500.0,
+        -1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-7.glb",
+      "full_triangles": 1744,
+      "full_size_kb": 54.8,
+      "far_file": "tile_5_-7_far.glb",
+      "far_triangles": 48,
+      "far_size_kb": 4.6
+    },
+    {
+      "tx": 5,
+      "tz": -6,
+      "center_x": 1375.0,
+      "center_z": -1375.0,
+      "bounds": [
+        1250.0,
+        -1500.0,
+        1500.0,
+        -1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-6.glb",
+      "full_triangles": 4090,
+      "full_size_kb": 137.0,
+      "far_file": "tile_5_-6_far.glb",
+      "far_triangles": 122,
+      "far_size_kb": 10.3
+    },
+    {
+      "tx": 5,
+      "tz": -5,
+      "center_x": 1375.0,
+      "center_z": -1125.0,
+      "bounds": [
+        1250.0,
+        -1250.0,
+        1500.0,
+        -1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-5.glb",
+      "full_triangles": 3870,
+      "full_size_kb": 120.2,
+      "far_file": "tile_5_-5_far.glb",
+      "far_triangles": 166,
+      "far_size_kb": 12.3
+    },
+    {
+      "tx": 5,
+      "tz": -4,
+      "center_x": 1375.0,
+      "center_z": -875.0,
+      "bounds": [
+        1250.0,
+        -1000.0,
+        1500.0,
+        -750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-4.glb",
+      "full_triangles": 2382,
+      "full_size_kb": 88.2,
+      "far_file": "tile_5_-4_far.glb",
+      "far_triangles": 200,
+      "far_size_kb": 15.9
+    },
+    {
+      "tx": 5,
+      "tz": -3,
+      "center_x": 1375.0,
+      "center_z": -625.0,
+      "bounds": [
+        1250.0,
+        -750.0,
+        1500.0,
+        -500.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-3.glb",
+      "full_triangles": 3028,
+      "full_size_kb": 104.2,
+      "far_file": "tile_5_-3_far.glb",
+      "far_triangles": 228,
+      "far_size_kb": 17.7
+    },
+    {
+      "tx": 5,
+      "tz": -2,
+      "center_x": 1375.0,
+      "center_z": -375.0,
+      "bounds": [
+        1250.0,
+        -500.0,
+        1500.0,
+        -250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-2.glb",
+      "full_triangles": 1764,
+      "full_size_kb": 62.1,
+      "far_file": "tile_5_-2_far.glb",
+      "far_triangles": 132,
+      "far_size_kb": 12.5
+    },
+    {
+      "tx": 5,
+      "tz": -1,
+      "center_x": 1375.0,
+      "center_z": -125.0,
+      "bounds": [
+        1250.0,
+        -250.0,
+        1500.0,
+        0.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_-1.glb",
+      "full_triangles": 3198,
+      "full_size_kb": 101.4,
+      "far_file": "tile_5_-1_far.glb",
+      "far_triangles": 86,
+      "far_size_kb": 9.3
+    },
+    {
+      "tx": 5,
+      "tz": 0,
+      "center_x": 1375.0,
+      "center_z": 125.0,
+      "bounds": [
+        1250.0,
+        0.0,
+        1500.0,
+        250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_0.glb",
+      "full_triangles": 3212,
+      "full_size_kb": 103.5,
+      "far_file": "tile_5_0_far.glb",
+      "far_triangles": 108,
+      "far_size_kb": 9.1
+    },
+    {
+      "tx": 5,
+      "tz": 1,
+      "center_x": 1375.0,
+      "center_z": 375.0,
+      "bounds": [
+        1250.0,
+        250.0,
+        1500.0,
+        500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_1.glb",
+      "full_triangles": 5708,
+      "full_size_kb": 167.4,
+      "far_file": "tile_5_1_far.glb",
+      "far_triangles": 56,
+      "far_size_kb": 5.0
+    },
+    {
+      "tx": 5,
+      "tz": 2,
+      "center_x": 1375.0,
+      "center_z": 625.0,
+      "bounds": [
+        1250.0,
+        500.0,
+        1500.0,
+        750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_2.glb",
+      "full_triangles": 2422,
+      "full_size_kb": 84.0,
+      "far_file": "tile_5_2_far.glb",
+      "far_triangles": 152,
+      "far_size_kb": 12.4
+    },
+    {
+      "tx": 5,
+      "tz": 3,
+      "center_x": 1375.0,
+      "center_z": 875.0,
+      "bounds": [
+        1250.0,
+        750.0,
+        1500.0,
+        1000.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_3.glb",
+      "full_triangles": 114,
+      "full_size_kb": 11.2,
+      "far_file": "tile_5_3_far.glb",
+      "far_triangles": 90,
+      "far_size_kb": 9.0
+    },
+    {
+      "tx": 5,
+      "tz": 4,
+      "center_x": 1375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        1250.0,
+        1000.0,
+        1500.0,
+        1250.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_4.glb",
+      "full_triangles": 649,
+      "full_size_kb": 32.1,
+      "far_file": "tile_5_4_far.glb",
+      "far_triangles": 119,
+      "far_size_kb": 9.8
+    },
+    {
+      "tx": 5,
+      "tz": 5,
+      "center_x": 1375.0,
+      "center_z": 1375.0,
+      "bounds": [
+        1250.0,
+        1250.0,
+        1500.0,
+        1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_5.glb",
+      "full_triangles": 20,
+      "full_size_kb": 3.1,
+      "far_file": "tile_5_5_far.glb",
+      "far_triangles": 20,
+      "far_size_kb": 3.1
+    },
+    {
+      "tx": 5,
+      "tz": 6,
+      "center_x": 1375.0,
+      "center_z": 1625.0,
+      "bounds": [
+        1250.0,
+        1500.0,
+        1500.0,
+        1750.0
+      ],
+      "layers": [
+        "buildings",
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_5_6.glb",
+      "full_triangles": 88,
+      "full_size_kb": 9.3,
+      "far_file": "tile_5_6_far.glb",
+      "far_triangles": 88,
+      "far_size_kb": 9.3
+    },
+    {
+      "tx": 6,
+      "tz": -8,
+      "center_x": 1625.0,
+      "center_z": -1875.0,
+      "bounds": [
+        1500.0,
+        -2000.0,
+        1750.0,
+        -1750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_-8.glb",
+      "full_triangles": 2264,
+      "full_size_kb": 70.8,
+      "far_file": "tile_6_-8_far.glb",
+      "far_triangles": 82,
+      "far_size_kb": 5.4
+    },
+    {
+      "tx": 6,
+      "tz": -7,
+      "center_x": 1625.0,
+      "center_z": -1625.0,
+      "bounds": [
+        1500.0,
+        -1750.0,
+        1750.0,
+        -1500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_-7.glb",
+      "full_triangles": 836,
+      "full_size_kb": 30.0,
+      "far_file": "tile_6_-7_far.glb",
+      "far_triangles": 32,
+      "far_size_kb": 2.8
+    },
+    {
+      "tx": 6,
+      "tz": -6,
+      "center_x": 1625.0,
+      "center_z": -1375.0,
+      "bounds": [
+        1500.0,
+        -1500.0,
+        1750.0,
+        -1250.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_-6.glb",
+      "full_triangles": 1118,
+      "full_size_kb": 39.2,
+      "far_file": "tile_6_-6_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 6,
+      "tz": -3,
+      "center_x": 1625.0,
+      "center_z": -625.0,
+      "bounds": [
+        1500.0,
+        -750.0,
+        1750.0,
+        -500.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_-3.glb",
+      "full_triangles": 610,
+      "full_size_kb": 22.3,
+      "far_file": "tile_6_-3_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 6,
+      "tz": 2,
+      "center_x": 1625.0,
+      "center_z": 625.0,
+      "bounds": [
+        1500.0,
+        500.0,
+        1750.0,
+        750.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_2.glb",
+      "full_triangles": 13,
+      "full_size_kb": 2.7,
+      "far_file": "tile_6_2_far.glb",
+      "far_triangles": 13,
+      "far_size_kb": 2.7
+    },
+    {
+      "tx": 6,
+      "tz": 3,
+      "center_x": 1625.0,
+      "center_z": 875.0,
+      "bounds": [
+        1500.0,
+        750.0,
+        1750.0,
+        1000.0
+      ],
+      "layers": [
+        "nature",
+        "roads"
+      ],
+      "full_file": "tile_6_3.glb",
+      "full_triangles": 28,
+      "full_size_kb": 3.4,
+      "far_file": "tile_6_3_far.glb",
+      "far_triangles": 28,
+      "far_size_kb": 3.4
+    },
+    {
+      "tx": 6,
+      "tz": 4,
+      "center_x": 1625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        1500.0,
+        1000.0,
+        1750.0,
+        1250.0
+      ],
+      "layers": [
+        "roads"
+      ],
+      "full_file": "tile_6_4.glb",
+      "full_triangles": 10,
+      "full_size_kb": 1.7,
+      "far_file": "tile_6_4_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.7
+    },
+    {
+      "tx": 7,
+      "tz": 2,
+      "center_x": 1875.0,
+      "center_z": 625.0,
+      "bounds": [
+        1750.0,
+        500.0,
+        2000.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_7_2.glb",
+      "full_triangles": 7,
+      "full_size_kb": 1.4,
+      "far_file": "tile_7_2_far.glb",
+      "far_triangles": 7,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 7,
+      "tz": 3,
+      "center_x": 1875.0,
+      "center_z": 875.0,
+      "bounds": [
+        1750.0,
+        750.0,
+        2000.0,
+        1000.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_7_3.glb",
+      "full_triangles": 9,
+      "full_size_kb": 1.5,
+      "far_file": "tile_7_3_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 8,
+      "tz": 2,
+      "center_x": 2125.0,
+      "center_z": 625.0,
+      "bounds": [
+        2000.0,
+        500.0,
+        2250.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_8_2.glb",
+      "full_triangles": 7,
+      "full_size_kb": 1.4,
+      "far_file": "tile_8_2_far.glb",
+      "far_triangles": 7,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 8,
+      "tz": 3,
+      "center_x": 2125.0,
+      "center_z": 875.0,
+      "bounds": [
+        2000.0,
+        750.0,
+        2250.0,
+        1000.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_8_3.glb",
+      "full_triangles": 11,
+      "full_size_kb": 1.5,
+      "far_file": "tile_8_3_far.glb",
+      "far_triangles": 11,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 8,
+      "tz": 4,
+      "center_x": 2125.0,
+      "center_z": 1125.0,
+      "bounds": [
+        2000.0,
+        1000.0,
+        2250.0,
+        1250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_8_4.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": "tile_8_4_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 9,
+      "tz": 2,
+      "center_x": 2375.0,
+      "center_z": 625.0,
+      "bounds": [
+        2250.0,
+        500.0,
+        2500.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_9_2.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_9_2_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 9,
+      "tz": 3,
+      "center_x": 2375.0,
+      "center_z": 875.0,
+      "bounds": [
+        2250.0,
+        750.0,
+        2500.0,
+        1000.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_9_3.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.2,
+      "far_file": "tile_9_3_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.2
+    },
+    {
+      "tx": 9,
+      "tz": 4,
+      "center_x": 2375.0,
+      "center_z": 1125.0,
+      "bounds": [
+        2250.0,
+        1000.0,
+        2500.0,
+        1250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_9_4.glb",
+      "full_triangles": 10,
+      "full_size_kb": 1.5,
+      "far_file": "tile_9_4_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 10,
+      "tz": 0,
+      "center_x": 2625.0,
+      "center_z": 125.0,
+      "bounds": [
+        2500.0,
+        0.0,
+        2750.0,
+        250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_10_0.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": "tile_10_0_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 10,
+      "tz": 1,
+      "center_x": 2625.0,
+      "center_z": 375.0,
+      "bounds": [
+        2500.0,
+        250.0,
+        2750.0,
+        500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_10_1.glb",
+      "full_triangles": 8,
+      "full_size_kb": 1.4,
+      "far_file": "tile_10_1_far.glb",
+      "far_triangles": 8,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 10,
+      "tz": 2,
+      "center_x": 2625.0,
+      "center_z": 625.0,
+      "bounds": [
+        2500.0,
+        500.0,
+        2750.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_10_2.glb",
+      "full_triangles": 3,
+      "full_size_kb": 1.3,
+      "far_file": "tile_10_2_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 10,
+      "tz": 3,
+      "center_x": 2625.0,
+      "center_z": 875.0,
+      "bounds": [
+        2500.0,
+        750.0,
+        2750.0,
+        1000.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_10_3.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.3,
+      "far_file": "tile_10_3_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 10,
+      "tz": 4,
+      "center_x": 2625.0,
+      "center_z": 1125.0,
+      "bounds": [
+        2500.0,
+        1000.0,
+        2750.0,
+        1250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_10_4.glb",
+      "full_triangles": 8,
+      "full_size_kb": 1.5,
+      "far_file": "tile_10_4_far.glb",
+      "far_triangles": 8,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 11,
+      "tz": 0,
+      "center_x": 2875.0,
+      "center_z": 125.0,
+      "bounds": [
+        2750.0,
+        0.0,
+        3000.0,
+        250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_11_0.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_11_0_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 11,
+      "tz": 1,
+      "center_x": 2875.0,
+      "center_z": 375.0,
+      "bounds": [
+        2750.0,
+        250.0,
+        3000.0,
+        500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_11_1.glb",
+      "full_triangles": 9,
+      "full_size_kb": 1.4,
+      "far_file": "tile_11_1_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 11,
+      "tz": 2,
+      "center_x": 2875.0,
+      "center_z": 625.0,
+      "bounds": [
+        2750.0,
+        500.0,
+        3000.0,
+        750.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_11_2.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_11_2_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 11,
+      "tz": 3,
+      "center_x": 2875.0,
+      "center_z": 875.0,
+      "bounds": [
+        2750.0,
+        750.0,
+        3000.0,
+        1000.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_11_3.glb",
+      "full_triangles": 8,
+      "full_size_kb": 1.5,
+      "far_file": "tile_11_3_far.glb",
+      "far_triangles": 8,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 12,
+      "tz": -1,
+      "center_x": 3125.0,
+      "center_z": -125.0,
+      "bounds": [
+        3000.0,
+        -250.0,
+        3250.0,
+        0.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_12_-1.glb",
+      "full_triangles": 3,
+      "full_size_kb": 1.3,
+      "far_file": "tile_12_-1_far.glb",
+      "far_triangles": 3,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 12,
+      "tz": 0,
+      "center_x": 3125.0,
+      "center_z": 125.0,
+      "bounds": [
+        3000.0,
+        0.0,
+        3250.0,
+        250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_12_0.glb",
+      "full_triangles": 15,
+      "full_size_kb": 1.6,
+      "far_file": "tile_12_0_far.glb",
+      "far_triangles": 15,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": 12,
+      "tz": 1,
+      "center_x": 3125.0,
+      "center_z": 375.0,
+      "bounds": [
+        3000.0,
+        250.0,
+        3250.0,
+        500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_12_1.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": "tile_12_1_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 13,
+      "tz": -1,
+      "center_x": 3375.0,
+      "center_z": -125.0,
+      "bounds": [
+        3250.0,
+        -250.0,
+        3500.0,
+        0.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_13_-1.glb",
+      "full_triangles": 13,
+      "full_size_kb": 1.6,
+      "far_file": "tile_13_-1_far.glb",
+      "far_triangles": 13,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": 13,
+      "tz": 0,
+      "center_x": 3375.0,
+      "center_z": 125.0,
+      "bounds": [
+        3250.0,
+        0.0,
+        3500.0,
+        250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_13_0.glb",
+      "full_triangles": 11,
+      "full_size_kb": 1.5,
+      "far_file": "tile_13_0_far.glb",
+      "far_triangles": 11,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 14,
+      "tz": -3,
+      "center_x": 3625.0,
+      "center_z": -625.0,
+      "bounds": [
+        3500.0,
+        -750.0,
+        3750.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_14_-3.glb",
+      "full_triangles": 2,
+      "full_size_kb": 1.3,
+      "far_file": "tile_14_-3_far.glb",
+      "far_triangles": 2,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 14,
+      "tz": -2,
+      "center_x": 3625.0,
+      "center_z": -375.0,
+      "bounds": [
+        3500.0,
+        -500.0,
+        3750.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_14_-2.glb",
+      "full_triangles": 9,
+      "full_size_kb": 1.5,
+      "far_file": "tile_14_-2_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 14,
+      "tz": -1,
+      "center_x": 3625.0,
+      "center_z": -125.0,
+      "bounds": [
+        3500.0,
+        -250.0,
+        3750.0,
+        0.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_14_-1.glb",
+      "full_triangles": 10,
+      "full_size_kb": 1.5,
+      "far_file": "tile_14_-1_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 14,
+      "tz": 0,
+      "center_x": 3625.0,
+      "center_z": 125.0,
+      "bounds": [
+        3500.0,
+        0.0,
+        3750.0,
+        250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_14_0.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.3,
+      "far_file": "tile_14_0_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 15,
+      "tz": -3,
+      "center_x": 3875.0,
+      "center_z": -625.0,
+      "bounds": [
+        3750.0,
+        -750.0,
+        4000.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_15_-3.glb",
+      "full_triangles": 10,
+      "full_size_kb": 1.6,
+      "far_file": "tile_15_-3_far.glb",
+      "far_triangles": 10,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": 15,
+      "tz": -2,
+      "center_x": 3875.0,
+      "center_z": -375.0,
+      "bounds": [
+        3750.0,
+        -500.0,
+        4000.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_15_-2.glb",
+      "full_triangles": 5,
+      "full_size_kb": 1.3,
+      "far_file": "tile_15_-2_far.glb",
+      "far_triangles": 5,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 15,
+      "tz": -1,
+      "center_x": 3875.0,
+      "center_z": -125.0,
+      "bounds": [
+        3750.0,
+        -250.0,
+        4000.0,
+        0.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_15_-1.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.3,
+      "far_file": "tile_15_-1_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 16,
+      "tz": -3,
+      "center_x": 4125.0,
+      "center_z": -625.0,
+      "bounds": [
+        4000.0,
+        -750.0,
+        4250.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_16_-3.glb",
+      "full_triangles": 13,
+      "full_size_kb": 1.6,
+      "far_file": "tile_16_-3_far.glb",
+      "far_triangles": 13,
+      "far_size_kb": 1.6
+    },
+    {
+      "tx": 16,
+      "tz": -2,
+      "center_x": 4125.0,
+      "center_z": -375.0,
+      "bounds": [
+        4000.0,
+        -500.0,
+        4250.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_16_-2.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_16_-2_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 17,
+      "tz": -3,
+      "center_x": 4375.0,
+      "center_z": -625.0,
+      "bounds": [
+        4250.0,
+        -750.0,
+        4500.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_17_-3.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_17_-3_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 17,
+      "tz": -2,
+      "center_x": 4375.0,
+      "center_z": -375.0,
+      "bounds": [
+        4250.0,
+        -500.0,
+        4500.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_17_-2.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.3,
+      "far_file": "tile_17_-2_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 18,
+      "tz": -3,
+      "center_x": 4625.0,
+      "center_z": -625.0,
+      "bounds": [
+        4500.0,
+        -750.0,
+        4750.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_18_-3.glb",
+      "full_triangles": 7,
+      "full_size_kb": 1.4,
+      "far_file": "tile_18_-3_far.glb",
+      "far_triangles": 7,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 18,
+      "tz": -2,
+      "center_x": 4625.0,
+      "center_z": -375.0,
+      "bounds": [
+        4500.0,
+        -500.0,
+        4750.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_18_-2.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.3,
+      "far_file": "tile_18_-2_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.3
+    },
+    {
+      "tx": 19,
+      "tz": -3,
+      "center_x": 4875.0,
+      "center_z": -625.0,
+      "bounds": [
+        4750.0,
+        -750.0,
+        5000.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_19_-3.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_19_-3_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 19,
+      "tz": -2,
+      "center_x": 4875.0,
+      "center_z": -375.0,
+      "bounds": [
+        4750.0,
+        -500.0,
+        5000.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_19_-2.glb",
+      "full_triangles": 18,
+      "full_size_kb": 1.8,
+      "far_file": "tile_19_-2_far.glb",
+      "far_triangles": 18,
+      "far_size_kb": 1.8
+    },
+    {
+      "tx": 20,
+      "tz": -3,
+      "center_x": 5125.0,
+      "center_z": -625.0,
+      "bounds": [
+        5000.0,
+        -750.0,
+        5250.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_20_-3.glb",
+      "full_triangles": 6,
+      "full_size_kb": 1.4,
+      "far_file": "tile_20_-3_far.glb",
+      "far_triangles": 6,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 20,
+      "tz": -2,
+      "center_x": 5125.0,
+      "center_z": -375.0,
+      "bounds": [
+        5000.0,
+        -500.0,
+        5250.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_20_-2.glb",
+      "full_triangles": 9,
+      "full_size_kb": 1.5,
+      "far_file": "tile_20_-2_far.glb",
+      "far_triangles": 9,
+      "far_size_kb": 1.5
+    },
+    {
+      "tx": 21,
+      "tz": -3,
+      "center_x": 5375.0,
+      "center_z": -625.0,
+      "bounds": [
+        5250.0,
+        -750.0,
+        5500.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_21_-3.glb",
+      "full_triangles": 16,
+      "full_size_kb": 1.7,
+      "far_file": "tile_21_-3_far.glb",
+      "far_triangles": 16,
+      "far_size_kb": 1.7
+    },
+    {
+      "tx": 21,
+      "tz": -2,
+      "center_x": 5375.0,
+      "center_z": -375.0,
+      "bounds": [
+        5250.0,
+        -500.0,
+        5500.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_21_-2.glb",
+      "full_triangles": 4,
+      "full_size_kb": 1.4,
+      "far_file": "tile_21_-2_far.glb",
+      "far_triangles": 4,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 22,
+      "tz": -2,
+      "center_x": 5625.0,
+      "center_z": -375.0,
+      "bounds": [
+        5500.0,
+        -500.0,
+        5750.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_22_-2.glb",
+      "full_triangles": 5,
+      "full_size_kb": 1.4,
+      "far_file": "tile_22_-2_far.glb",
+      "far_triangles": 5,
+      "far_size_kb": 1.4
+    },
+    {
+      "tx": 23,
+      "tz": -3,
+      "center_x": 5875.0,
+      "center_z": -625.0,
+      "bounds": [
+        5750.0,
+        -750.0,
+        6000.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_23_-3.glb",
+      "full_triangles": 22,
+      "full_size_kb": 1.9,
+      "far_file": "tile_23_-3_far.glb",
+      "far_triangles": 22,
+      "far_size_kb": 1.9
+    },
+    {
+      "tx": 23,
+      "tz": -2,
+      "center_x": 5875.0,
+      "center_z": -375.0,
+      "bounds": [
+        5750.0,
+        -500.0,
+        6000.0,
+        -250.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_23_-2.glb",
+      "full_triangles": 17,
+      "full_size_kb": 1.8,
+      "far_file": "tile_23_-2_far.glb",
+      "far_triangles": 17,
+      "far_size_kb": 1.8
+    },
+    {
+      "tx": 24,
+      "tz": -3,
+      "center_x": 6125.0,
+      "center_z": -625.0,
+      "bounds": [
+        6000.0,
+        -750.0,
+        6250.0,
+        -500.0
+      ],
+      "layers": [
+        "nature"
+      ],
+      "full_file": "tile_24_-3.glb",
+      "full_triangles": 13,
+      "full_size_kb": 1.6,
+      "far_file": "tile_24_-3_far.glb",
+      "far_triangles": 13,
+      "far_size_kb": 1.6
+    }
+  ]
+}
