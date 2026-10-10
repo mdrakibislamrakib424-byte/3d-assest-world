@@ -65,7 +65,8 @@ TileKey = Tuple[int, int]
 # Constants
 # ---------------------------------------------------------------------------
 GROUND_Y: float = 0.0                    # drivable ground (grass level)
-WATERBED_Y: float = -2.0                 # floor under water
+WATER_DRIVABLE: bool = True
+WATERBED_Y: float = -0.10 if WATER_DRIVABLE else -2.0
 COLLISION_SIMPLIFY_M: float = 0.4        # building outlines are simplified this much
 INCLUDE_PROPS: bool = True               # trunks and lamp poles block cars
 
