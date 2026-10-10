@@ -343,7 +343,7 @@
       "tx": -2,
       "tz": 1,
       "file": "building_-2_1.glb",
-      "triangles": 231
+      "triangles": 1474
     },
     {
       "tx": -2,
@@ -511,7 +511,7 @@
       "tx": 0,
       "tz": 1,
       "file": "building_0_1.glb",
-      "triangles": 809
+      "triangles": 1700
     },
     {
       "tx": 0,
@@ -595,7 +595,7 @@
       "tx": 1,
       "tz": 1,
       "file": "building_1_1.glb",
-      "triangles": 115
+      "triangles": 95
     },
     {
       "tx": 1,

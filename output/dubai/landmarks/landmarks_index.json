@@ -1,0 +1,37 @@
+{
+  "landmarks": [
+    {
+      "key": "burj_khalifa",
+      "source": "osm-name",
+      "x": -336.72,
+      "z": 310.81,
+      "lat": 25.197208,
+      "lon": 55.274157,
+      "height_m": 828.0,
+      "tile": [
+        -2,
+        1
+      ],
+      "hidden_osm_ids": [
+        446646206
+      ]
+    },
+    {
+      "key": "address_downtown",
+      "source": "osm-coordinates",
+      "x": 131.98,
+      "z": 309.72,
+      "lat": 25.197218,
+      "lon": 55.27881,
+      "height_m": 302.0,
+      "tile": [
+        0,
+        1
+      ],
+      "hidden_osm_ids": [
+        18195959,
+        1184630707
+      ]
+    }
+  ]
+}
